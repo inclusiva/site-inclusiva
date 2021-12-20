@@ -14,7 +14,7 @@ function Routes(){
         <Route path="/turmas" component={Turmas}/> 
         <Route path="/galeria" component={Galeria}/> 
         <Route path="/equipe" component={Equipe}/>  
-        <Route path="/documentacao" component={Documentacao}/>        
+        <Route path="/documentacao" component={Documentacao}/> 
       </Switch>  
     </BrowserRouter>
   )

@@ -1,0 +1,17 @@
+h1{color:#FF1493; - font-size: 9px -} 
+h1{font-style: italic;
+  text-decoration: underline;}
+
+
+
+
+
+table {
+         margin-left: auto;}
+        {margin-right: auto;}
+table {
+   border-collapse: collapse;
+}
+th, td {
+border: 3px solid black;
+}

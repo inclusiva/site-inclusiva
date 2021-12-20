@@ -1,0 +1,36 @@
+h1 {
+font-style:italic;  
+text-decoration: underline overline;
+text-align: center; 
+font-size:30;
+} 
+h2 {
+color:gray;
+font-family:monospace;
+text-align:center;
+text-decoration:underline;
+font-size:25px;}
+
+p {
+font-size:20px;
+color:white;  
+}
+
+body{
+background-color: brown;  
+}
+img{
+font-size:20px;
+}
+#Qualidades{
+  background-color: red;
+  padding:15px;
+  margin:17px;
+  border: 1px black solid;  
+}
+table {
+  border-collapse:collapse;
+}
+th, td {
+  border:2px solid black
+} 

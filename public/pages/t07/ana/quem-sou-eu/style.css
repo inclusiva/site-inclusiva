@@ -1,0 +1,19 @@
+h2{font-size:18px;}
+h1{color:purple;}
+h1{font-style: italic;}
+h1{font-size:33px;}
+h1{text-decoration: underline;}
+body{background: #EE82EE;}
+#séries{background-color: white;
+  padding: 0px 10px;
+  margin: 1px;
+  border: 2px purple solid;
+border-radius: 20px}
+#séries{color: purple;}
+table{border-collapse: collapse;}
+th,td{border: 2px solid black;}
+#tabela {
+  color: black;
+  font-size: 28px;
+}
+img{float: right;}

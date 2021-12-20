@@ -742,5 +742,139 @@
           ]
         }
       ]
-    }
+    },
+    {"name":"Turma 07",
+      "path":"t07",
+      "projects":[
+        {"name":"Ana Clara",
+          "path":"ana",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/ana.jpeg",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - (React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        },
+        {"name":"Eduarda Anchieta",
+          "path":"duda",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/duda.png",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Cadastrar - (JS, HTML5, CSS)",
+              "path": "cadastrar"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - ( React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        },
+        {"name":"Emilly Marques",
+          "path":"emillym",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/emillym.jpeg",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - ( React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        },
+        {"name":"Emilly Padilha",
+          "path":"emillyp",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/emilyp.jpeg",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            }
+          ]
+        },
+        {"name":"Gabriela Gomes",
+          "path":"gabi",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/gabi.jpeg",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - ( React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        },
+        {"name":"Guilherme Bittencourt",
+          "path":"guib",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/guib.png",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - ( React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        },
+        {"name":"Willian Freitas",
+          "path":"will",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/will.jpeg",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            },
+            {
+              "name": "Minha listinha - ( React, JS, HTML5, CSS)",
+              "path": "minha-listinha"
+            }
+          ]
+        }
+    ]
+  }
 ]
