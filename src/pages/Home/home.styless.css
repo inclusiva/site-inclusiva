@@ -1,0 +1,35 @@
+.texto {
+    height: 280px;
+  }
+  
+  .texto h3 {
+    text-align: center;
+    text-justify: auto;
+    margin: 280px auto;
+    width: 550px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .message{
+    font-size: 56px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 250px;
+  }
+
+  .logo{
+    display: block;
+    grid-area: overflow;
+    object-position: top;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container{
+    width: 80%;
+    margin: 9% auto 9% auto;
+  }
