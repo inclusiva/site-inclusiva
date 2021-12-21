@@ -87,8 +87,8 @@ class Turmas extends React.Component {
   render() {
     return (
         <div className="App">
-          <Header image={ImagePortfolio}>Projetos das Turmas</Header>
           <Menu />
+          <Header image={ImagePortfolio}>Projetos das Turmas</Header>
           <Main id="header-turmas" />
           <Footer />
         </div>

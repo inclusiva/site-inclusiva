@@ -30,12 +30,12 @@ export const photos = [
       height: 3
     },
     {
-      src: "assets/t06/t6.png",
+      src: "assets/t05/t5.jpeg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+      src: "assets/t06/t6.png",
       width: 4,
       height: 3
     },

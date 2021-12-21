@@ -14,8 +14,8 @@ import equipe from '../../data/database'
 const Equipe = () => {
  return (
       <>
-        <Header image={ImageAbout}> Equipe e Empresas </Header>
         <Menu />
+        <Header image={ImageAbout}> Equipe e Empresas </Header>
         <div className="div-equipe-empresas">
             <h2 className="h2-equipe">Equipe:</h2>
               <div className='container-equipe'>
