@@ -1,75 +1,11 @@
-p{
-  font-size:30px;
- font-family: calibri;
-  color:black;
-}
-
-h1{
-  color: black;
-  font-family: cursive;
-  font-size:35px;
-  text-align:center;
-}
-
- 
-.imagem{
-  max-width: 200px; 
-  margin: 5px;
-  whidth: 10px;
- 
-  }
 .fundo{
-    width: 100vw;
-    height: 700vh;
-    margin:0;
-    padding: 0;
-background-image:url( "https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  ///background-repeat: no-repeat;
-  background-size: auto;
-}
-
-li{
-  font-size: 20px;
-  font-family: arial black;
-
-}
-
- table{   border: 1px solid black;
-    border-colapse: collapse;
-    margin: 0px;
-}
-
-th,td {
-  border-colapse: collapse;
-    margin: 0px;
-  border: 2px solid black;
-  border-color:purple;
-}
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  padding: 0;
+  background-image: url( "https://th.bing.com/th/id/Rb1548f564bb99516690ff1ebae9894d2?rik=S4xf7VSA%2fvrxSw&pid=ImgRaw");
+background-repeat: no-repeat;
+background-size: auto;
+color:black;
  
-
-#bolinhas{
-  max-width: 20px;
-  font-size:30px;
-  color: pink;
- text-align:center;
-}
-#button{
-   background: green;
-  color: white;
-  padding:9px 15px;
-  border: none;
-  border-radius: 8px;
- 
-}
-
-#resetar{
-   background: red;
-  color: white;
-  padding:9px 15px;
-  border: none;
-  border-radius: 8px;
- 
-}
-#nome{
-  max-width:40px;
 }

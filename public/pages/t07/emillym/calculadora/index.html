@@ -2,78 +2,33 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - html e css-parte2</title>
+  <title>CodePen - calculadoraArrays</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<head>
-  <div class="fundo">
-    
-</head>
-<body>
-<h1>Quem sou eu</h1>
-<p>Me chamo Emilly e tenho 16 anos.Estou cursando programação e estou no segundo ano do ensino médio.Gosto muito de fazer docinhos, escutar músicas e basicamente vivo disso.
-Quero muito viajar o mundo e conhcer novas culturas e pesssoas novas</p>
-<h2>Minha série preferida</h2>
- <div> 
-            <img class="imagem" src='https://th.bing.com/th/id/R.4ce548091dc531b7e365d134150c6c89?rik=khR1y%2fdLPpH8tw&riu=http%3a%2f%2fis3.mzstatic.com%2fimage%2fthumb%2fMusic69%2fv4%2f68%2f95%2f2b%2f68952be7-f09c-cccb-435e-9130d6d5f2c7%2fsource%2f3000x3000sr.jpg&ehk=Ghc0l941csIQt9uy2FwGQD3DNF3ZY9DxAq%2fHqSVIIqI%3d&risl=&pid=ImgRaw&r=0'>
-  </div>    <ul></ul>
-  <p>Estou partcipando da inclusiva pela segunda vez então ja tenho um conhecimento bascio sobre:</p>
-  <li>HTML</li>
-  <li>CSS</li> 
-  <li>JS</li>
-  <li>E ja passei uma raivinha com o React</li>
-  <ul></ul>
-  <p>Um pouco da minha rotina</p> 
-  
-  <table> 
-      <tr> 
-        <th> horários </th>
-        <th> segunda a sexta </th>
-        
-      </tr>
-     
-      <tr>
-        <td>7:00 - 12:30 </td>
-        <td> escola</td>
-        
-      </tr>
-        
-      <tr>
-        <td> 13:00 </td>
-        <td> almoço</td>
-        
-      </tr>    
-    </table>
-  <ul></ul>
-  <form> 
-    <label id="nome">Qual o seu nome:</label>
-      <input type="text" /><ul></ul>
-    <label>Onde você mora:</label>
-    <input type="text" /><ul></ul>
-    Email:<input type='email' id='email'/><br/><br/>
+<div class="fundo">
+<br/><br/><center><h1> Calculadora<h1/>
  
-    <label>Senha:</label> <input type="password" name="senha" id="senha"> <ul>
+<input class="entrada" type="number" id="valor1"> <br/>
+<input class="entrada" type="number" id="valor2"> <br/>
+<input type="text" disabled="true" id="Resultado1"> <br/>
+  <button onClick="calcularOperacao('somar')">somar</button>
+  <button onClick="calcularOperacao('subtrair')">subtrair</button><br/>
+  <button onClick="calcularOperacao('multiplicacao')">multiplicação</button><br/>
+  <button onClick="calcularOperacao('divisao')">divisão</button><br/>
+  <button onClick="calcularOperacao('potencia')">potência</button><br/> 
+  <button onClick="calcularOperacao('raiz')">raiz</button> <br/>
+   <button type="button"onClick="trocar()">trocar</button>
+   <button type="button"onClick="limpar()">limpar</button>
+    <button type="verHistorico"onclick="verHistorico()">histórico</button>
+  <br/>
   
-  <p>Qual seu meio de transporte<p>
-    
-    <input  type="checkbox" id="bolinhas" name="veículo" value="bicicleta"/>Bicicleta<br/><input type="checkbox" name="veículo" value="carro"/>Carro<br/>
- <input type="checkbox" name="veículo" value="bicicleta"/>Ônibus<br/>
- <input type="checkbox" name="veículo" value="uber"/>Uber<br/>
-  <input id="button" type="submit" value="Enviar" /> <input id="resetar" type="reset" value="Reset" />
-  
-  </form>
-  
-  
-  
-  
-  
-  
-  
-  </body>
+ 
+ <textarea id="historico" rows="4" cols="31"></textarea>
 <!-- partial -->
-  
+  <script  src="./script.js"></script>
+
 </body>
 </html>

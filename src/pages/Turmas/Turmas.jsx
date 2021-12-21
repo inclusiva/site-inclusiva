@@ -2,7 +2,7 @@ import Menu from '../../components/Menu/Menu'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import './turmas.styless.css'
-import ImagePortfolio from '../../assets2/portfolio.svg'
+import ImagePortfolio from '../../assets2/port.svg'
 
 
 import React from 'react';

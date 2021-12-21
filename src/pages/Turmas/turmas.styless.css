@@ -1,22 +1,54 @@
-.main {
-    display: flex;
-    margin: 40px auto;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 300px;
-  }
+.Main {
+    margin-top: 100px;
+}
   
-  .main img {
+  .Main img {
     width: 200x;
     height: 200px;
-  }
+  } 
   
-  .main h2 {
+  /* .Main h2 {
     font-weight: 900;
     font-size: 42px;
-  }
+  }  */
 
   #header-turmas{
     padding-top: 50px;
+  }
+
+  .MuiExpansionPanelDetails-root.GroupPanelDetails{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .MuiPaper-root.MuiCard-root.ProjectCard.MuiPaper-elevation1.MuiPaper-rounded{
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    border-left: 10px solid #EEBCA1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MuiExpansionPanelSummary-root {
+    display: none;
+    padding: 20px 16px;
+  }
+
+  .MuiExpansionPanelSummary-content.Mui-expanded{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .MuiTypography-root.Title.MuiTypography-h5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
