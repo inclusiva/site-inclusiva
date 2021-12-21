@@ -1,6 +1,9 @@
 import Menu from '../../components/Menu/Menu'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 import Link from '@material-ui/core/Link';
-import ImageLivro from '../../assets/livro.jpeg'
+import ImageLivro from '../../assets2/livro.jpeg'
+import ImageIlustra from '../../assets2/ilustra.svg'
 import './documentacao.styless.css'
 
 import React from "react";
@@ -49,6 +52,7 @@ const Documentacao = () => {
 
     return(
         <>
+            <Header image={ImageIlustra}> Publicações e Apresentações</Header>
             <Menu />
             <h2>Artigos e Livro Publicados:</h2>
                 <ul>
@@ -67,6 +71,7 @@ const Documentacao = () => {
                 <div>
                     <YoutubeEmbed embedId="YIjHgtnkf9M" />
                 </div> 
+            <Footer />
         </>
     )
 }

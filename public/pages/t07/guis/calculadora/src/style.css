@@ -1,0 +1,56 @@
+body{
+   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7a6e02b1-d68c-4a6c-8e09-12dee38f5154/deeurrc-0bc07c00-0839-40f2-979f-960e298afebe.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhNmUwMmIxLWQ2OGMtNGE2Yy04ZTA5LTEyZGVlMzhmNTE1NFwvZGVldXJyYy0wYmMwN2MwMC0wODM5LTQwZjItOTc5Zi05NjBlMjk4YWZlYmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nzN4WDJ7Wv5F9kPeuajz78CFAxQrG_dGy3D8yFytH6U'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;  
+}
+h1{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+p{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  right:75%;
+}
+.calculadora{
+  position: absolute;
+  background-color: black;
+  top:1%;
+  left: 2%;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0,0.8)
+}
+button{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color:rgb(31,31,31);
+  border:none;
+  color:white;
+  margin: 3px;
+  
+ }
+.botao:hover{
+  background-color:black;
+  
+}
+.fundo{
+  text-align:center;
+
+}
+#resultado{
+  width: 250px;  
+  background-color: white;
+  height:30px;
+  margin:5px;
+  font-size:25px;
+  color: black;
+  text-align: right;
+  padding:5px;
+}

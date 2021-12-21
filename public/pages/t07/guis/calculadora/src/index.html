@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+  <head>
+   <style> 
+    </style> 
+ <body>
+   <div class="fundo"> 
+    <div class="calculadora">
+      <h1>Calculadora</h1>
+      <p id="resultado"></p>
+    <table>
+      <tr> 
+     <td><button class="botao" onClick="clean()" >C</button></td>
+      <td><button  class="botao" onClick="back()" ><</button></td>
+     <td><button  class="botao" onClick="insert('/')">/</button></td> 
+       <td><button  class="botao" onClick="insert('*')">*</button></td>
+      </tr>
+      <tr>
+        <td><button  class="botao" onClick="insert('7')">7</button></td>
+      <td><button  class="botao" onClick="insert('8')">8</button></td>
+       <td><button  class="botao" onClick="insert('9')">9</button></td>
+        <td><button  class="botao" onClick="insert('-')" >-</button></td>           </tr>
+        <tr>    
+        <td><button  class="botao" onClick="insert('4')">4</button></td>
+         <td><button  class="botao" onClick="insert('5')">5</button></td>
+         <td><button  class="botao" onClick="insert('6')">6</button></td>
+        <td><button  class="botao"  onClick="insert('+')">+</button></td>
+        </tr>
+        <tr>  
+        
+          <td><button  class="botao" onClick="insert('1')">1</button></td>
+         <td><button  class="botao" onClick="insert('2')">2</button></td>
+         <td><button  class="botao" onClick="insert('3')">3</button></td
+          
+        <td> <buttn  class="botao" ></buttn> </td> 
+        <td rowspan="2" > <button class="botao" style="height: 106px;" onClick="calcular('=')">=</button> </td>  
+      </tr> 
+         <tr>
+           <td  colspan="2" > <button class="botao" style="width: 106px;"  onClick="insert('0')" >0</button></td>
+           <td> <button  class="botao" onClick="insert('.')" >.</button></td>
+           
+           <button style="width: 106px;"  type=" verHistorico"onclick=" verHistorico()">histórico</button>
+    <textarea id="historico" rows="2" cols="21"></textarea>
+        
+  
+      
+  
+          
+
+
+      
+      </tr> 
+    </table>
+       
+     </body>
+    </html>    
+   </div>   
+     

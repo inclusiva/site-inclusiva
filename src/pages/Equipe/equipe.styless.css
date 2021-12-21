@@ -1,20 +1,57 @@
-.redes-sociais {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-justify: auto;
-    width: 550px;
-    height: 350px;
-    font-size: 24px;
-    margin: 40px auto;
-  }
-  
-  .redes-sociais p {
-    text-align: center;
-  }
-  
-  .siga {
-    font-size: 36px;
-  }
+.container-equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 10px;
+  margin: 20px;
+  width: 20%;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
+  border-left: 10px solid #EEBCA1;
+  display: flex;
+  flex-direction: column;
+}
+
+#imagem-equipe{
+  max-width: 130px;
+  max-height: 100px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+ 
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.div-equipe-empresas{
+  max-width: 80%;
+  margin: 9% auto 9% auto;
+}
+
+.h2-equipe{
+  font-size: 40px;
+  color: #EEBCA1;
+  padding-top: 50px;
+}
+
+#funcao-equipe{
+  font-size: 14px;
+}
+
+#email-equipe{
+  font-size: 12px;
+}
+
+#imagem-logo{
+  width: 20%;
+  padding: 20px;
+}

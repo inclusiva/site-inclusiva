@@ -1,5 +1,8 @@
 import Menu from '../../components/Menu/Menu'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
 import './turmas.styless.css'
+import ImagePortfolio from '../../assets2/portfolio.svg'
 
 
 import React from 'react';
@@ -73,9 +76,6 @@ const ProjectLink = ({name, currentPath, path}) => (
 const Main = () => {
  return (
   <main className="Main">
-    <Typography className="Title" variant="h4" gutterBottom> 
-      Projetos
-    </Typography>
     {json.filter(group => !group.hidden).map( (group, index) => (
       <GroupPanel key={index} {...group} />
     ))}
@@ -87,8 +87,10 @@ class Turmas extends React.Component {
   render() {
     return (
         <div className="App">
+          <Header image={ImagePortfolio}>Projetos das Turmas</Header>
           <Menu />
-          <Main/>
+          <Main id="header-turmas" />
+          <Footer />
         </div>
     );
   }

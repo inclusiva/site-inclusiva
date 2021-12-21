@@ -1,7 +1,9 @@
 import './home.styless.css'
 import Link from '@material-ui/core/Link';
-import ImageLogo from '../../assets/logo.jpeg'
+import ImageLogo from '../../assets2/logo.jpeg'
 import Menu from '../../components/Menu/Menu'
+import Footer from '../../components/Footer/Footer'
+
 
 const Home = () => {
  return (
@@ -41,7 +43,7 @@ const Home = () => {
             entre quem vai produzir e quem vai consumir a tecnologia.
           </p>
     </header>
-
+    <Footer />
   </>
  )
 }

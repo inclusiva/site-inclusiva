@@ -1,4 +1,7 @@
 import Menu from '../../components/Menu/Menu'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+import ImageContato from '../../assets2/contato.svg'
 
 
 import React, { useState, useCallback } from "react";
@@ -125,8 +128,8 @@ function Galeria() {
 
   return (
     <>
+    <Header image={ImageContato}>Nossas Turmas 2018 - 2021</Header>
     <Menu />
-    <h1> Nossas Turmas 2018 - 2021 </h1>
     <div>
       <div className={classes.root}>
         <CssBaseline />
@@ -206,6 +209,7 @@ function Galeria() {
         </ModalGateway>
       </Paper>
     </div>
+    <Footer />
   </>
   );
 }

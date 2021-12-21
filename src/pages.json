@@ -749,7 +749,7 @@
         {"name":"Ana Clara",
           "path":"ana",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/ana.jpeg",
+                  "picture":"../assets/t07/individual/ana.jpeg",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -768,7 +768,7 @@
         {"name":"Eduarda Anchieta",
           "path":"duda",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/duda.png",
+                  "picture":"assets/t07/individual/duda.png",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -791,7 +791,7 @@
         {"name":"Emilly Marques",
           "path":"emillym",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/emillym.jpeg",
+                  "picture":"assets/t07/individual/emillym.jpeg",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -810,7 +810,7 @@
         {"name":"Emilly Padilha",
           "path":"emillyp",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/emilyp.jpeg",
+                  "picture":"assets/t07/individual/emilyp.jpeg",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -821,7 +821,7 @@
         {"name":"Gabriela Gomes",
           "path":"gabi",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/gabi.jpeg",
+                  "picture":"assets/t07/individual/gabi.jpeg",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -840,7 +840,7 @@
         {"name":"Guilherme Bittencourt",
           "path":"guib",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/guib.png",
+                  "picture":"assets/t07/individual/guib.png",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
@@ -856,10 +856,25 @@
             }
           ]
         },
+        {"name":"Guilherme Soares",
+          "path":"guis",
+                  "description":"Conheça as páginas de construídas por nossas estudantes",
+                  "picture":"assets/t07/individual/guis.png",
+                  "pages":[
+            {
+              "name": "Quem eu sou - (HTML5, CSS)",
+              "path": "quem-sou-eu"
+            },
+            {
+              "name": "Calculadora - (JS, HTML5, CSS)",
+              "path": "calculadora"
+            }
+          ]
+        },
         {"name":"Willian Freitas",
           "path":"will",
                   "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/will.jpeg",
+                  "picture":"assets/t07/individual/will.jpeg",
                   "pages":[
             {
               "name": "Quem eu sou - (HTML5, CSS)",
