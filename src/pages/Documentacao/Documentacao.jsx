@@ -47,6 +47,32 @@ const YoutubeEmbed = ({ embedId }) => (
     embedId: PropTypes.string.isRequired
   };
 
+  const Body = () => {
+      return (
+          <>
+            <div className="container-documentacao">
+                <h2 className="cards-artigos">Artigos:</h2>
+                    <ul className="lista">
+                        <li className="linha"> MIRANDA, M. B.; WISNIEWSKI, A. ; MENEZES, A. ; PRIKLADNICKI, R. . <b>Teaching Software Engineering Remotely to Teenagers in Social Vulnerability Conditions during the Coronavirus Pandemic: Challenges and Lessons Learned.</b> In: XXIV - CIbSE - Iberoamerican Conference on Software Engineering, 2021, San Jose, Costa Rica. XXIV - CIbSE - Iberoamerican Conference on Software Engineering, 2021.</li>
+                        <li className="linha">Caio Steglich, Anielle Lisboa, Rafael Prikladnicki, Sabrina Marczak, Michael da Costa Móra, Alejandro Olchik, Nelice Heck, Yasser Rachid, and Guilherme Ghidorsi. 2020. <b>Agile Accelerator Program: From Industry-Academia Collaboration to Effective Agile Training</b>. In Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES '20). Association for Computing Machinery, New York, NY, USA, 21–30. 
+                            <Link href="https://repositorio.pucrs.br/dspace/bitstream/10923/20111/2/Agile_Accelerator_Program.pdf" target="_blank">DOI:https://doi.org/10.1145/3422392.3422485</Link></li>
+                    </ul>   
+            </div>
+            <div className="cards-livros">
+                    <img src={ImageLivro} className="livro" alt="imagem do livro" />
+                    <div className="bloco-livro">
+                        <h3 className="h3-documentacao">Livro:</h3>
+                        <p className="paragrafo-documentacao">Aceleradora Ágil e Inclusiva, unindo conhecimento, projetos e pessoas para construir um futuro tecnológico justo. <Link href="https://www.pucrs.br/tecnopuc/wp-content/uploads/sites/110/2019/12/LivroThoughtWorksFinalMontado.pdf" target="_blank">Download</Link></p>
+                    </div>
+            </div> 
+            <h2 className='cards-videos'>Vídeos:</h2>
+            <div className="container-videos"> 
+                <YoutubeEmbed embedId="YIjHgtnkf9M" />
+            </div>
+          </>
+      )
+  }
+
 
 const Documentacao = () => {
 
@@ -54,23 +80,7 @@ const Documentacao = () => {
         <>
             <Menu />
             <Header image={ImageIlustra}> Publicações e Apresentações</Header>
-            <h2 className="fonte-h2">Artigos e Livro Publicados:</h2>
-                <ul>
-                    <li>Caio Steglich, Anielle Lisboa, Rafael Prikladnicki, Sabrina Marczak, Michael da Costa Móra, Alejandro Olchik, Nelice Heck, Yasser Rachid, and Guilherme Ghidorsi. 2020. Agile Accelerator Program: From Industry-Academia Collaboration to Effective Agile Training. In Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES '20). Association for Computing Machinery, New York, NY, USA, 21–30. 
-                        <Link href="https://repositorio.pucrs.br/dspace/bitstream/10923/20111/2/Agile_Accelerator_Program.pdf" target="_blank">DOI:https://doi.org/10.1145/3422392.3422485</Link></li>
-                    <li>
-                    MIRANDA, M. B.; WISNIEWSKI, A. ; MENEZES, A. ; PRIKLADNICKI, R. . Teaching Software Engineering Remotely to Teenagers in Social Vulnerability Conditions during the Coronavirus Pandemic: Challenges and Lessons Learned. In: XXIV - CIbSE - Iberoamerican Conference on Software Engineering, 2021, San Jose, Costa Rica. XXIV - CIbSE - Iberoamerican Conference on Software Engineering, 2021.
-                    </li>
-                </ul>
-            <div>
-                <img src={ImageLivro} className="livro" alt="imagem do livro" />
-                <p>Aceleradora Ágil e Inclusiva, unindo conhecimento, projetos e pessoas para construir um futuro tecnológico justo. <Link href="https://www.pucrs.br/tecnopuc/wp-content/uploads/sites/110/2019/12/LivroThoughtWorksFinalMontado.pdf" target="_blank">Download</Link></p>
-            </div>
-            
-            <h2 className="fonte-h2">Vídeos sobre a Aceleradora Inclusiva e apresentações em congressos:</h2>
-                <div>
-                    <YoutubeEmbed embedId="YIjHgtnkf9M" />
-                </div> 
+            <Body />
             <Footer />
         </>
     )
