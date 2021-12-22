@@ -17,7 +17,7 @@
     background-color: rgba(0,0,0,0.5);
     color:#fff;
     text-align: center;
-    top: 250px;
+    top: 200px;
   }
 
   .logo{
@@ -31,5 +31,73 @@
 
   .container{
     width: 80%;
-    margin: 9% auto 9% auto;
+    margin: auto;
   }
+
+  .Header-home{
+    max-width: 70%;
+    margin: auto;
+    padding: 100px 0 100px 0;
+  }
+
+  /* p {
+    text-align: start;
+    margin: 10;
+  } */
+  body{
+    background-color: antiquewhite;
+    background-size: cover;
+    display: block;
+   }
+
+   .subtitulo-home{
+    color: #000000;
+    margin: 0;
+    text-transform: none;
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    font-family: Inter,Noto Sans SC,sans-serif;
+    padding-bottom: 30px;
+   }
+
+   .paragrafo-home{
+    margin: 0;
+    text-transform: none;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-weight: 360;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #000000;
+    font-family: Inter,Noto Sans SC,sans-serif;
+    text-align: left;
+   }
+
+   .secao-home{
+    background: #edf1f3;
+    padding-bottom: 3.75rem;
+    padding-top: 3.75rem;
+   }
+
+   .texto-final-home{
+    width: 60%;
+    margin: auto;
+    color: #000000;
+    font-family: Inter,Noto Sans SC,sans-serif;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 600;
+   }
+
+   .autoras-final-home{
+    font-size: 14px;
+    font-style: italic;
+   }
