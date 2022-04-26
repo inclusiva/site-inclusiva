@@ -30,8 +30,8 @@ const equipe = [
     {
         id:5,
         nome:"Ana Paula",
-        funcao:"Assistênte Social",
-        email: "michelle.miranda@edu.pucrs.br",
+        funcao:"Assistente Social- Mestranda em Serviço Social- PUCRS",
+        email: "ana.souza84@edu.pucrs.br",
         capa: "assets/equipe/ana.png"
     },
     {
