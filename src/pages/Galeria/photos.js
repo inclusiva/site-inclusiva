@@ -35,16 +35,18 @@ export const photos = [
       height: 3
     },
     {
-      src: "assets/t06/t7.jpeg",
+      src: "assets/t07/t7.jpeg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+      src: "assets/t08/t8.jpeg",
       width: 4,
       height: 3
     }
   ];
+
+  // "https://source.unsplash.com/I1ASdgphUH4/800x599"
 
   // src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
   // width: 4,
