@@ -129,7 +129,7 @@ function Galeria() {
   return (
     <>
     <Menu />
-    <Header image={ImageContato}>Nossas Turmas 2018 - 2021</Header>
+    <Header image={ImageContato}>Nossas Turmas 2018 - 2022</Header>
     <div>
       <div className={classes.root}>
         <CssBaseline />
