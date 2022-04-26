@@ -1,0 +1,98 @@
+#início 
+{
+  background-color: lightblue;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px dotted blue;
+}
+
+.título
+
+{
+ color: royalblue;
+ font-size: 45px;
+ text-align: center;
+ font-style: italic;
+}
+
+#assunto
+
+{
+ padding: 5px;
+ margin: 20px;
+}
+
+.subtítulo
+
+{
+ color: royalblue;
+ font-size: 30px;
+ text-align: center;
+ font-style: italic;
+ text-decoration: overline;
+}
+
+.apresentação
+
+{
+ color: blue;
+ text-align: center;
+ font-size: 20px;
+ background-color: skyblue;
+ margin: 10px;
+}
+
+.viagem
+
+{ 
+ color: deepskyblue;
+ font-size: 20px;
+}
+
+.animais
+
+{
+ color: cornflowerblue;
+ font-size: 20px;
+}
+
+.confeitaria
+
+{
+ color: darkblue;
+ font-size: 20px;
+}
+
+.final
+
+{
+ color: dodgerblue;
+ font-size: 25px;
+ text-align: center;
+ background-color: 
+ lightblue;
+ text-decoration: 
+}
+
+.gif
+
+{
+ text-align: center;
+ font-size: 40px;
+}
+
+body
+
+{
+ background-color:  lavender;
+ border: 3px double  steelblue;
+}
+
+img
+{
+  border-radius: 40%
+}
+
+
+

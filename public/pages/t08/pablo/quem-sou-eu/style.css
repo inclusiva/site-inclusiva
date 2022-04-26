@@ -1,0 +1,148 @@
+.capa{
+background-image:url("https://i0.wp.com/www.emotioncard.com.br/wp-content/uploads/2019/04/plano-de-fundo-preto20.jpg?fit=696%2C392&ssl=1");
+  border:solid 3px white;
+
+}
+img{
+  border-radius:20px;
+  height:200px;
+  width:200px;
+  margin-left:10px;
+  margin-top:10px;
+  border:solid 3px white
+  
+ }
+.nome{
+  color:white;
+  font-family:Georgia;
+  text-align:center;
+    
+}
+.Dados{
+  text-align:left
+}
+
+.meio{
+  position:relative;
+  top:17px;
+  border:solid 3px;
+  width:48%;
+  display: inline-block;
+  background-color:white
+  
+    
+}
+.meio2{
+  position:relative;
+  top:26px;
+  left:30px;
+   border:solid 3px;
+  width:48%;
+  display: inline-block;
+  background-color:white
+  }
+
+dt{
+  margin-left: 5px
+}
+ 
+.biografia{
+   text-align:center;
+  padding:20px;
+}
+
+body{
+  background-color: #1C1C1C
+}
+.sobre{
+   text-align:center;
+}
+
+p{
+  font-size:20px
+}
+
+#redes-socias{
+ text-align:center; 
+  
+}
+
+#perfil{
+  font-size:28px ;
+    text-align:center; 
+}
+
+#perfil2{
+   font-size:28px ;
+    text-align:center; 
+}
+
+div{
+  border-radius:20px
+}
+.LISTA{
+ font-size:20px
+}
+
+#dia-a-dia{
+  position:relative;
+  top:38px;
+  border:solid 3px;
+  width:48%;
+  display: inline-block;
+  background-color:white;
+  height:100%;
+  width:100%;
+  margin-left:10px;
+  
+}
+
+.listinha{
+  text-align:center
+}
+
+table{
+  border-collapse:collapse;
+  text-align: center;
+  font-size: 30px;
+  margin-left:8%;
+  margin-right;8%;
+  
+     
+}
+th, td{
+  position:relative;
+  border:1px solid black
+}
+#valores{
+  float:
+ 
+}
+.listas{
+  display:inline-block;
+  width: 33%;
+  height:100%;
+  text-align:center;
+   padding-left:0;
+  padding-right;0;
+  
+  
+}
+.form{
+  background-color:white;
+  margin-top:60px;
+ display:flexbox;
+  
+}
+.quiz{
+  text-align:center;
+}
+
+input{
+  margin-top:10px;
+  margin-bottom:10px
+}
+label{
+  font-size:17px;
+  font-weight:bold
+}

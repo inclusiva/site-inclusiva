@@ -1,0 +1,99 @@
+body {
+  background-color: #f294c1;
+}
+
+#nome {
+  font-size: 60px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.linha{
+  padding: 1px;
+  width:1600px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.box {
+  padding: 30px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-auto-rows: 200px;
+
+  grid-template-areas: 
+  "box-1 box-2 box-3"
+  "box-1 box-4 box-3"
+  "box-5 box-5 box-5"
+}
+
+.box-1 {
+  text-align: center;
+  font-family: Verdana;
+  font-size:20px;
+  grid-area: box-1;
+}
+
+.box-2{
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: left;
+  grid-area: box-2;
+}
+
+.box-3{
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: left;
+  grid-area: box-3;
+}
+
+.box-4{
+  padding:40px;
+  grid-area: box-4;
+}
+
+.imagens {
+  text-align: center;
+  width: 50%;
+  border-radius: 100%;
+}
+
+.rede-sociais{
+  border-radius:100%;
+  width:15px;
+  padding-left: 2px;
+}
+
+.data{
+  font-size:15px;
+}
+
+.box-5 {
+  padding:300px;
+  text-align: center;
+  font-family: Verdana;
+  font-size:20px;
+  grid-area: box-5;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border-collopse:collopse;
+}
+
+th, tf {
+  border: 2px solid black;
+}
+
