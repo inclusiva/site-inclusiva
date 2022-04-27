@@ -106,26 +106,22 @@ table{
   text-align: center;
   font-size: 30px;
   margin-left:8%;
-  margin-right;8%;
+  margin-right:8%;
   
      
 }
 th, td{
   position:relative;
-  border:1px solid black
+  border:1px solid black;
 }
-#valores{
-  float:
- 
-}
+
 .listas{
   display:inline-block;
   width: 33%;
   height:100%;
   text-align:center;
    padding-left:0;
-  padding-right;0;
-  
+  padding-right:0;
   
 }
 .form{
@@ -144,5 +140,5 @@ input{
 }
 label{
   font-size:17px;
-  font-weight:bold
+  font-weight:bold;
 }

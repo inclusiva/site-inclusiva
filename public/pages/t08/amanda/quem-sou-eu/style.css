@@ -43,9 +43,7 @@
  margin: 10px;
 }
 
-.viagem
-
-{ 
+.viagem{ 
  color: deepskyblue;
  font-size: 20px;
 }
@@ -70,9 +68,7 @@
  color: dodgerblue;
  font-size: 25px;
  text-align: center;
- background-color: 
- lightblue;
- text-decoration: 
+ background-color: lightblue;
 }
 
 .gif
