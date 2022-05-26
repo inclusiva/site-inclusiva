@@ -36,7 +36,7 @@ border-radius: 50%;
 #texto-imagem{
   font-size:15px;
   width: 190px;
-  margim-left:20px;
+  margin-left:20px;
  font-family:Arial Narrow, sans-serif;
   color: white;
  position: absolute;
@@ -46,7 +46,7 @@ border-radius: 50%;
 .titulo-do-centro{
 position: absolute;
 font-size:23px;
-margim-left:30px;
+margin-left:30px;
 font-family:Arial Narrow, sans-serif;
 top: 327px;
 left: 257px;
@@ -112,7 +112,7 @@ color: white;
     border:33px black solid;
     border-radius:50px;
   position: absolute;
-  text-aling: center;
+  text-align: center;
    top: 640px;
   left: 10px;
   font-family:Arial Narrow;
@@ -149,7 +149,7 @@ h1 {
    background-color: white;
     border:26px white solid;
     border-radius:30px;
-text-aling: center;
+text-align: center;
   top: 360px;
   left: 45px;
   color: black;
@@ -162,7 +162,7 @@ text-aling: center;
   color: white;
    font-family:Arial Narrow;
     font-size: 50px;
-text-aling: center;
+text-align: center;
 }
 
 .formulario-completo{
@@ -172,7 +172,7 @@ text-aling: center;
    color: white;
    font-family:Arial Narrow;
     font-size: 27px;
-text-aling: center;
+text-align: center;
   text-shadow: -2px 2px 10px  black,0px 0px 15px  black, -2px 2px 1px black, -2px 2px 15px black ;
 
 }

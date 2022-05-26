@@ -1,0 +1,41 @@
+.estilo-calculadora{
+  background-color: #EE82EE;
+  height: 300px;
+  width: 300px;
+  border-radius: 900px;
+  margin-left: 300px;
+}
+
+.calculadora{
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 58px;
+}
+
+.caixa1{
+  text-align: center;
+  margin-top: -15px;
+  
+}
+.caixa2{
+  text-align: center;
+}
+
+.historico{
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: 5px;
+}
+
+
+.operaçoes{
+  text-align: center;
+}
+
+.resultado{
+  text-align: center;
+  width: 200px;
+  margin-left: 50px;
+}
+
+

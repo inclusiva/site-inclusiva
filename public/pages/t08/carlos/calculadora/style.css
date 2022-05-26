@@ -1,0 +1,73 @@
+.titulo-calculadora{
+  font-size:48px;
+  font-family: Open Sans, Arial,     sans-serif;
+   color: white ;
+  
+  position:absolute; 
+  left:400px;
+  top:20px;
+  }
+.entrada{
+  position:absolute;
+ font-size:24px; 
+  left:300px;
+  top:130px;
+}
+#inpuntDois{
+  position:absolute;
+ font-size:24px; 
+  left:300px;
+  top:180px;
+ 
+}
+
+.somarNum{
+ position:absolute; 
+  left:625px;
+  top:130px;
+ font-size:20px;
+    width: 29px;
+  }
+
+.diminuirNum{
+   position:absolute; 
+  left:670px;
+  top:130px;
+ font-size: 20px;
+  width: 29px;
+}
+
+.multiplicaNum{
+  position:absolute; 
+  left:625px;
+  top:170px;
+ font-size: 20px;
+  width: 29px;
+}
+.divisorcaNum{
+   position:absolute; 
+  left:670px;
+  top:170px;
+ font-size: 20px;
+  width: 29px;
+}
+.buttonLimpar{
+  position:absolute; 
+  left:710px;
+  top:149px;
+ font-size: 20px;
+  width: 29px;
+}
+.potenciaNum{
+  position:absolute; 
+  left:750px;
+  top:149px;
+ font-size: 20px;
+  width: 29px;
+}
+.result{
+  color:white;
+  font-size:2rem;
+  font-family:Gill Sans, sans-serif	;
+
+}

@@ -1,0 +1,33 @@
+<div class="estilo-calculadora">
+<h1 class="calculadora">Calculadora</h1>
+
+<div class="caixa1">
+  <input type="number" id="caixaUm" class="entradas" placeholder="Número"></input>
+</div>
+
+<div class="caixa2">
+  <input type="number" id="caixaDois" class="entradas" placeholder="Número"></input>
+</div>
+
+<br></br>
+
+ <div class="historico">
+  <button onClick="anterior()">Anterior</button>
+  <button onClick="historico()">Ver Histórico</button>
+  <button onClick="limparHistorico()">Limpar Histórico</button>
+ </div>
+
+ <div class="operaçoes">
+  <button onClick="operaçoes('+')">+</button>
+  <button onClick="operaçoes('-')">-</button>
+  <button onClick="operaçoes('*')">*</button>
+  <button onClick="operaçoes('/')">/</button>
+  <button onClick="limpar()">Limpar</button>
+  <input type="checkbox" id="selecionar"/>
+ </div>
+
+
+<h4 class="resultado" id="resultado"></h4>
+<output id="historicos"></output>
+</div>
+

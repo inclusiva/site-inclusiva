@@ -1,0 +1,148 @@
+body{
+  background-image: url(https://cdn.wallpapersafari.com/71/43/52rJbT.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ height:100vh;
+  background-position: center;
+ 
+}
+
+#natural {
+  color: white;
+  position: absolute;
+  top: -1rem;
+  font-size:32;
+  left:11.7rem;
+  font-family:Gill Sans, sans-serif	;
+}
+
+#selecao {
+ position:absolute;
+ 
+  display: block;
+  width: 712px;
+  height: 30px;
+  border: solid white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 28px;
+  left: 15px;
+  cursor: pointer;
+ 
+}
+
+.campos {
+  position: fixed;
+  top: 100px;
+  left: 30%;
+  right: 45%;
+}
+
+.header {
+  font-family:Agenda Light, Agenda, Arial Narrow, sans-serif; 
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 14rem;
+  width: 33%;
+  margin:3rem;
+  float: left;
+ font-size:38px;
+  position:fixed;
+  width: 30vw;
+  height:10vh;
+  
+}
+
+
+.entrada{
+  position:absolute;
+ font-size:24px; 
+  left:-20rem;
+  top:90px;
+ 
+
+}
+#inpuntDois{
+  position:absolute;
+ font-size:24px; 
+  left:-20rem;
+  top:30px;
+ 
+}
+
+.somarNum{
+  
+  position:absolute; 
+  left:25px;
+  top:30px;
+ font-size:20px;
+  width: 29px;
+  }
+
+.diminuirNum{
+  position:absolute; 
+  left:75px;
+  top:30px;
+ font-size:20px;
+  width: 29px;
+}
+
+.multiplicaNum{
+  position:absolute; 
+  left:25px;
+  top:80px;
+ font-size:20px;
+  width: 29px;
+   }
+
+
+.divisorcaNum{
+   position:absolute; 
+  left:75px;
+  top:80px;
+ font-size:20px;
+  width: 29px;
+}
+
+.potenciaNum{
+  position:absolute; 
+  left:130px;
+  top:1.9rem;
+ font-size: 20px;
+  width: 29px;
+}
+.result{
+  color:;
+  font-size:2rem;
+  font-family:Gill Sans, sans-serif	;
+  position:absolute;
+  left:37.9rem;
+  top:5rem;
+  
+
+}
+.visualizar{
+  position:absolute;
+  top:14.6rem;
+  left:2rem;
+  font-size:18px;
+}
+.veja{
+   position:absolute;
+  top:18rem;
+  left:2rem;
+  font-size:18px;
+}
+.back{
+   position:absolute;
+  top:22rem;
+  left:2rem;
+  font-size:19px;
+}
+#historicoAnterior{
+  position:absolute;
+  top:18rem;
+  right:29rem;
+  font-size:52px;
+}
+

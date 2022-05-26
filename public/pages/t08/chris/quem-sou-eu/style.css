@@ -36,9 +36,8 @@
   margin-top:100px;
  
 }
-table {
-  /*border-colapse: colapse; */
-}
+
+
 thead { 
   position: relative;
   left: 90px;
@@ -67,7 +66,6 @@ tr,td{
 }
 
 .corpo-3 {  
-  content:;
   text-align: center;
   background-color:grey;
   position: relative;
@@ -102,7 +100,7 @@ align-items: center;
   top:40px;
   bottom:30px;
   margin-top:10px;
- background-color:grey;*/
+ background-color:grey;
   margin: 10px;
   margin-right: 20px;
   margin-left: 20px;

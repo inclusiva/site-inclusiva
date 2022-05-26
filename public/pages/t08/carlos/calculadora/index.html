@@ -1,0 +1,35 @@
+<h2 class="titulo-calculadora"> Calculadora</h2>
+
+
+<input class="entrada" type="number" id="inpuntUm" placeholder="Digite aqui."/> 
+
+<input class="entrada" type="number" id="inpuntDois" placeholder="Digite aqui."/> 
+
+<input type="checkbox" id="selecao"/>
+
+
+<button class="back" Onclick="anterior()">Histórico anterior</button> 
+
+<button class="visualizar" Onclick="verHistorico()">Visualizar Histórico </button> 
+
+<button class="veja" Onclick="limparHistorico()">Limpar Histórico</button> 
+
+
+
+<button class="somarNum" Onclick="calcular('soma')">+</button>
+
+
+<button class="diminuirNum" Onclick="calcular('subtrair')">-</button>
+
+
+<button class="multiplicaNum" Onclick="calcular('multiplicar')">*</button>
+
+
+<button class="divisorcaNum" Onclick="calcular('dividir')">/</button>
+
+
+<button class="potenciaNum" Onclick="calcular('pontecia')"> P </button>
+
+ <output id="historico"></output>
+
+<h4 id="resultado" class="result"> Resultado</h4>
