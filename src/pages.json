@@ -890,6 +890,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
