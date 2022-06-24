@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <header>
-    <meta charset="UTF-8">
-    <title>CodePen - Calculadora - Aula 18</title>
-    <link rel="stylesheet" href="./style.css">
-  </header>
+     <header>
+          <meta charset="UTF-8">
+          <title>CodePen - Calculadora - Aula 18</title>
+          <link rel="stylesheet" href="./style.css">
+     </header>
 
-  <body>
-
-    <center>
-      <div class="calculator">
-         <!-- Titulo Calculadora  -->
-       <h1>Minha Calculadora<h1>
-         <!--  Inputs calculadora   -->
-                    <form>
-         Primeiro Numero:<input type="number" id="numero1" placeholder="Digite aqui.." class='entrada'></br>
-          Segundo Numero:<input type="number" id="numero2" placeholder="Digite aqui.." class='entrada'>
-          </br>
-                </form>
-        <button class="limpar" onClick="limpar()" title="oi">Limpar</button>
-          <button class="historico" onclick="verHist()">Historico</button>
-          <button class="LimparHist" onclick="limparHist()">Limpar Historico</button>
-           <button class="Anterior" onclick="anterior()">Anterior</button></br>
-                   </form>
-        <!--    botão operacional    -->
-        <button class="operador" onclick="operar('+')">(+)Somar</button>
-        <button class="operador" onclick="operar('-')">(-)Diminuir</button>
-        <button class="operador" onclick="operar('*')">(*)Multiplicar</button>
-        <button class="operador" onclick="operar('/')">(/)Dividir</button> 
-      </div>
-         <!--  resultado na tela -->
-      <div class="resolucao">
-        <h2 id="resultado" >Insira A Operação Acima!!!</h2>
-        <output class="resolucao" id="comparador"></output>
-      </div>
-                         </center>
-                         <script  src="./script.js"></script>
-  </body>
+     <body>
+      <center>
+        <div class="calculator">
+           <!-- Titulo Calculadora  -->
+         <h1>Minha Calculadora<h1>
+           <!--  Inputs calculadora   -->
+                      <form>
+           Primeiro Numero:<input type="number" id="numero1" placeholder="Digite aqui.." class='entrada'></br>
+            Segundo Numero:<input type="number" id="numero2" placeholder="Digite aqui.." class='entrada'>
+            </br>
+                  </form>
+          <button class="limpar" onClick="limpar()" title="oi">Limpar</button>
+            <button class="historico" onclick="verHist()">Historico</button>
+            <button class="LimparHist" onclick="limparHist()">Limpar Historico</button>
+             <button class="Anterior" onclick="anterior()">Anterior</button></br>
+                     </form>
+          <!--    botão operacional    -->
+          <button class="operador" onclick="operar('+')">(+)Somar</button>
+          <button class="operador" onclick="operar('-')">(-)Diminuir</button>
+          <button class="operador" onclick="operar('*')">(*)Multiplicar</button>
+          <button class="operador" onclick="operar('/')">(/)Dividir</button> 
+        </div>
+           <!--  resultado na tela -->
+        <div class="resolucao">
+          <h2 id="resultado" >Insira A Operação Acima!!!</h2>
+          <output class="resolucao" id="comparador"></output>
+        </div>
+                           </center>
+     </body>
 </html>
+
+
+

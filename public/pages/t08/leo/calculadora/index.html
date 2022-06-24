@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+     <header>
+          <meta charset="UTF-8">
+          <title>CodePen - Calculadora - Aula 18</title>
+          <link rel="stylesheet" href="./style.css">
+     </header>
+
+     <body>
+      <h1>Calculadora do Leo</h1>
+
+      <h2>escolha os números que deseja calcular depois a operação:</h2>
+      
+      <input type=number class ="numeros" id="primeironumero">
+      </input>
+      
+      <input type=number class ="numeros" id="segundonumero"> = 
+      </input>
+      
+      <input type="number" id="resultcalc"disabled></input>
+      
+      </br>
+      </br>
+      
+      <button class="botoes" onClick="Trocar()">
+        <h6>trocar</h6>
+      </button>
+      
+      <button class="botoes" onClick="Zerar()">
+        <h6>Zerar</h6>
+      </button>
+      
+      <button class="botoes" onClick="Limpar()">
+        <h6>Limpar</h6>
+      </button>
+      
+        <button class="botoes" class="operador" onClick="operar('+')">+</button>
+        <button class="botoes" class="operador" onClick="operar('-')">-</button>
+        <button class="botoes" class="operador" onClick="operar('*')">*</button>
+        <button class="botoes" class="operador" onClick="operar('/')">/</button>
+      
+      </div>
+      
+      </br>
+      
+      <input type=checkbox id="naturais">
+        Clique aqui se você quer apenas números naturais
+      </input>
+      
+      </br>
+      
+      <button class="botoes" class="back" Onclick="anterior()">Histórico anterior</button> 
+      <button class="botoes" class="visualizar" Onclick="verHistorico()">Ver Histórico</button>
+      <button class="botoes" class="limpar" Onclick="limparHistorico()">Limpar Histórico</button>
+      
+      <h3 id="historico"></h3>
+     </body>
+</html>

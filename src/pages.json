@@ -871,7 +871,7 @@
   {"name":"Turma 08",
     "path":"t08",
     "projects":[
-      {"name":"Biamichelle",
+      {"name":"Amanda Nolasco",
         "path":"amanda",
                 "description":"Conheça as páginas de construídas por nossas estudantes",
                 "picture":"../assets/t08/individual/amanda.jpg",
@@ -905,6 +905,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
@@ -931,6 +935,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
@@ -942,6 +950,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
@@ -987,6 +999,10 @@
           {
             "name": "Calculadora (JS)",
             "path": "calculadora"
+          },
+          {
+            "name": "Site Listinha (React)",
+            "path": "https://kalebe-toplista.netlify.app/"
           }
         ]
       },
@@ -998,6 +1014,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
@@ -1009,6 +1029,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       },
@@ -1061,6 +1085,10 @@
           {
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
+          },
+          {
+            "name": "Calculadora (JS)",
+            "path": "calculadora"
           }
         ]
       }
