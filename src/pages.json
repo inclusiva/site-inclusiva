@@ -880,7 +880,13 @@
             "name": "Quem eu sou - (HTML5, CSS)",
             "path": "quem-sou-eu"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Ana Clara",
         "path":"ana",
@@ -895,7 +901,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://listinha-da-ana.netlify.app/  "
+                  }
+                ]
       },
       {"name":"Angelo Rogerio",
         "path":"angelo",
@@ -910,7 +922,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Carlos Eduardo",
         "path":"carlos",
@@ -925,7 +943,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Christian Ramos",
         "path":"chris",
@@ -940,7 +964,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Francielle da Rosa",
         "path":"franciele",
@@ -955,7 +985,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                  "site":[
+                    {
+                      "name": "Site listinha - (React)",
+                      "link": "https://kalebe-toplista.netlify.app/ "
+                    }
+                  ]
       },
       {"name":"Gabriela Gomes",
         "path":"gabi",
@@ -970,7 +1006,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Guilherme Soares",
         "path":"gui",
@@ -985,7 +1027,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Kalebe Amadeu",
         "path":"kalebe",
@@ -999,12 +1047,14 @@
           {
             "name": "Calculadora (JS)",
             "path": "calculadora"
-          },
-          {
-            "name": "Site Listinha (React)",
-            "path": "https://kalebe-toplista.netlify.app/"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Leonardo Gomes",
         "path":"leo",
@@ -1019,7 +1069,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://62b40b1ad3c7f34ae546be06--whimsical-zabaione-f56518.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Lucas Esteves",
         "path":"lucas",
@@ -1064,7 +1120,13 @@
             "name": "Calculadora (JS)",
             "path": "calculadora"
           }
-        ]
+        ],
+                "site":[
+                  {
+                    "name": "Site listinha - (React)",
+                    "link": "https://kalebe-toplista.netlify.app/ "
+                  }
+                ]
       },
       {"name":"Telmo Miguel",
         "path":"tel",

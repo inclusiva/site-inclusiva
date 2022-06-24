@@ -44,7 +44,7 @@ const GroupPanel = ({name, path, projects}) => (
   </ExpansionPanel>
 )
 
-const ProjectCard = ({name, currentPath, path, description, picture, pages}) => (
+const ProjectCard = ({name, currentPath, path, description, picture, pages, site}) => (
   <Card className="ProjectCard">
     <CardMedia image={picture} title={name} component="img" />
     <CardContent className="CardContent">
@@ -58,7 +58,11 @@ const ProjectCard = ({name, currentPath, path, description, picture, pages}) => 
         {pages.map((page, index) => (
           <ProjectLink key={index} currentPath={currentPath +'/'+ path} {...page} />
         ))}
+        {site && site.map((site, index) => (
+          <SiteLink key={index} {...site} />
+        ))}
       </List>
+      
     </CardContent>
   </Card>
 )
@@ -72,6 +76,13 @@ const ProjectLink = ({name, currentPath, path}) => (
     <ListItemText className="Title" primary={name} />
   </ListItemLink>
 )
+
+const SiteLink = ({name, link}) => (
+  <ListItemLink href={link}>
+    <ListItemText className="Title" primary={name} />
+  </ListItemLink>
+)
+
 
 const Main = () => {
  return (
