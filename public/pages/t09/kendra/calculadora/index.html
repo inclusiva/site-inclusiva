@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+     <header>
+          <meta charset="UTF-8">
+          <title>CodePen - Calculadora - Aula 18</title>
+          <link rel="stylesheet" href="./style.css">
+     </header>
+
+     <body>
+          <div id= "Calculadora">      
+               <div class="box1">
+                  <center>
+                    <input  type="number" class="entrada" id="valor1"/> <br> <br/>
+                    <input  type="number" class="entrada" id="valor2"/> <br> <br/> 
+                    <h4   id="resultado" class="resultado"> Resultado</h4>   
+               <p id="natural">  Naturais:</p><input type="checkbox" id="selecao"/> 
+                  <br> </br>
+                 <br>
+                    <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'" class="primeiroBotao" onClick="operacoes('adicao')"> + </button>
+                       <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'" class="primeiroBotao"  onClick="operacoes('subtracao')">-</button>
+                       <button  OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'" class="primeiroBotao" onClick="operacoes('multiplicacao')">*</button>
+                       <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'" class="primeiroBotao" onClick="operacoes('divisao')">/</button>        
+                                  
+                
+               
+                 </div>
+                  
+                               
+                     
+                          
+                 <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'"  class="back" Onclick="anterior()">Histórico anterior</button> 
+               
+                <output id="historico"></output>
+               
+                     <output id="historicoAnterior"></output>
+                 
+               
+                 
+                 <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'"  class="veja" Onclick="limparHistorico()">Limpar Histórico</button> 
+               
+                   <button OnMouseOver="this.style.backgroundColor='purple'" 
+                        OnMouseOut="this.style.backgroundColor='#1fc8db'"  class="visualizar" Onclick="verHistorico()">Visualizar Histórico </button> 
+                 
+                 
+                 
+               
+               
+                      </div>
+                  </div>
+                  <script  src="./script.js"></script>
+     </body>
+</html>
+  

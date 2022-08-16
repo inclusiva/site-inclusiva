@@ -1,6 +1,7 @@
 /* .Main {
     margin-top: 100px;
-} */
+    column-count: 2;
+}  */
   
   .Main img {
     width: 200x;

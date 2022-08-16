@@ -1,0 +1,30 @@
+*{
+  margin:0;
+	padding:0;
+}
+
+.caixinha1{
+ padding:1%; 
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7jjlZQM7tJC2uttNBi0nWc0OLaEvfIuFxHg&usqp=CAU');
+  no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 { 
+  text-align: center;
+  color: white;
+}
+
+.caixinha2{
+  width: 150px; 
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+background-image:                         
+  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHUONhqnrtRrDoT6BAE9vbOARPVCBIM0mEB7zAhvdm41rsvF1nrLF0DuUbWlMfN0GuT4&usqp=CAU');
+  no-repeat center center fixed;
+  background-size: cover;
+}

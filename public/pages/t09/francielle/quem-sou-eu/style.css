@@ -1,0 +1,40 @@
+.sub-titulo{
+  text-decoration: underline overline;
+  color: MidnightBlue;
+} 
+
+
+strong {
+  color: MidnightBlue;
+}
+
+body {
+  background-image:                         url('https://i.pinimg.com/originals/4a/8c/66/4a8c661b4788a2e22a7cb3cc49c67126.gif');
+  background-image: no-repeat center center fixed;
+  background-size: cover;
+}
+
+.paragrafo {
+  max-width: 40ch;
+}
+
+.caixinha{
+  display: inline-block;
+  margin: 30px;
+}
+
+.tabela, .linha, .coluna{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.formulario{
+  background-color: SteelBlue;
+  width:20%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.linha-formulario{
+  margin:10px;
+}

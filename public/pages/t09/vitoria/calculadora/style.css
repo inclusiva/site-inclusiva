@@ -1,0 +1,105 @@
+body{
+background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, purple 65%);; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 125vh;
+  width: 100vw;
+  background-position: center;  
+}
+
+.box1 {
+  width: 90%;
+  height: 50%;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:2%;
+  font-size:26px;
+  
+}
+
+Calculadora {
+  background: ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); 
+}
+#valor1, #valor2{
+  background: white;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  font-size: 30px;
+  height: 30px;
+  width:70%;
+  border:1;
+  margin:0;
+  text-align:left;
+  padding:14px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  opacity: 0.8px;
+}
+
+.primeiroBotao{
+   font-size:35px;
+  
+  
+}
+
+.resultado{
+  font-size:25px; 
+ 
+}
+#natural {
+   width: 50%;
+  height: 50%;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:1%;
+  font-size:26px;
+  font-family:Gill Sans, sans-serif	;
+}
+
+#selecao {
+  width: 712px;
+  height: 30px;
+  border: solid white;
+  transform: rotate(45deg);
+  top: 77px;
+  left:449px;
+  cursor: pointer;
+ 
+}
+ 
+ .visualizar{
+  position:absolute;
+  top:32.6rem;
+  left:2rem;
+  font-size:18px;
+}
+.veja{
+   position:absolute;
+  top:27rem;
+  left:2rem;
+  font-size:18px;
+}
+.back{
+   position:absolute;
+  top:22.6rem;
+  left:2rem;
+  font-size:18px;
+}
+#historicoAnterior{
+  position:absolute;
+  top:22.5rem;
+  left:11.9rem;
+  font-size:28px;
+}
+
+#historico{
+  position:absolute;
+  top:34.3rem;
+  left:1.9rem;
+  font-size:37px;
+}
+
