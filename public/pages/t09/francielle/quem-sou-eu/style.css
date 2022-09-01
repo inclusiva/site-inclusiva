@@ -1,40 +1,124 @@
-.sub-titulo{
-  text-decoration: underline overline;
-  color: MidnightBlue;
-} 
-
-
-strong {
-  color: MidnightBlue;
+* {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
-body {
-  background-image:                         url('https://i.pinimg.com/originals/4a/8c/66/4a8c661b4788a2e22a7cb3cc49c67126.gif');
-  background-image: no-repeat center center fixed;
-  background-size: cover;
+.container1,
+.container2 {
+    display: flex;
+    flex-direction: row;
 }
 
-.paragrafo {
-  max-width: 40ch;
+.containerFotos {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.caixinha{
-  display: inline-block;
-  margin: 30px;
+.capa {
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
+    height: 200px;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.tabela, .linha, .coluna{
-  border: 1px solid black;
-  padding: 5px;
+.img1 {
+    background-image: url("./Resources/img2.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
 }
 
-.formulario{
-  background-color: SteelBlue;
-  width:20%;
-  padding: 20px;
-  margin: 20px;
+.img2 {
+    background-image: url("./Resources/img1.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
 }
 
-.linha-formulario{
-  margin:10px;
+.img3 {
+    background-image: url("./Resources/img3.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.img4 {
+    background-image: url("./Resources/img4.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.img5 {
+    background-image: url("./Resources/img5.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.img6 {
+    background-image: url("./Resources/img6.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border: solid black 1px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.historia {
+    width: 50%;
+    padding: 70px;
+    height: 700px;
+}
+
+.fotos,
+.historia,
+.musicas,
+.filmes,
+.gostos {
+    border: solid black 1px;
+    border-radius: 3px;
+    margin-bottom: 2px;
+    height: 450px;
+}
+
+p,
+ul,
+li {
+    font-size: 20px;
+}
+
+p,
+h1,
+ul,
+li {
+    font-family: "Dancing Script", cursive;
+}
+
+.filmes,
+.musicas {
+    width: 300px;
+    margin: 3px;
+    padding: 3px;
 }
