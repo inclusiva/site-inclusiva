@@ -2,16 +2,16 @@
     margin-top: 100px;
     column-count: 2;
 }  */
+
+/* .Main h2 {
+    font-weight: 900;
+    font-size: 42px;
+  }  */
   
   .Main img {
     width: 200x;
     height: 200px;
   } 
-  
-  /* .Main h2 {
-    font-weight: 900;
-    font-size: 42px;
-  }  */
 
   #header-turmas{
     padding-top: 50px;
@@ -29,7 +29,7 @@
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 10px;
     margin: 20px;
-    width: 20%;
+    width: 25%;
     transition: all 0.3s ease-out;
     background-color: #fff;
     border-left: 10px solid #EEBCA1;

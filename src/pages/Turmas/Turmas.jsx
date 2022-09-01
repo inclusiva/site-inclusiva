@@ -4,10 +4,8 @@ import Footer from '../../components/Footer/Footer'
 import './turmas.styless.css'
 import ImagePortfolio from '../../assets2/port.svg'
 
-
 import React from 'react';
-
-import '../../../src/App.css';
+// import '../../../src/App.css';
 import json from '../../pages.json';
 
 import Card from '@material-ui/core/Card';
