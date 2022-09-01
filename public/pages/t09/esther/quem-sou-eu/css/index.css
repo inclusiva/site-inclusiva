@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.primeirasesao {
+    background-image: url("../img/foto.bio.jpeg");
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titulo {
+    column-gap: 2;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.textoInicial {
+    font-size: 25px;
+    padding-bottom: -10px;
+}
+
+.segundasesao {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    font-size: 14px;
+    color: grey;
+}
+
+.titulo {
+    font-size: 29px;
+}
+
+.segundotexto {
+    color: white;
+    font-size: 34px;
+}
+
+.terceirasesao {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.curiosidades {
+    font-size: 23px;
+    line-height: 2.Ben;
+}
+
+.quartasesao {
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    font-size: 25px;
+    background-image: url();
+    color: grey;
+    position: relative;
+    bottom: 600px;
+}
+
+#musicos {
+    bottom: 700px;
+    padding-bottom: 100px;
+}
+
+#theweeknd {
+    width: 230px;
+}
+
+#charlie {
+    width: 269px;
+}
+
+#l7 {
+    width: 200px;
+}
+
+#puma {
+    width: 200px;
+}
+
+.musicas {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+th,
+td {
+    font-size: 40px;
+    border: 9px solid black;
+    font-family: Arial Narrow;
+}

@@ -1,0 +1,193 @@
+body {
+    background-color: aliceblue;
+}
+
+.secao1 {
+    width: 100%;
+    height: 330px;
+    background-image: url("../img/fotodefundo.webp");
+}
+
+.links {
+    font-size: 30px;
+}
+
+.secao2 {
+    width: 100%;
+    height: 430px;
+    background-image: url("../img/fotodefundo.webp");
+}
+
+#titulo1 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#fotominha {
+    left: 80px;
+    top: 480px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 10px solid aliceblue;
+    border-radius: 200px;
+}
+
+#p1 {
+    height: 25px;
+    left: 430px;
+    position: absolute;
+    top: 480px;
+    width: 500px;
+    font-size: 20px;
+    color: rgb(58, 57, 57);
+}
+
+.secao3 {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/fotodefundo.webp");
+}
+
+#titulo2 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#p2 {
+    height: 250px;
+    left: 50px;
+    position: absolute;
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(58, 57, 57);
+}
+
+#inter {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 980px;
+    left: 700px;
+    border: 10px solid rgb(169, 5, 5);
+    border-radius: 50px;
+}
+
+.secao4 {
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/fotodefundo.webp");
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.listasComidas {
+    column-count: 2;
+}
+
+#titulo3 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+#lista1 {
+    font-size: 30px;
+    color: rgb(58, 57, 57);
+}
+
+#titulo4 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+    padding-top: 46px;
+}
+
+#lista2 {
+    font-size: 30px;
+    color: rgb(58, 57, 57);
+}
+
+#lasanha {
+    width: 180px;
+    height: 130px;
+}
+
+#strogonoff {
+    width: 180px;
+    height: 130px;
+}
+
+#xis {
+    width: 180px;
+    height: 130px;
+}
+
+#mousse {
+    width: 180px;
+    height: 130px;
+    padding-left: 60px;
+}
+
+#brigadeirodepanela {
+    width: 180px;
+    height: 130px;
+}
+
+#acai {
+    width: 180px;
+    height: 130px;
+}
+
+.secao5 {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/fotodefundo.webp");
+    margin-bottom: 50px;
+}
+
+.curiosidades {
+    column-count: 3;
+}
+
+#titulo5 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 33px;
+}
+
+.titulo5 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.listaSobreMim {
+    font-size: 25px;
+    color: rgb(58, 57, 57);
+}
+
+.secao6 {
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/fotodefundo.webp");
+}
+
+#tituloFormulario {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+    padding-top: 46px;
+}
+
+.formulario {
+    text-align: center;
+}

@@ -1,0 +1,502 @@
+ .seçao0 {
+     width: 100%;
+     height: 60px;
+     background-color: #FFA300;
+ }
+ 
+ #cidade {
+     color: #004A92;
+     position: relative;
+     left: 50px;
+     top: -30px;
+     font-size: 40px;
+ }
+ 
+ #meunascimento {
+     color: #004A92;
+     position: relative;
+     left: 900px;
+     top: -30px;
+     font-size: 40px;
+ }
+ 
+ .primeiraseçao {
+     width: 100%;
+     height: 700px;
+     background-color: #FFA300;
+     background-image: url("../IMG/primeira\ foto.jpg");
+     background-position: center;
+ }
+ 
+ #titulo {
+     color: #FFFFFF;
+     font-size: 80px;
+     position: relative;
+     top: 400px;
+     left: 30px;
+ }
+ 
+ #titulo2 {
+     color: #FFFFFF;
+     font-size: 30px;
+     text-align: left;
+     position: relative;
+     top: 300px;
+     padding-left: 450px;
+ }
+ 
+ .segundaseçao {
+     width: 100%;
+     height: 600px;
+     background-color: #FFFFFF;
+ }
+ 
+ #titulos {
+     color: #00213C;
+     font-size: 60px;
+     padding-left: 1000px;
+     position: relative;
+     top: -200px;
+ }
+ 
+ #tópicos {
+     font-size: 30px;
+     position: relative;
+     top: -250px;
+     padding-left: 1000px;
+ }
+ 
+ div.quadrado1 {
+     background: #FFCE5F;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: 80px;
+     padding-left: 20px;
+ }
+ 
+ div.quadrado2 {
+     background: #FFA300;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: 333px;
+     padding-left: 20px;
+ }
+ 
+ div.quadrado3 {
+     background: #FFA300;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: -80px;
+     left: 330px;
+     padding-left: 20px;
+ }
+ 
+ div.quadrado4 {
+     background: #FFCE5F;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: -260px;
+     left: 330px;
+     padding-left: 20px;
+ }
+ 
+ div.quadrado5 {
+     background: #FFCE5F;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: -670px;
+     left: 650px;
+     padding-left: 20px;
+ }
+ 
+ div.quadrado6 {
+     background: #FFA300;
+     width: 250px;
+     height: 80px;
+     position: relative;
+     top: -420px;
+     left: 650px;
+     padding-left: 20px;
+ }
+ 
+ #pintura {
+     width: 260px;
+     height: 360px;
+     position: relative;
+     top: -810px;
+     padding-left: 6px;
+ }
+ 
+ #modelo {
+     width: 260px;
+     height: 360px;
+     position: relative;
+     top: -810px;
+     padding-left: 65px;
+ }
+ 
+ #suquinho {
+     width: 260px;
+     height: 360px;
+     position: relative;
+     top: -810px;
+     padding-left: 57px;
+ }
+ 
+ .terceiraseçao {
+     width: 100%;
+     height: 600px;
+     background-color: #FFFFDA;
+ }
+ 
+ #subtitulo {
+     padding-top: 100px;
+     padding-left: 100px;
+     position: relative;
+     top: -100px;
+ }
+ 
+ #paragrafoTerceiraSecao {
+     padding-left: -100px;
+     line-height: 1.8em;
+     font-size: 30px;
+     position: relative;
+     top: -160px;
+     left: 30px;
+ }
+ 
+ img {
+     width: 400px;
+     position: relative;
+     top: -510px;
+     padding-left: 800px;
+ }
+ 
+ h1 {
+     color: #004A92;
+     font-size: 60px;
+ }
+ 
+ img,
+ h1 {
+     display: inline-block;
+ }
+ 
+ div.textomeu {
+     font-size: 20px;
+     width: 500px;
+ }
+ 
+ .Curiosidades {
+     width: 100%;
+     height: 600px;
+     background-color: blueviolet;
+     background-image: url("../IMG/foto\ das\ curiosidades.jpg");
+     background-position: center;
+ }
+ 
+ #eu {
+     color: #FFFFFF;
+     font-size: 100px;
+     position: relative;
+     top: 200px;
+     left: 160px;
+ }
+ 
+ .Curiosidades2 {
+     width: 100%;
+     height: 350px;
+     background-color: #FFFFFF;
+ }
+ 
+ #lista {
+     font-size: 30px;
+     line-height: 1.8;
+ }
+ 
+ .penultimaseçao {
+     width: 100%;
+     height: 500px;
+     background-color: aqua;
+ }
+ 
+ .ultimaseçao {
+     background-color: #FFFFDA;
+     width: 100%;
+     height: 700px;
+ }
+ 
+ #voluntariado {
+     width: 491px;
+     height: 560px;
+     position: relative;
+     top: 1px;
+     padding-left: 932px;
+ }
+ 
+ #sobrancelha {
+     width: 300px;
+     height: 250px;
+     position: relative;
+     top: -253px;
+     padding-left: 632px;
+ }
+ 
+ #jamal {
+     width: 300px;
+     height: 350px;
+     position: relative;
+     top: -818px;
+     padding-left: 632px;
+ }
+ 
+ #trio {
+     width: 250px;
+     height: 350px;
+     position: relative;
+     top: -961px;
+     padding-left: 385px;
+ }
+ 
+ #vela {
+     width: 200px;
+     height: 250px;
+     position: relative;
+     top: -1526px;
+     left: -365px;
+ }
+ 
+ #namoro {
+     /* width: 400px;
+     height: 350px; */
+     position: relative;
+     top: -1569px;
+     left: -800px;
+     /* padding-left: 0;; */
+ }
+ 
+ #bobesponja {
+     width: 250px;
+     height: 250px;
+     position: relative;
+     top: -2070px;
+     left: -615px;
+ }
+ 
+ #raven {
+     width: 185px;
+     height: 251px;
+     position: relative;
+     top: -2325px;
+     left: -799px;
+ }
+ 
+ .tabela {
+     width: 100%;
+     height: 490px;
+     background-color: #FFFFFF;
+     position: relative;
+     font-size: 40px;
+ }
+ 
+ #rhtabel {
+     color: #004A92;
+     font-size: 70px;
+     font-family: unset;
+     position: relative;
+     top: -30px;
+     left: 400px;
+ }
+ 
+ #rotina {
+     color: #000000;
+     font-size: 30px;
+     font-family: unset;
+     position: relative;
+     top: -30px;
+     left: 200px;
+ }
+ 
+ #semana {
+     color: #FFA300;
+     font-size: 40px;
+ }
+ 
+ .musica {
+     width: 100%;
+     height: 600px;
+     background-color: #FFFFDA;
+ }
+ 
+ #tituloM {
+     color: #00213C;
+     font-size: 70px;
+     font-family: unset;
+     position: relative;
+     top: 30px;
+     left: 700px;
+ }
+ 
+ #text {
+     padding-left: 700px;
+     line-height: 1.8em;
+     font-size: 30px;
+     position: relative;
+     top: -40px;
+ }
+ 
+ #doja {
+     width: 200px;
+     height: 200px;
+     position: relative;
+     top: -450px;
+     padding-left: 20px;
+ }
+ 
+ #baco {
+     width: 200px;
+     height: 220px;
+     position: relative;
+     top: -300px;
+     padding-left: 0px;
+ }
+ 
+ #gemeas {
+     width: 200px;
+     height: 200px;
+     position: relative;
+     top: -150px;
+     padding-left: 0px;
+ }
+ 
+ .teste {
+     width: 100%;
+     height: 180px;
+     background-color: #ffffc1;
+ }
+ 
+ #family {
+     color: #00213C;
+     font-size: 90px;
+     font-style: oblique;
+     position: relative;
+     top: -30px;
+     left: 400px;
+ }
+ 
+ .familia {
+     width: 100%;
+     height: 700px;
+     background-color: #FFFFFF;
+     background-position: center;
+ }
+ 
+ #arvore {
+     width: 1300px;
+     height: 600px;
+     position: relative;
+     top: 60px;
+     padding-left: 10px;
+ }
+ 
+ .origem {
+     width: 100%;
+     height: 600px;
+     background-color: #f1bf79;
+ }
+ 
+ #nome {
+     color: #00213C;
+     font-size: 60px;
+     font-style: oblique;
+     position: relative;
+     top: 0px;
+     left: 20px;
+ }
+ 
+ #textonome {
+     line-height: 1.8em;
+     font-size: 30px;
+     position: relative;
+     top: -60px;
+     padding-left: 700px;
+     left: -650px;
+ }
+ 
+ #livro {
+     width: 400px;
+     height: 500px;
+     position: relative;
+     top: -450px;
+ }
+ 
+ .obrigado {
+     width: 100%;
+     height: 200px;
+     background-color: #FFFFFF;
+ }
+ 
+ #grata {
+     color: #00213C;
+     font-size: 40px;
+     font-style: oblique;
+     position: relative;
+     left: 450px;
+ }
+ 
+ .redes {
+     width: 32px;
+     position: relative;
+     top: 120px;
+     padding-left: 100px;
+     right: 200px;
+ }
+ 
+ a {
+     position: relative;
+     top: 110px;
+     right: 200px;
+     color: #00213C;
+ }
+ 
+ .form {
+     width: 100%;
+     height: 200px;
+     background-color: #FFFFDA;
+ }
+ 
+ #sessãopesquisa {
+     font-size: 30px;
+ }
+ 
+ .formulario {
+     position: relative;
+     padding-left: 50px;
+ }
+ 
+ #linha1 {
+     font-size: 20px;
+     position: relative;
+ }
+ 
+ div.linha2 {
+     position: relative;
+     top: 20px;
+ }
+ 
+ div.linha3 {
+     position: relative;
+     top: px;
+ }
+ 
+ #arroba {
+     font-size: 10px;
+     position: relative;
+     padding-left: 1220px;
+     top: 20px;
+ }
