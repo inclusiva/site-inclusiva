@@ -1,95 +1,79 @@
-   var entrandaInput = document.getElementsByClassName("entrada");
-
-   var  resultadoo = document.getElementById('resultado');
-   
-   var historico = [];
-
-function operacoes(sinal){  
-  var inputUm =  parseInt(entrandaInput[0].value)
-  var inputDois =  parseInt(entrandaInput[1].value)
-  
-  var naturais = Boolean(document.getElementById('selecao').checked);
-  
-   var result;
-  
- if (sinal == 'adicao') {
-  result = adicao(inputUm, inputDois);
-   
- } else if(sinal == 'subtracao') {
-   result = subtracao(inputUm, inputDois);
-   
- } else if(sinal == 'multiplicacao') {
-   result = multiplicacao(inputUm, inputDois);
-   
- } else if(sinal == 'divisao') {
-   result = divisao(inputUm, inputDois);
-   
- } else {
-   alert('Escolha uma operacao')
- }
-  if (naturais == true && result < 0){
-        resultadoo.innerText = 0 ;
-      } else {
-        resultadoo.innerText = ' O resultado é: ' + result;
-      }  
-      
-     salvarResultado(result);
-
-}
-function adicao(inputUm, inputDois){ 
- return inputUm + inputDois;
+function getHistory() {
+    return document.getElementById("history-value").innerText;
 }
 
-function subtracao(inputUm, inputDois) {
- return inputUm - inputDois;
+function printHistory(num) {
+    document.getElementById("history-value").innerText = num;
 }
 
-function multiplicacao(inputUm, inputDois){ 
-  var resultado = 0;
-
-      for (var i=0; i < inputDois; i++){
-    resultado = resultado + inputUm;
-  }
-  
-  return resultado;
+function getOutput() {
+    return document.getElementById("output-value").innerText;
 }
 
-
-function divisao(inputUm, inputDois){
-  if (inputDois == 0){
-    alert(' Não pode dividir por 0')
-    document.getElementById('resultado') = ' ';
-  }
- return  inputUm / inputDois; 
- }
-
-
-
-function verHistorico(){
-  var textoHistorico = " ";
-  for (var i =0; i < historico.length; i++){
-    textoHistorico = textoHistorico + " "+ historico[i] ;
-  }
-   document.getElementById("historico").value = textoHistorico;
-
+function printOutput(num) {
+    if (num == "") {
+        document.getElementById("output-value").innerText = num;
+    } else {
+        document.getElementById("output-value").innerText = getFormattedNumber(num);
+    }
 }
 
-
- function limparHistorico(){
-  document.getElementById("historico").value = "";
-  document.getElementById("historicoAnterior").value = "";
-  historico = new array ();
+function getFormattedNumber(num) {
+    if (num == "-") {
+        return "";
+    }
+    var n = Number(num);
+    var value = n.toLocaleString("en");
+    return value;
 }
 
-function salvarResultado(result){
-  historico.push(result);
+function reverseNumberFormat(num) {
+    return Number(num.replace(/,/g, ''));
 }
+var operator = document.getElementsByClassName("operator");
+for (var i = 0; i < operator.length; i++) {
+    operator[i].addEventListener('click', function() {
+        if (this.id == "clear") {
+            printHistory(" ");
+            printOutput(" ");
+        } else if (this.id == "backspace") {
+            var output = reverseNumberFormat(getOutput()).toString();
+            if (output) { //if output has a value
+                output = output.substr(0, output.length - 1);
+                printOutput(output);
+            }
+        } else {
+            var output = getOutput();
+            var history = getHistory();
+            if (output == "" && history != "") {
+                if (isNaN(history[history.length - 1])) {
+                    history = history.substr(0, history.length - 1);
+                }
+            }
+            if (output != "" || history != "") {
+                output = output == "" ? output : reverseNumberFormat(output);
+                history = history + output;
+                if (this.id == "=") {
+                    var result = eval(history);
+                    printOutput(result);
+                    printHistory("");
+                } else {
+                    history = history + this.id;
+                    printHistory(history);
+                    printOutput("");
+                }
+            }
+        }
 
-function anterior(){
-  var ultimo = historico.pop();
-  document.getElementById("historicoAnterior").value = ultimo;
-  
-  if (ultimo == undefined){
-    document.getElementById("historicoAnterior").value = 'Não tem anterior';
-  }
-  }
+    });
+}
+var number = document.getElementsByClassName("number");
+for (var i = 0; i < number.length; i++) {
+    number[i].addEventListener('click', function() {
+        var output = reverseNumberFormat(getOutput());
+        if (output != NaN) { //if output is a number
+            output = output + this.id;
+            printOutput(output);
+        }
+    });
+}
