@@ -1143,14 +1143,15 @@
                     "name": "Quem eu sou - (HTML5, CSS)",
                     "path": "quem-sou-eu"
                 }],
-                "siteCalculadora": [{
-                    "name": "Calculadora (JS)",
-                    "link": "https://calculadora-clean.netlify.app/"
-                }],
                 "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://minha-lista-angelo-neves.netlify.app/ "
-                }]
+                        "name": "Calculadora (JS)",
+                        "link": "https://calculadora-clean.netlify.app/"
+                    },
+                    {
+                        "name": "Site listinha - (React)",
+                        "link": "https://minha-lista-angelo-neves.netlify.app/ "
+                    }
+                ]
             },
             {
                 "name": "Christian Ramos",
@@ -1184,11 +1185,7 @@
                         "name": "Calculadora (JS)",
                         "path": "calculadora"
                     }
-                ],
-                "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://listinha-do-chris.netlify.app/ "
-                }]
+                ]
             },
             {
                 "name": "Francielle da Rosa",
@@ -1196,17 +1193,8 @@
                 "description": "Conheça as páginas de construídas por nossas estudantes",
                 "picture": "assets/t09/individual/francielle.jpg",
                 "pages": [{
-                        "name": "Quem eu sou - (HTML5, CSS)",
-                        "path": "quem-sou-eu"
-                    },
-                    {
-                        "name": "Calculadora (JS)",
-                        "path": "calculadora"
-                    }
-                ],
-                "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://leafy-speculoos-334bd7.netlify.app/"
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
                 }]
             },
             {
@@ -1222,11 +1210,7 @@
                         "name": "Calculadora (JS)",
                         "path": "calculadora"
                     }
-                ],
-                "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://magnificent-puppy-90d3e4.netlify.app/"
-                }]
+                ]
             },
             {
                 "name": "Laisa Luzni",
@@ -1241,11 +1225,7 @@
                         "name": "Calculadora (JS)",
                         "path": "calculadora"
                     }
-                ],
-                "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://kalebe-toplista.netlify.app/ "
-                }]
+                ]
             },
             {
                 "name": "Leonardo Zancan",
@@ -1260,11 +1240,7 @@
                         "name": "Calculadora (JS)",
                         "path": "calculadora"
                     }
-                ],
-                "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://kalebe-toplista.netlify.app/ "
-                }]
+                ]
             },
             {
                 "name": "Luiz Miguel",
@@ -1297,14 +1273,9 @@
                 "description": "Conheça as páginas de construídas por nossas estudantes",
                 "picture": "assets/t09/individual/ophelia.jpeg",
                 "pages": [{
-                        "name": "Quem eu sou - (HTML5, CSS)",
-                        "path": "quem-sou-eu"
-                    },
-                    {
-                        "name": "Calculadora (JS)",
-                        "path": "calculadora"
-                    }
-                ]
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
             },
             {
                 "name": "Pablo Willian",
@@ -1315,14 +1286,15 @@
                     "name": "Quem eu sou - (HTML5, CSS)",
                     "path": "quem-sou-eu"
                 }],
-                "siteCalculadora": [{
-                    "name": "Calculadora (JS)",
-                    "link": "https://calculadora-de-botao-pablo.netlify.app/"
-                }],
                 "site": [{
-                    "name": "Site listinha - (React)",
-                    "link": "https://listinha-manohunter.netlify.app/ "
-                }]
+                        "name": "Calculadora (JS)",
+                        "link": "https://calculadora-de-botao-pablo.netlify.app/"
+                    },
+                    {
+                        "name": "Site listinha - (React)",
+                        "link": "https://listinha-manohunter.netlify.app/ "
+                    }
+                ]
             },
             {
                 "name": "Rafael Soares",
@@ -1330,9 +1302,14 @@
                 "description": "Conheça as páginas de construídas por nossas estudantes",
                 "picture": "assets/t09/individual/rafael.jpg",
                 "pages": [{
-                    "name": "Quem eu sou - (HTML5, CSS)",
-                    "path": "quem-sou-eu"
-                }]
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
                 "name": "Vitoria Gazolla",
