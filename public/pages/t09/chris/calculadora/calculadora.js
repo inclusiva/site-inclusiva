@@ -20,4 +20,3 @@ function calcular() {
         document.getElementById('resultado').innerHTML = "Nada..."
     }
 }
-q
