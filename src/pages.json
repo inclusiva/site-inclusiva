@@ -1,1442 +1,1379 @@
-[
-    {"name":"Turma 01",
-          "path":"t01",
-          "projects":[
-        {"name":"Quem Sou Eu",
-          "path":"quem-sou-eu",
-                  "description":"Conheça as páginas de perfil construídas por nossas estudantes",
-                  "picture":"assets/lapis.jpg",
-                  "pages":[
-            {
-              "name": "Cássia",
-              "path": "cassia"
+[{
+        "name": "Turma 01",
+        "path": "t01",
+        "projects": [{
+                "name": "Quem Sou Eu",
+                "path": "quem-sou-eu",
+                "description": "Conheça as páginas de perfil construídas por nossas estudantes",
+                "picture": "assets/lapis.jpg",
+                "pages": [{
+                        "name": "Cássia",
+                        "path": "cassia"
+                    },
+                    {
+                        "name": "Fernanda",
+                        "path": "fernanda"
+                    },
+                    {
+                        "name": "Ingrid",
+                        "path": "ingrid"
+                    },
+                    {
+                        "name": "Karolay",
+                        "path": "karolay"
+                    },
+                    {
+                        "name": "Matheus",
+                        "path": "matheus"
+                    },
+                    {
+                        "name": "Nicoly",
+                        "path": "nicoly"
+                    },
+                    {
+                        "name": "Pamela",
+                        "path": "pamela"
+                    },
+                    {
+                        "name": "Penelope",
+                        "path": "penelope"
+                    },
+                    {
+                        "name": "Victoria",
+                        "path": "victoria"
+                    }
+                ]
             },
             {
-              "name": "Fernanda",
-              "path": "fernanda"
+                "name": "Entre na Aceleradora",
+                "path": "bem-vindos",
+                "description": "Saiba mais sobre o projeto em cinco páginas idealizadas pela turma",
+                "picture": "assets/shapes.jpg",
+                "pages": [{
+                        "name": "Apresentação",
+                        "path": "apresentacao"
+                    },
+                    {
+                        "name": "Curso",
+                        "path": "curso"
+                    },
+                    {
+                        "name": "Eventos",
+                        "path": "eventos"
+                    },
+                    {
+                        "name": "Depoimentos",
+                        "path": "depoimentos"
+                    },
+                    {
+                        "name": "Créditos",
+                        "path": "creditos"
+                    }
+                ]
             },
             {
-              "name": "Ingrid",
-              "path": "ingrid"
-            },
-            {
-              "name": "Karolay",
-              "path": "karolay"
-            },
-            {
-              "name": "Matheus",
-              "path": "matheus"
-            },
-            {
-              "name": "Nicoly",
-              "path": "nicoly"
-            },
-            {
-              "name": "Pamela",
-              "path": "pamela"
-            },
-            {
-              "name": "Penelope",
-              "path": "penelope"
-            },
-            {
-              "name": "Victoria",
-              "path": "victoria"
+                "name": "Fale Conosco",
+                "path": "fale-conosco",
+                "description": "Entre em contato conosco através de formulários construídos com Javascript",
+                "picture": "assets/coracao.jpg",
+                "pages": [{
+                        "name": "Cássia + Ingrid + Matheus",
+                        "path": "g1"
+                    },
+                    {
+                        "name": "Fernanda + Romario",
+                        "path": "g2"
+                    },
+                    {
+                        "name": "Gabriel + Karolay + Penelope",
+                        "path": "g3"
+                    },
+                    {
+                        "name": "Nicoly + Pamela + Victoria",
+                        "path": "g4"
+                    }
+                ]
             }
-          ]
-        },
-        {"name":"Entre na Aceleradora",
-          "path":"bem-vindos",
-                  "description":"Saiba mais sobre o projeto em cinco páginas idealizadas pela turma",
-                  "picture":"assets/shapes.jpg",
-                  "pages":[
-            {
-              "name": "Apresentação",
-              "path": "apresentacao"
-            },
-            {
-              "name": "Curso",
-              "path": "curso"
-            },
-            {
-              "name": "Eventos",
-              "path": "eventos"
-            },
-            {
-              "name": "Depoimentos",
-              "path": "depoimentos"
-            },
-            {
-              "name": "Créditos",
-              "path": "creditos"
-            }
-          ]
-        },
-        {"name":"Fale Conosco",
-          "path":"fale-conosco",
-                  "description":"Entre em contato conosco através de formulários construídos com Javascript",
-                  "picture":"assets/coracao.jpg",
-                  "pages":[
-            {
-              "name": "Cássia + Ingrid + Matheus",
-              "path": "g1"
-            },
-            {
-              "name": "Fernanda + Romario",
-              "path": "g2"
-            },
-            {
-              "name": "Gabriel + Karolay + Penelope",
-              "path": "g3"
-            },
-            {
-              "name": "Nicoly + Pamela + Victoria",
-              "path": "g4"
-            }
-          ]
-        }
-          ]
+        ]
     },
-    {"name":"Turma 02",
-      "path":"t02",
-      "projects":[
-        {"name":"Quem Sou Eu",
-          "path":"quem-sou-eu",
-          "description":"Conheça as páginas de perfil construídas por nossas estudantes",
-          "picture":"assets/letras.jpg",
-          "pages":[
-            {
-              "name": "Adrio",
-              "path": "adrio"
+    {
+        "name": "Turma 02",
+        "path": "t02",
+        "projects": [{
+                "name": "Quem Sou Eu",
+                "path": "quem-sou-eu",
+                "description": "Conheça as páginas de perfil construídas por nossas estudantes",
+                "picture": "assets/letras.jpg",
+                "pages": [{
+                        "name": "Adrio",
+                        "path": "adrio"
+                    },
+                    {
+                        "name": "Alice",
+                        "path": "alice"
+                    },
+                    {
+                        "name": "Alisson",
+                        "path": "alisson"
+                    },
+                    {
+                        "name": "Gabriel",
+                        "path": "gabriel"
+                    },
+                    {
+                        "name": "Gabriela",
+                        "path": "gabriela"
+                    },
+                    {
+                        "name": "Igor",
+                        "path": "igor"
+                    },
+                    {
+                        "name": "Lorhanna",
+                        "path": "lorhanna"
+                    },
+                    {
+                        "name": "Maria Eduarda",
+                        "path": "duda"
+                    },
+                    {
+                        "name": "Nathalia",
+                        "path": "nathalia"
+                    },
+                    {
+                        "name": "Nicoly",
+                        "path": "nicoly"
+                    },
+                    {
+                        "name": "Shaienne",
+                        "path": "shaienne"
+                    },
+                    {
+                        "name": "Thayra",
+                        "path": "thayra"
+                    }
+                ]
             },
             {
-              "name": "Alice",
-              "path": "alice"
+                "name": "Acelerando Juntas",
+                "path": "acelerando-juntas",
+                "description": "Aprenda sobre justiça econômica e social em páginas criadas pela turma",
+                "picture": "assets/giz.jpg",
+                "pages": [{
+                        "name": "Bullying",
+                        "path": "bullying"
+                    },
+                    {
+                        "name": "Cyber Bullying",
+                        "path": "cyberbullying"
+                    },
+                    {
+                        "name": "Cotas Raciais",
+                        "path": "cotas"
+                    },
+                    {
+                        "name": "Racismo",
+                        "path": "racismo"
+                    },
+                    {
+                        "name": "Hip Hop",
+                        "path": "hiphop"
+                    },
+                    {
+                        "name": "Gabaritando",
+                        "path": "gabaritando"
+                    },
+                    {
+                        "name": "LGBT",
+                        "path": "lgbt"
+                    }
+                ]
             },
             {
-              "name": "Alisson",
-              "path": "alisson"
-            },
-            {
-              "name": "Gabriel",
-              "path": "gabriel"
-            },
-            {
-              "name": "Gabriela",
-              "path": "gabriela"
-            },
-            {
-              "name": "Igor",
-              "path": "igor"
-            },
-            {
-              "name": "Lorhanna",
-              "path": "lorhanna"
-            },
-            {
-              "name": "Maria Eduarda",
-              "path": "duda"
-            },
-            {
-              "name": "Nathalia",
-              "path": "nathalia"
-            },
-            {
-              "name": "Nicoly",
-              "path": "nicoly"
-            },
-            {
-              "name": "Shaienne",
-              "path": "shaienne"
-            },
-            {
-              "name": "Thayra",
-              "path": "thayra"
+                "name": "Entre na Aceleradora",
+                "path": "bem-vindos",
+                "description": "Saiba mais sobre o projeto em sete páginas idealizadas pela classe",
+                "picture": "assets/maos.jpg",
+                "pages": [{
+                        "name": "Apresentação",
+                        "path": "apresentacao"
+                    },
+                    {
+                        "name": "Conteúdo",
+                        "path": "conteudo"
+                    },
+                    {
+                        "name": "Temas Sociais",
+                        "path": "p3"
+                    },
+                    {
+                        "name": "Como Fazer Parte",
+                        "path": "selecao"
+                    },
+                    {
+                        "name": "Turma",
+                        "path": "turma"
+                    },
+                    {
+                        "name": "Professores",
+                        "path": "professores"
+                    },
+                    {
+                        "name": "Depoimentos",
+                        "path": "depoimentos"
+                    }
+                ]
             }
-          ]
-        },
-        {"name":"Acelerando Juntas",
-          "path":"acelerando-juntas",
-          "description":"Aprenda sobre justiça econômica e social em páginas criadas pela turma",
-          "picture":"assets/giz.jpg",
-          "pages":[
-            {
-              "name": "Bullying",
-              "path": "bullying"
-            },
-            {
-              "name": "Cyber Bullying",
-              "path": "cyberbullying"
-            },
-            {
-              "name": "Cotas Raciais",
-              "path": "cotas"
-            },
-            {
-              "name": "Racismo",
-              "path": "racismo"
-            },
-            {
-              "name": "Hip Hop",
-              "path": "hiphop"
-            },
-            {
-              "name": "Gabaritando",
-              "path": "gabaritando"
-            },
-            {
-              "name": "LGBT",
-              "path": "lgbt"
-            }
-          ]
-        },
-        {"name":"Entre na Aceleradora",
-          "path":"bem-vindos",
-          "description":"Saiba mais sobre o projeto em sete páginas idealizadas pela classe",
-          "picture":"assets/maos.jpg",
-          "pages":[
-            {
-              "name": "Apresentação",
-              "path": "apresentacao"
-            },
-            {
-              "name": "Conteúdo",
-              "path": "conteudo"
-            },
-            {
-              "name": "Temas Sociais",
-              "path": "p3"
-            },
-            {
-              "name": "Como Fazer Parte",
-              "path": "selecao"
-            },
-            {
-              "name": "Turma",
-              "path": "turma"
-            },
-            {
-              "name": "Professores",
-              "path": "professores"
-            },
-            {
-              "name": "Depoimentos",
-              "path": "depoimentos"
-            }
-          ]
-        }
-      ]
+        ]
     },
-    {"name":"Turma 03",
-      "path":"t03",
-      "projects":[
-        {"name":"Quem Sou Eu",
-          "path":"quem-sou-eu",
-          "description":"Conheça as páginas de perfil construídas por nossas estudantes",
-          "picture":"assets/candy.jpg",
-          "pages":[
-            {
-              "name": "Adrio",
-              "path": "adrio"
+    {
+        "name": "Turma 03",
+        "path": "t03",
+        "projects": [{
+                "name": "Quem Sou Eu",
+                "path": "quem-sou-eu",
+                "description": "Conheça as páginas de perfil construídas por nossas estudantes",
+                "picture": "assets/candy.jpg",
+                "pages": [{
+                        "name": "Adrio",
+                        "path": "adrio"
+                    },
+                    {
+                        "name": "Arlanda",
+                        "path": "arlanda"
+                    },
+                    {
+                        "name": "Ashley",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Brayan",
+                        "path": "brayan"
+                    },
+                    {
+                        "name": "Ester",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Gabriel",
+                        "path": "gabriel"
+                    },
+                    {
+                        "name": "Guilherme",
+                        "path": "guilherme"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "João Vitor",
+                        "path": "joao-vitor"
+                    },
+                    {
+                        "name": "Meylin",
+                        "path": "meylin"
+                    },
+                    {
+                        "name": "Nathalia",
+                        "path": "nathalia"
+                    },
+                    {
+                        "name": "Rafael",
+                        "path": "rafael"
+                    },
+                    {
+                        "name": "Rayana",
+                        "path": "rayana"
+                    }
+                ]
             },
             {
-              "name": "Arlanda",
-              "path": "arlanda"
+                "name": "Questionário",
+                "path": "questionario",
+                "description": "Responda às perguntas dos estudantes em formulários construídos com HTML",
+                "picture": "assets/caderno.jpg",
+                "pages": [{
+                        "name": "Adrio",
+                        "path": "adrio"
+                    },
+                    {
+                        "name": "Ashley",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Brayan",
+                        "path": "brayan"
+                    },
+                    {
+                        "name": "Ester",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Guilherme",
+                        "path": "guilherme"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "João Vitor",
+                        "path": "joao-vitor"
+                    },
+                    {
+                        "name": "Nathalia",
+                        "path": "nathalia"
+                    }
+                ]
             },
             {
-              "name": "Ashley",
-              "path": "ashley"
+                "name": "E-Zine Social",
+                "path": "e-zine",
+                "description": "Aprenda sobre assuntos sociais e curiosidades em páginas criadas pela turma",
+                "picture": "assets/folhas.jpg",
+                "pages": [{
+                        "name": "Aborto",
+                        "path": "aborto"
+                    },
+                    {
+                        "name": "Deep Web",
+                        "path": "deep-web"
+                    },
+                    {
+                        "name": "Direitos do Adolescente",
+                        "path": "direitos-do-adolescente"
+                    },
+                    {
+                        "name": "Drogas",
+                        "path": "drogas"
+                    },
+                    {
+                        "name": "Hype",
+                        "path": "hype"
+                    },
+                    {
+                        "name": "Intolerância Religiosa",
+                        "path": "intolerancia-religiosa"
+                    },
+                    {
+                        "name": "Júpiter",
+                        "path": "jupiter"
+                    },
+                    {
+                        "name": "LGBT",
+                        "path": "lgbt"
+                    },
+                    {
+                        "name": "Parada LGBT e Homofobia",
+                        "path": "lgbt-parada-homofobia"
+                    }
+                ]
             },
             {
-              "name": "Brayan",
-              "path": "brayan"
+                "name": "Calculadora",
+                "path": "calculadora",
+                "description": "Faça suas contas usando as calculadoras construídas com Javascript",
+                "picture": "assets/abacus.jpg",
+                "pages": [{
+                        "name": "Adrio",
+                        "path": "adrio"
+                    },
+                    {
+                        "name": "Ashley",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Brayan",
+                        "path": "brayan"
+                    },
+                    {
+                        "name": "Ester",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Gabriel",
+                        "path": "gabriel"
+                    },
+                    {
+                        "name": "Guilherme",
+                        "path": "guilherme"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "João Vitor",
+                        "path": "joao-vitor"
+                    },
+                    {
+                        "name": "Nathalia",
+                        "path": "nathalia"
+                    },
+                    {
+                        "name": "Rafael",
+                        "path": "rafael"
+                    },
+                    {
+                        "name": "Rayana",
+                        "path": "rayana"
+                    }
+                ]
             },
             {
-              "name": "Ester",
-              "path": "ester"
-            },
-            {
-              "name": "Gabriel",
-              "path": "gabriel"
-            },
-            {
-              "name": "Guilherme",
-              "path": "guilherme"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "João Vitor",
-              "path": "joao-vitor"
-            },
-            {
-              "name": "Meylin",
-              "path": "meylin"
-            },
-            {
-              "name": "Nathalia",
-              "path": "nathalia"
-            },
-            {
-              "name": "Rafael",
-              "path": "rafael"
-            },
-            {
-              "name": "Rayana",
-              "path": "rayana"
+                "name": "Entre na Aceleradora",
+                "path": "bem-vindos",
+                "description": "Saiba mais sobre o projeto em seis páginas idealizadas pela própria turma",
+                "picture": "assets/enter.jpg",
+                "pages": [{
+                        "name": "Introdução",
+                        "path": "introducao"
+                    },
+                    {
+                        "name": "Conteúdo Técnico",
+                        "path": "aulas-tecnicas"
+                    },
+                    {
+                        "name": "Temas Sociais",
+                        "path": "aulas-especiais"
+                    },
+                    {
+                        "name": "Quem fez parte",
+                        "path": "turma"
+                    },
+                    {
+                        "name": "Depoimentos",
+                        "path": "depoimentos"
+                    },
+                    {
+                        "name": "Contato",
+                        "path": "contato"
+                    }
+                ]
             }
-          ]
-        },
-        {"name":"Questionário",
-          "path":"questionario",
-          "description":"Responda às perguntas dos estudantes em formulários construídos com HTML",
-          "picture":"assets/caderno.jpg",
-          "pages":[
-            {
-              "name": "Adrio",
-              "path": "adrio"
-            },
-            {
-              "name": "Ashley",
-              "path": "ashley"
-            },
-            {
-              "name": "Brayan",
-              "path": "brayan"
-            },
-            {
-              "name": "Ester",
-              "path": "ester"
-            },
-            {
-              "name": "Guilherme",
-              "path": "guilherme"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "João Vitor",
-              "path": "joao-vitor"
-            },
-            {
-              "name": "Nathalia",
-              "path": "nathalia"
-            }
-          ]
-        },
-        {"name":"E-Zine Social",
-          "path":"e-zine",
-          "description":"Aprenda sobre assuntos sociais e curiosidades em páginas criadas pela turma",
-          "picture":"assets/folhas.jpg",
-          "pages":[
-            {
-              "name": "Aborto",
-              "path": "aborto"
-            },
-            {
-              "name": "Deep Web",
-              "path": "deep-web"
-            },
-            {
-              "name": "Direitos do Adolescente",
-              "path": "direitos-do-adolescente"
-            },
-            {
-              "name": "Drogas",
-              "path": "drogas"
-            },
-            {
-              "name": "Hype",
-              "path": "hype"
-            },
-            {
-              "name": "Intolerância Religiosa",
-              "path": "intolerancia-religiosa"
-            },
-            {
-              "name": "Júpiter",
-              "path": "jupiter"
-            },
-            {
-              "name": "LGBT",
-              "path": "lgbt"
-            },
-            {
-              "name": "Parada LGBT e Homofobia",
-              "path": "lgbt-parada-homofobia"
-            }
-          ]
-        },
-        {"name":"Calculadora",
-          "path":"calculadora",
-          "description":"Faça suas contas usando as calculadoras construídas com Javascript",
-          "picture":"assets/abacus.jpg",
-          "pages":[
-            {
-              "name": "Adrio",
-              "path": "adrio"
-            },
-            {
-              "name": "Ashley",
-              "path": "ashley"
-            },
-            {
-              "name": "Brayan",
-              "path": "brayan"
-            },
-            {
-              "name": "Ester",
-              "path": "ester"
-            },
-            {
-              "name": "Gabriel",
-              "path": "gabriel"
-            },
-            {
-              "name": "Guilherme",
-              "path": "guilherme"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "João Vitor",
-              "path": "joao-vitor"
-            },
-            {
-              "name": "Nathalia",
-              "path": "nathalia"
-            },
-            {
-              "name": "Rafael",
-              "path": "rafael"
-            },
-            {
-              "name": "Rayana",
-              "path": "rayana"
-            }
-          ]
-        },
-        {"name":"Entre na Aceleradora",
-          "path":"bem-vindos",
-          "description":"Saiba mais sobre o projeto em seis páginas idealizadas pela própria turma",
-          "picture":"assets/enter.jpg",
-          "pages":[
-            {
-              "name": "Introdução",
-              "path": "introducao"
-            },
-            {
-              "name": "Conteúdo Técnico",
-              "path": "aulas-tecnicas"
-            },
-            {
-              "name": "Temas Sociais",
-              "path": "aulas-especiais"
-            },
-            {
-              "name": "Quem fez parte",
-              "path": "turma"
-            },
-            {
-              "name": "Depoimentos",
-              "path": "depoimentos"
-            },
-            {
-              "name": "Contato",
-              "path": "contato"
-            }
-          ]
-        }
-      ]
+        ]
     },
-    {"name":"Turma 04",
-      "path":"t04",
-      "projects":[
-        {"name":"Quem Sou Eu",
-          "path":"quem-sou-eu",
-          "description":"Conheça as páginas de perfil construídas por nossas estudantes",
-          "picture":"assets/tenis.jpg",
-          "pages":[
-            {
-              "name": "Ashley (1)",
-              "path": "ashley"
+    {
+        "name": "Turma 04",
+        "path": "t04",
+        "projects": [{
+                "name": "Quem Sou Eu",
+                "path": "quem-sou-eu",
+                "description": "Conheça as páginas de perfil construídas por nossas estudantes",
+                "picture": "assets/tenis.jpg",
+                "pages": [{
+                        "name": "Ashley (1)",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Ashley (2)",
+                        "path": "ashley-2"
+                    },
+                    {
+                        "name": "Danielle",
+                        "path": "danielle"
+                    },
+                    {
+                        "name": "Dhienifer (1)",
+                        "path": "dhienifer"
+                    },
+                    {
+                        "name": "Dhienifer (2)",
+                        "path": "dhienifer-2"
+                    },
+                    {
+                        "name": "Dhienifer (3)",
+                        "path": "dhienifer-3"
+                    },
+                    {
+                        "name": "Ester (1)",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Ester (2)",
+                        "path": "ester-2"
+                    },
+                    {
+                        "name": "Ester (3)",
+                        "path": "ester-3"
+                    },
+                    {
+                        "name": "Ester (4)",
+                        "path": "ester-4"
+                    },
+                    {
+                        "name": "Éven (1)",
+                        "path": "even"
+                    },
+                    {
+                        "name": "Éven (2)",
+                        "path": "even-2"
+                    },
+                    {
+                        "name": "Éven (3)",
+                        "path": "even-3"
+                    },
+                    {
+                        "name": "Gustavo B. (1)",
+                        "path": "gustavo-brandao"
+                    },
+                    {
+                        "name": "Gustavo B. (2)",
+                        "path": "gustavo-brandao-2"
+                    },
+                    {
+                        "name": "Gustavo L.",
+                        "path": "gustavo-lopes"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "Jadine",
+                        "path": "jadine"
+                    },
+                    {
+                        "name": "Jhuan",
+                        "path": "jhuan"
+                    },
+                    {
+                        "name": "Paola (1)",
+                        "path": "paola"
+                    },
+                    {
+                        "name": "Paola (2)",
+                        "path": "paola-2"
+                    },
+                    {
+                        "name": "vinnicius",
+                        "path": "vinnicius"
+                    }
+                ]
             },
             {
-              "name": "Ashley (2)",
-              "path": "ashley-2"
+                "name": "Questionário",
+                "path": "questionario",
+                "description": "Responda às perguntas dos estudantes em formulários construídos com HTML",
+                "picture": "assets/diario.jpg",
+                "pages": [{
+                        "name": "Ashley",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Danielle",
+                        "path": "danielle"
+                    },
+                    {
+                        "name": "Ester",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Éven",
+                        "path": "even"
+                    },
+                    {
+                        "name": "Gustavo B.",
+                        "path": "gustavo-brandao"
+                    },
+                    {
+                        "name": "Gustavo L.",
+                        "path": "gustavo-lopes"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "Jadine",
+                        "path": "jadine"
+                    },
+                    {
+                        "name": "Jhuan",
+                        "path": "jhuan"
+                    },
+                    {
+                        "name": "vinnicius",
+                        "path": "vinnicius"
+                    },
+                    {
+                        "name": "Signos (1)",
+                        "path": "ashley-jadine-signos"
+                    },
+                    {
+                        "name": "Signos (2)",
+                        "path": "danielle-dhienifer-signos"
+                    }
+                ]
             },
             {
-              "name": "Danielle",
-              "path": "danielle"
+                "name": "E-Zine Social",
+                "path": "e-zine",
+                "description": "Aprenda sobre assuntos sociais e curiosidades em páginas criadas pela turma",
+                "picture": "assets/girassol.jpg",
+                "pages": [{
+                        "name": "Aborto",
+                        "path": "aborto"
+                    },
+                    {
+                        "name": "Assédio (1)",
+                        "path": "assedio"
+                    },
+                    {
+                        "name": "Assédio (2)",
+                        "path": "assedio-2"
+                    },
+                    {
+                        "name": "Defesa dos Animais",
+                        "path": "pets"
+                    },
+                    {
+                        "name": "LGBTQIAP+",
+                        "path": "lgbtqiap"
+                    },
+                    {
+                        "name": "Machismo",
+                        "path": "machismo"
+                    },
+                    {
+                        "name": "Síndrome do Impostor",
+                        "path": "impostor"
+                    },
+                    {
+                        "name": "Tráfico de Drogas",
+                        "path": "drogas"
+                    }
+                ]
             },
             {
-              "name": "Dhienifer (1)",
-              "path": "dhienifer"
+                "name": "Calculadora",
+                "path": "calculadora",
+                "description": "Faça suas contas usando as calculadoras construídas com Javascript",
+                "picture": "assets/numeros.jpg",
+                "pages": [{
+                        "name": "Ashley",
+                        "path": "ashley"
+                    },
+                    {
+                        "name": "Danielle",
+                        "path": "danielle"
+                    },
+                    {
+                        "name": "Dhienifer",
+                        "path": "dhienifer"
+                    },
+                    {
+                        "name": "Ester",
+                        "path": "ester"
+                    },
+                    {
+                        "name": "Éven",
+                        "path": "even"
+                    },
+                    {
+                        "name": "Gustavo B.",
+                        "path": "gustavo-brandao"
+                    },
+                    {
+                        "name": "Gustavo L.",
+                        "path": "gustavo-lopes"
+                    },
+                    {
+                        "name": "Isadora",
+                        "path": "isadora"
+                    },
+                    {
+                        "name": "Jadine",
+                        "path": "jadine"
+                    },
+                    {
+                        "name": "Jhuan",
+                        "path": "jhuan"
+                    },
+                    {
+                        "name": "vinnicius",
+                        "path": "vinnicius"
+                    }
+                ]
             },
             {
-              "name": "Dhienifer (2)",
-              "path": "dhienifer-2"
-            },
-            {
-              "name": "Dhienifer (3)",
-              "path": "dhienifer-3"
-            },
-            {
-              "name": "Ester (1)",
-              "path": "ester"
-            },
-            {
-              "name": "Ester (2)",
-              "path": "ester-2"
-            },
-            {
-              "name": "Ester (3)",
-              "path": "ester-3"
-            },
-            {
-              "name": "Ester (4)",
-              "path": "ester-4"
-            },
-            {
-              "name": "Éven (1)",
-              "path": "even"
-            },
-            {
-              "name": "Éven (2)",
-              "path": "even-2"
-            },
-            {
-              "name": "Éven (3)",
-              "path": "even-3"
-            },
-            {
-              "name": "Gustavo B. (1)",
-              "path": "gustavo-brandao"
-            },
-            {
-              "name": "Gustavo B. (2)",
-              "path": "gustavo-brandao-2"
-            },
-            {
-              "name": "Gustavo L.",
-              "path": "gustavo-lopes"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "Jadine",
-              "path": "jadine"
-            },
-            {
-              "name": "Jhuan",
-              "path": "jhuan"
-            },
-            {
-              "name": "Paola (1)",
-              "path": "paola"
-            },
-            {
-              "name": "Paola (2)",
-              "path": "paola-2"
-            },
-            {
-              "name": "vinnicius",
-              "path": "vinnicius"
+                "name": "Entre na Aceleradora",
+                "path": "bem-vindos",
+                "description": "Saiba mais sobre o projeto em seis páginas idealizadas pela própria turma",
+                "picture": "assets/teclado.jpg",
+                "pages": [{
+                        "name": "Apresentação",
+                        "path": "apresentacao-danielle-jadine-paola"
+                    },
+                    {
+                        "name": "Temas Sociais e Técnicos",
+                        "path": "temas-even-gustavo"
+                    },
+                    {
+                        "name": "Inscrições",
+                        "path": "inscricao-dhienifer-gustavo-jhuan"
+                    },
+                    {
+                        "name": "Quem somos",
+                        "path": "quem-somos-ashley-vinnicius"
+                    },
+                    {
+                        "name": "Depoimentos",
+                        "path": "depoimentos-ester-isadora"
+                    }
+                ]
             }
-          ]
-        },
-        {"name":"Questionário",
-          "path":"questionario",
-          "description":"Responda às perguntas dos estudantes em formulários construídos com HTML",
-          "picture":"assets/diario.jpg",
-          "pages":[
-            {
-              "name": "Ashley",
-              "path": "ashley"
-            },
-            {
-              "name": "Danielle",
-              "path": "danielle"
-            },
-            {
-              "name": "Ester",
-              "path": "ester"
-            },
-            {
-              "name": "Éven",
-              "path": "even"
-            },
-            {
-              "name": "Gustavo B.",
-              "path": "gustavo-brandao"
-            },
-            {
-              "name": "Gustavo L.",
-              "path": "gustavo-lopes"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "Jadine",
-              "path": "jadine"
-            },
-            {
-              "name": "Jhuan",
-              "path": "jhuan"
-            },
-            {
-              "name": "vinnicius",
-              "path": "vinnicius"
-            },
-            {
-              "name": "Signos (1)",
-              "path": "ashley-jadine-signos"
-            },
-            {
-              "name": "Signos (2)",
-              "path": "danielle-dhienifer-signos"
-            }
-          ]
-        },
-        {"name":"E-Zine Social",
-          "path":"e-zine",
-          "description":"Aprenda sobre assuntos sociais e curiosidades em páginas criadas pela turma",
-          "picture":"assets/girassol.jpg",
-          "pages":[
-            {
-              "name": "Aborto",
-              "path": "aborto"
-            },
-            {
-              "name": "Assédio (1)",
-              "path": "assedio"
-            },
-            {
-              "name": "Assédio (2)",
-              "path": "assedio-2"
-            },
-            {
-              "name": "Defesa dos Animais",
-              "path": "pets"
-            },
-            {
-              "name": "LGBTQIAP+",
-              "path": "lgbtqiap"
-            },
-            {
-              "name": "Machismo",
-              "path": "machismo"
-            },
-            {
-              "name": "Síndrome do Impostor",
-              "path": "impostor"
-            },
-            {
-              "name": "Tráfico de Drogas",
-              "path": "drogas"
-            }
-          ]
-        },
-        {"name":"Calculadora",
-          "path":"calculadora",
-          "description":"Faça suas contas usando as calculadoras construídas com Javascript",
-          "picture":"assets/numeros.jpg",
-          "pages":[
-            {
-              "name": "Ashley",
-              "path": "ashley"
-            },
-            {
-              "name": "Danielle",
-              "path": "danielle"
-            },
-            {
-              "name": "Dhienifer",
-              "path": "dhienifer"
-            },
-            {
-              "name": "Ester",
-              "path": "ester"
-            },
-            {
-              "name": "Éven",
-              "path": "even"
-            },
-            {
-              "name": "Gustavo B.",
-              "path": "gustavo-brandao"
-            },
-            {
-              "name": "Gustavo L.",
-              "path": "gustavo-lopes"
-            },
-            {
-              "name": "Isadora",
-              "path": "isadora"
-            },
-            {
-              "name": "Jadine",
-              "path": "jadine"
-            },
-            {
-              "name": "Jhuan",
-              "path": "jhuan"
-            },
-            {
-              "name": "vinnicius",
-              "path": "vinnicius"
-            }
-          ]
-        },
-        {"name":"Entre na Aceleradora",
-          "path":"bem-vindos",
-          "description":"Saiba mais sobre o projeto em seis páginas idealizadas pela própria turma",
-          "picture":"assets/teclado.jpg",
-          "pages":[
-            {
-              "name": "Apresentação",
-              "path": "apresentacao-danielle-jadine-paola"
-            },
-            {
-              "name": "Temas Sociais e Técnicos",
-              "path": "temas-even-gustavo"
-            },
-            {
-              "name": "Inscrições",
-              "path": "inscricao-dhienifer-gustavo-jhuan"
-            },
-            {
-              "name": "Quem somos",
-              "path": "quem-somos-ashley-vinnicius"
-            },
-            {
-              "name": "Depoimentos",
-              "path": "depoimentos-ester-isadora"
-            }
-          ]
-        }
-      ]
+        ]
     },
-    {"name":"Turma 06",
-      "path":"t06",
-      "projects":[
-        {"name":"Entre na Aceleradora",
-          "path":"bem-vindos",
-          "description":"Saiba mais sobre o projeto através do site feito de maneira conjunta e colaborativa entre as pessoas alunas da turma 6",
-          "picture":"assets/akatsuki.jpg",
-          "pages":[
-            {
-              "name": "bem-vindos",
-              "path": "apresentacao"
-            }
-          ]
-        }
-      ]
+    {
+        "name": "Turma 06",
+        "path": "t06",
+        "projects": [{
+            "name": "Entre na Aceleradora",
+            "path": "bem-vindos",
+            "description": "Saiba mais sobre o projeto através do site feito de maneira conjunta e colaborativa entre as pessoas alunas da turma 6",
+            "picture": "assets/akatsuki.jpg",
+            "pages": [{
+                "name": "bem-vindos",
+                "path": "apresentacao"
+            }]
+        }]
     },
-    {"name":"Turma 07",
-      "path":"t07",
-      "projects":[
-        {"name":"Ana Clara",
-          "path":"ana",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"../assets/t07/individual/ana.jpeg",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+    {
+        "name": "Turma 07",
+        "path": "t07",
+        "projects": [{
+                "name": "Ana Clara",
+                "path": "ana",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "../assets/t07/individual/ana.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        },
-        {"name":"Eduarda Anchieta",
-          "path":"duda",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/duda.png",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+                "name": "Eduarda Anchieta",
+                "path": "duda",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/duda.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Cadastrar - (JS, HTML5, CSS)",
+                        "path": "cadastrar"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Cadastrar - (JS, HTML5, CSS)",
-              "path": "cadastrar"
+                "name": "Emilly Marques",
+                "path": "emillym",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/emillym.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        },
-        {"name":"Emilly Marques",
-          "path":"emillym",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/emillym.jpeg",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+                "name": "Emilly Padilha",
+                "path": "emillyp",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/emilyp.jpeg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        },
-        {"name":"Emilly Padilha",
-          "path":"emillyp",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/emilyp.jpeg",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
-            }
-          ]
-        },
-        {"name":"Gabriela Gomes",
-          "path":"gabi",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/gabi.jpeg",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+                "name": "Gabriela Gomes",
+                "path": "gabi",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/gabi.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        },
-        {"name":"Guilherme Bittencourt",
-          "path":"guib",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/guib.png",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+                "name": "Guilherme Bittencourt",
+                "path": "guib",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/guib.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        },
-        {"name":"Guilherme Soares",
-          "path":"guis",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/guis.png",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
+                "name": "Guilherme Soares",
+                "path": "guis",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/guis.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             },
             {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
+                "name": "Willian Freitas",
+                "path": "will",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t07/individual/will.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora - (JS, HTML5, CSS)",
+                        "path": "calculadora"
+                    }
+                ]
             }
-          ]
-        },
-        {"name":"Willian Freitas",
-          "path":"will",
-                  "description":"Conheça as páginas de construídas por nossas estudantes",
-                  "picture":"assets/t07/individual/will.jpeg",
-                  "pages":[
-            {
-              "name": "Quem eu sou - (HTML5, CSS)",
-              "path": "quem-sou-eu"
-            },
-            {
-              "name": "Calculadora - (JS, HTML5, CSS)",
-              "path": "calculadora"
-            }
-          ]
-        }
-    ]
-  },
-  {"name":"Turma 08",
-    "path":"t08",
-    "projects":[
-      {"name":"Amanda Nolasco",
-        "path":"amanda",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"../assets/t08/individual/amanda.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          }
-        ],
-                "site":[
-                  {
+        ]
+    },
+    {
+        "name": "Turma 08",
+        "path": "t08",
+        "projects": [{
+                "name": "Amanda Nolasco",
+                "path": "amanda",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "../assets/t08/individual/amanda.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://listapersonalizadadaamanda.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Ana Clara",
-        "path":"ana",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"../assets/t08/individual/ana.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Ana Clara",
+                "path": "ana",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "../assets/t08/individual/ana.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://listinha-da-ana.netlify.app/"
-                  }, {
+                }, {
                     "name": "Site da Empresa Brilho do Sol - (React)",
                     "link": "https://brilho-do-sol.netlify.app/"
-                  }
-                ]
-      },
-      {"name":"Angelo Rogerio",
-        "path":"angelo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/angelo.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Angelo Rogerio",
+                "path": "angelo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/angelo.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://minha-lista-angelo-neves.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Carlos Eduardo",
-        "path":"carlos",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/carlos.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Carlos Eduardo",
+                "path": "carlos",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/carlos.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://shiny-valkyrie-620113.netlify.app/"
-                  }
-                ]
-      },
-      {"name":"Christian Ramos",
-        "path":"chris",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/chris.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Christian Ramos",
+                "path": "chris",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/chris.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://listinha-do-chris.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Francielle da Rosa",
-        "path":"franciele",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/franciele.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                  "site":[
+                }]
+            },
+            {
+                "name": "Francielle da Rosa",
+                "path": "franciele",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/franciele.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
                     {
-                      "name": "Site listinha - (React)",
-                      "link": "https://leafy-speculoos-334bd7.netlify.app/"
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
                     }
-                  ]
-      },
-      {"name":"Gabriela Gomes",
-        "path":"gabi",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/gabi.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                ],
+                "site": [{
+                    "name": "Site listinha - (React)",
+                    "link": "https://leafy-speculoos-334bd7.netlify.app/"
+                }]
+            },
+            {
+                "name": "Gabriela Gomes",
+                "path": "gabi",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/gabi.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://magnificent-puppy-90d3e4.netlify.app/"
-                  }
-                ]
-      },
-      {"name":"Guilherme Soares",
-        "path":"gui",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/gui.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Guilherme Soares",
+                "path": "gui",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/gui.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://kalebe-toplista.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Kalebe Amadeu",
-        "path":"kalebe",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/kalebe.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Kalebe Amadeu",
+                "path": "kalebe",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/kalebe.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://kalebe-toplista.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Leonardo Gomes",
-        "path":"leo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/leo.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Leonardo Gomes",
+                "path": "leo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/leo.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://62b40b1ad3c7f34ae546be06--whimsical-zabaione-f56518.netlify.app/ "
-                  }
+                }]
+            },
+            {
+                "name": "Lucas Esteves",
+                "path": "lucas",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/lucas.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
                 ]
-      },
-      {"name":"Lucas Esteves",
-        "path":"lucas",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/lucas.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Mah Toledo",
-        "path":"mah",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/mah.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Pablo Willian",
-        "path":"pablo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/pablo.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+            },
+            {
+                "name": "Mah Toledo",
+                "path": "mah",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/mah.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Pablo Willian",
+                "path": "pablo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/pablo.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://listinha-manohunter.netlify.app/ "
-                  }
+                }]
+            },
+            {
+                "name": "Telmo Miguel",
+                "path": "tel",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/tel.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Yasmim de Araujo",
+                "path": "yasmim",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/yasmim.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
                 ]
-      },
-      {"name":"Telmo Miguel",
-        "path":"tel",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/tel.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          }
+            }
         ]
-      },
-      {"name":"Yasmim de Araujo",
-        "path":"yasmim",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/yasmim.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      }
-    ]
-  },
-  {"name":"Turma 09",
-    "path":"t09",
-    "projects":[
-      {"name":"Angelo Rogerio",
-        "path":"angelo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/angelo.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+    },
+    {
+        "name": "Turma 09",
+        "path": "t09",
+        "projects": [{
+                "name": "Angelo Rogerio",
+                "path": "angelo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/angelo.jpeg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }],
+                "siteCalculadora": [{
+                    "name": "Calculadora (JS)",
+                    "link": "https://calculadora-clean.netlify.app/"
+                }],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://minha-lista-angelo-neves.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Christian Ramos",
-        "path":"chris",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t08/individual/chris.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
-                    "name": "Site listinha - (React)",
-                    "link": "https://listinha-do-chris.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Esther Duarte",
-        "path":"esther",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/esther.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
-                    "name": "Site listinha - (React)",
-                    "link": "https://listinha-do-chris.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Francielle da Rosa",
-        "path":"francielle",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/francielle.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                  "site":[
+                }]
+            },
+            {
+                "name": "Christian Ramos",
+                "path": "chris",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/chris.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
                     {
-                      "name": "Site listinha - (React)",
-                      "link": "https://leafy-speculoos-334bd7.netlify.app/"
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
                     }
-                  ]
-      },
-      {"name":"Kendra Ferreira",
-        "path":"kendra",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/kendra.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                ],
+                "site": [{
+                    "name": "Site listinha - (React)",
+                    "link": "https://listinha-do-chris.netlify.app/ "
+                }]
+            },
+            {
+                "name": "Esther Duarte",
+                "path": "esther",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/esther.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
+                    "name": "Site listinha - (React)",
+                    "link": "https://listinha-do-chris.netlify.app/ "
+                }]
+            },
+            {
+                "name": "Francielle da Rosa",
+                "path": "francielle",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/francielle.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
+                    "name": "Site listinha - (React)",
+                    "link": "https://leafy-speculoos-334bd7.netlify.app/"
+                }]
+            },
+            {
+                "name": "Kendra Ferreira",
+                "path": "kendra",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/kendra.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://magnificent-puppy-90d3e4.netlify.app/"
-                  }
-                ]
-      },
-      {"name":"Laisa Luzni",
-        "path":"laisa",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/laisa.png",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Laisa Luzni",
+                "path": "laisa",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/laisa.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://kalebe-toplista.netlify.app/ "
-                  }
-                ]
-      },
-      {"name":"Leonardo Zancan",
-        "path":"leonardo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/leo.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+                }]
+            },
+            {
+                "name": "Leonardo Zancan",
+                "path": "leonardo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/leo.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://kalebe-toplista.netlify.app/ "
-                  }
+                }]
+            },
+            {
+                "name": "Luiz Miguel",
+                "path": "luiz",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/luiz.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Morgause Plada",
+                "path": "morgause",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/morgause.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
                 ]
-      },
-      {"name":"Luiz Miguel",
-        "path":"luiz",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/luiz.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
-                    "name": "Site listinha - (React)",
-                    "link": "https://62b40b1ad3c7f34ae546be06--whimsical-zabaione-f56518.netlify.app/ "
-                  }
+            },
+            {
+                "name": "Ophelia Toledo",
+                "path": "ophelia",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/ophelia.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
                 ]
-      },
-      {"name":"Morgause Plada",
-        "path":"morgause",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/morgause.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Ophelia Toledo",
-        "path":"ophelia",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/ophelia.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Pablo Willian",
-        "path":"pablo",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/pablo.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ],
-                "site":[
-                  {
+            },
+            {
+                "name": "Pablo Willian",
+                "path": "pablo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/pablo.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }],
+                "siteCalculadora": [{
+                    "name": "Calculadora (JS)",
+                    "link": "https://calculadora-de-botao-pablo.netlify.app/"
+                }],
+                "site": [{
                     "name": "Site listinha - (React)",
                     "link": "https://listinha-manohunter.netlify.app/ "
-                  }
+                }]
+            },
+            {
+                "name": "Rafael Soares",
+                "path": "rafael",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/rafael.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Vitoria Gazolla",
+                "path": "vitoria",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/vitoria.jpeg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Wanderson PS",
+                "path": "wanderson",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/wanderson.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
                 ]
-      },
-      {"name":"Rafael Soares",
-        "path":"rafael",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/rafael.jpg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          }
+            },
+            {
+                "name": "Yuri Santos",
+                "path": "yuri",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/yuri.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            }
         ]
-      },
-      {"name":"Vitoria Gazolla",
-        "path":"vitoria",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/vitoria.jpeg",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Wanderson PS",
-        "path":"wanderson",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/wanderson.png",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      },
-      {"name":"Yuri Santos",
-        "path":"yuri",
-                "description":"Conheça as páginas de construídas por nossas estudantes",
-                "picture":"assets/t09/individual/yuri.png",
-                "pages":[
-          {
-            "name": "Quem eu sou - (HTML5, CSS)",
-            "path": "quem-sou-eu"
-          },
-          {
-            "name": "Calculadora (JS)",
-            "path": "calculadora"
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
