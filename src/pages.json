@@ -1353,4 +1353,152 @@
             }
         ]
     }
+    {
+        "name": "Turma 10",
+        "path": "t10",
+        "projects": [{
+                "name": "Ashley Del Castillo da Rosa",
+                "path": "Ashley",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/angelo.jpeg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }],
+                "site": [{
+                        "name": "Calculadora (JS)",
+                        "link": "https://calculadora-clean.netlify.app/"
+                    },
+                    {
+                        "name": "Site listinha - (React)",
+                        "link": "https://minha-lista-angelo-neves.netlify.app/ "
+                    }
+                ]
+            },
+            {
+                "name": "Davi Seabra da Costa",
+                "path": "Davi",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t08/individual/chris.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ],
+                "site": [{
+                    "name": "Site listinha - (React)",
+                    "link": "https://listinha-do-chris.netlify.app/ "
+                }]
+            },
+            {
+                "name": "Elisabete Gonçalves Ramos ",
+                "path": "Elisabete",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/esther.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Francielle da Rosa",
+                "path": "francielle",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/francielle.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Elysa Corrêa da Silva ",
+                "path": "Elysa",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/kendra.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Esther Duarte Quadros",
+                "path": "Esther",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/laisa.png",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Felipe Braga Machado ",
+                "path": "Felipe",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/leo.jpg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Gustavo Felipe de Campos ",
+                "path": "Gustavo",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/luiz.jpg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            },
+            {
+                "name": "Nicoly Filbert Ortiz ",
+                "path": "Nicoly",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/morgause.jpeg",
+                "pages": [{
+                        "name": "Quem eu sou - (HTML5, CSS)",
+                        "path": "quem-sou-eu"
+                    },
+                    {
+                        "name": "Calculadora (JS)",
+                        "path": "calculadora"
+                    }
+                ]
+            },
+            {
+                "name": "Wanderson Pereira da Silva",
+                "path": "Wanderson",
+                "description": "Conheça as páginas de construídas por nossas estudantes",
+                "picture": "assets/t09/individual/ophelia.jpeg",
+                "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                }]
+            }
+        ]
+    }
 ]
