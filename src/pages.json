@@ -1358,7 +1358,7 @@
     "path": "t10",
     "projects": [{
             "name": "Ashley Del Castillo da Rosa",
-            "path": "angelo",
+            "path": "Ashley",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/angelo.jpeg",
             "pages": [{
@@ -1377,7 +1377,7 @@
         },
         {
             "name": "Davi Seabra da Costa",
-            "path": "chris",
+            "path": "Davi",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t08/individual/chris.jpg",
             "pages": [{
@@ -1396,7 +1396,7 @@
         },
         {
             "name": "Elisabete Gonçalves Ramos ",
-            "path": "esther",
+            "path": "Elisabete",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/esther.jpeg",
             "pages": [{
@@ -1411,7 +1411,7 @@
         },
         {
             "name": "Elysa Corrêa da Silva ",
-            "path": "francielle",
+            "path": "Elysa",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/francielle.jpg",
             "pages": [{
@@ -1421,7 +1421,7 @@
         },
         {
             "name": "Esther Duarte Quadros",
-            "path": "kendra",
+            "path": "Esther",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/kendra.jpg",
             "pages": [{
@@ -1436,7 +1436,7 @@
         },
         {
             "name": "Felipe Braga Machado ",
-            "path": "laisa",
+            "path": "Felipe",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/laisa.png",
             "pages": [{
@@ -1451,7 +1451,7 @@
         },
         {
             "name": "Gustavo Felipe de Campos ",
-            "path": "leonardo",
+            "path": "Gustavo",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/leo.jpg",
             "pages": [{
@@ -1466,7 +1466,7 @@
         },
         {
             "name": "Nicoly Filbert Ortiz ",
-            "path": "luiz",
+            "path": "Nicoly",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/luiz.jpg",
             "pages": [{
@@ -1476,7 +1476,7 @@
         },
         {
             "name": "Wanderson Pereira da Silva",
-            "path": "morgause",
+            "path": "Wanderson",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t09/individual/morgause.jpeg",
             "pages": [{
