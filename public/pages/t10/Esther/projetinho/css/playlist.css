@@ -1,0 +1,96 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,
+        -apple-system, Helvetica, Arial,
+        sans-serif;
+    background: #000000;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;  
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.primeirasessao {
+    background-image: url("../img/musica.jpg");
+    width: 1500px;
+    height: 1800px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: system-ui,;
+}
+
+.texto1 {
+    color: white;
+    font-size: 100px;
+
+}
+
+
+
+#musicos {
+    bottom: 700px;
+    padding-bottom: 100px;
+}
+
+#charlie {
+    width: 200px;
+}
+
+#kilo {
+    width: 200px;
+}
+
+#puma {
+    width: 200px;
+}
+
+#l7 {
+    width: 200px;
+    height: 200px;
+}
+
+#costa {
+    width: 200px;
+}
+
+
+.musicas {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    font-size: 25px;
+}

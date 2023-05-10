@@ -1,0 +1,22 @@
+#titulo{
+    color: rgb(255, 255, 255);
+    background-color: rgb(209, 107, 107);
+}
+#eu{ 
+    color: #000000;
+}
+#mt{
+     color: brown;
+}
+#musica{
+    color: rgba(252, 0, 0, 0.911);
+}    
+body{ 
+    background-color: rgba(238, 222, 222, 0.911) 
+    ;}
+.as1{
+    width: 20%;
+padding-left: 15px;
+margin-left: 15%;
+float: right;
+}
