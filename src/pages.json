@@ -1364,16 +1364,11 @@
             "pages": [{
                 "name": "Quem eu sou - (HTML5, CSS)",
                 "path": "quem-sou-eu"
-            }],
-            "site": [{
-                    "name": "Calculadora (JS)",
-                    "link": "https://calculadora-clean.netlify.app/"
-                },
-                {
-                    "name": "Site listinha - (React)",
-                    "link": "https://minha-lista-angelo-neves.netlify.app/ "
-                }
-            ]
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }]
         },
         {
             "name": "Davi Seabra da Costa",
@@ -1388,11 +1383,7 @@
                     "name": "Calculadora (JS)",
                     "path": "calculadora"
                 }
-            ],
-            "site": [{
-                "name": "Site listinha - (React)",
-                "link": "https://listinha-do-chris.netlify.app/ "
-            }]
+            ]
         },
         {
             "name": "Elisabete Gonçalves Ramos ",
@@ -1417,6 +1408,10 @@
             "pages": [{
                 "name": "Quem eu sou - (HTML5, CSS)",
                 "path": "quem-sou-eu"
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
             }]
         },
         {
@@ -1472,7 +1467,12 @@
             "pages": [{
                 "name": "Quem eu sou - (HTML5, CSS)",
                 "path": "quem-sou-eu"
-            }]
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }
+            ]
         },
         {
             "name": "Wanderson Pereira da Silva",
