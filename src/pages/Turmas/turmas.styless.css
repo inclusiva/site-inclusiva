@@ -26,7 +26,7 @@
   .MuiPaper-root.MuiCard-root.ProjectCard.MuiPaper-elevation1.MuiPaper-rounded{
     margin: 20px;
     border-radius: 5px;
-    box-shadow: 13px 13px 13px 0px rgba(50, 50, 50, 0.22);
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 10px;
     margin: 20px;
     width: 25%;
