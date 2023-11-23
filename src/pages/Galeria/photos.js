@@ -51,7 +51,7 @@ export const photos = [{
     {
         src: "assets/t11/t11.JPG",
         width: 4,
-        height: 3
+        height: 5
     }
 
 
