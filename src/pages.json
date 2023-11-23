@@ -1617,10 +1617,43 @@
             "name": "Aromas do Mundo",
             "path": "Aromas",
             "description": "Conheça as páginas de construídas por nossas estudantes",
-            "picture": "assets/t11/aromas do mundo.png",
+            "picture": "assets/t11/AROMAS DO MUNDO/aromas do mundo.png",
             "pages": [{
                 "name": "Aromas do Mundo",
                 "path": "aromas"
+            }
+            ]
+        },
+        {
+            "name": "Nina's",
+            "path": "Ninas",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/FELICIA/felicia.png",
+            "pages": [{
+                "name": "Nina's",
+                "path": "aromas"
+            }
+            ]
+        },
+        {
+            "name": "Lura",
+            "path": "Lura",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/LURA/felicia.png",
+            "pages": [{
+                "name": "Aromas do Mundo",
+                "path": "aromas"
+            }
+            ]
+        },
+        {
+            "name": "Felicia",
+            "path": "Felicia",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/FELICIA/felicia.png",
+            "pages": [{
+                "name": "Felicia",
+                "path": "Felicia"
             }
             ]
         }
