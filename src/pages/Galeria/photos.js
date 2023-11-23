@@ -42,7 +42,14 @@ export const photos = [{
         src: "assets/t09/t9.jpeg",
         width: 4,
         height: 3
+    },
+    {
+        src: "assets/t11/t11.JPG",
+        width: 4,
+        height: 3
     }
+
+
 ];
 
 // src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
