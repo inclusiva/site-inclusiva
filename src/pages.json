@@ -1491,5 +1491,129 @@
         }
 
     ]
+},
+{
+    "name": "Turma 11",
+    "path": "t11",
+    "projects": [{
+            "name": "Ana Clara Lemos Lopes",
+            "path": "Ana",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/ana.jpeg",
+            "pages": [{
+                "name": "Quem eu sou - (HTML5, CSS)",
+                "path": "quem-sou-eu"
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }]
+        },
+        {
+            "name": "Davi Seabra da Costa",
+            "path": "Davi",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/davi.jpg",
+            "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                },
+                {
+                    "name": "Calculadora (JS)",
+                    "path": "calculadora"
+                }
+            ]
+        },
+        {
+            "name": "Leticia Araujo",
+            "path": "Leticia",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/leticia.jpeg",
+            "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                },
+                {
+                    "name": "Calculadora (JS)",
+                    "path": "calculadora"
+                }
+            ]
+        },
+        {
+            "name": "Nicolas Ramos Costa",
+            "path": "Nicoly",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/nicolas.jpeg",
+            "pages": [{
+                "name": "Quem eu sou - (HTML5, CSS)",
+                "path": "quem-sou-eu"
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }]
+        },
+        {
+            "name": "Rafael Peres Silva",
+            "path": "Rafael",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/rafael.jpg",
+            "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                },
+                {
+                    "name": "Calculadora (JS)",
+                    "path": "calculadora"
+                }
+            ]
+        },
+        {
+            "name": "Felipe Braga Machado ",
+            "path": "Felipe",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/felipe.jpeg",
+            "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                },
+                {
+                    "name": "Calculadora (JS)",
+                    "path": "calculadora"
+                }
+            ]
+        },
+        {
+            "name": "Victor Luã",
+            "path": "Luã",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t10/individual/victor.jpg",
+            "pages": [{
+                    "name": "Quem eu sou - (HTML5, CSS)",
+                    "path": "quem-sou-eu"
+                },
+                {
+                    "name": "Calculadora (JS)",
+                    "path": "calculadora"
+                }
+            ]
+        },
+        {
+            "name": "Nicoly Filbert Ortiz ",
+            "path": "Nicoly",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t10/individual/nicoly.jpeg",
+            "pages": [{
+                "name": "Quem eu sou - (HTML5, CSS)",
+                "path": "quem-sou-eu"
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }
+            ]
+        }
+
+    ]
 }
 ]
