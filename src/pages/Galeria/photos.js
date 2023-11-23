@@ -44,6 +44,11 @@ export const photos = [{
         height: 3
     },
     {
+        src: "assets/t10/t10.jpeg",
+        width: 4,
+        height: 3
+    },
+    {
         src: "assets/t11/t11.JPG",
         width: 4,
         height: 3
