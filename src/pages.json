@@ -1612,8 +1612,18 @@
                 "path": "calculadora"
             }
             ]
+        },
+        {
+            "name": "Aromas do Mundo",
+            "path": "Aromas",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/aromas do mundo.png",
+            "pages": [{
+                "name": "Aromas do Mundo",
+                "path": "aromas"
+            }
+            ]
         }
-
     ]
 }
 ]
