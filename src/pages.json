@@ -1623,7 +1623,7 @@
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t11/AROMAS DO MUNDO/aromas do mundo.png",
             "pages": [{
-                "name": "Aromas do Mundo",
+                "name": "Aromas-do-Mundo",
                 "path": "aromas"
             }
             ]
