@@ -8,14 +8,12 @@
     font-size: 42px;
   }  */
 
-  .Main {
-    display: flex;
-    justify-content: center;
-  }
-  
+
   .Main img {
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
   } 
 
   #header-turmas{
