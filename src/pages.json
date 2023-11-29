@@ -1529,6 +1529,10 @@
             "path": "Leticia",
             "description": "Conheça as páginas de construídas por nossas estudantes",
             "picture": "assets/t11/individual/leticia.jpeg",
+            "imageSize": {
+                "width": 800,
+                "height": 600
+            },
             "pages": [{
                     "name": "Quem eu sou - (HTML5, CSS)",
                     "path": "quem-sou-eu"
