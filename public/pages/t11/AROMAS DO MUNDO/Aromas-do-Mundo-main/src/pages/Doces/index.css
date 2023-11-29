@@ -1,0 +1,21 @@
+.doce{
+    width: 450px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  #button{
+    background-color:  #ac6727;
+    color: white;
+    width: 10%;
+    height: 30px;
+  }
+  #button:hover{
+    background-color: #794414;
+  }

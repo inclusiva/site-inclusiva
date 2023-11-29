@@ -1,0 +1,17 @@
+.comida{
+  max-width: 40%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+#button{
+  background-color:  #ac6727;
+  color: white;
+  width: 10%;
+  height: 30px;
+}
+#button:hover{
+  background-color: #794414;
+}

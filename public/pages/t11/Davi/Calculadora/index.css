@@ -1,0 +1,46 @@
+body{
+    background-image: url(./images/Estrada.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#botton{
+    border-style: solid;
+    border-color: rgb(58, 58, 58);
+    border-radius: 6%;
+    
+}
+
+h1{
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+}
+
+#botao{
+    border-radius: 10px;
+    box-shadow: 2px 2px  1px ;
+    width: 100px;
+    height: 45px;
+}
+.alinhar{
+    text-align: center;
+}
+.historic{
+border-radius: 3px;
+box-shadow: 1px 1px  1px ;
+}
+
+.inpute{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4{
+    margin-top: 2px;
+    margin-bottom: 1px;
+    color: rgb(0, 255, 191);
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
