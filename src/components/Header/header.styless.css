@@ -2,7 +2,7 @@
   padding: 80px;
   text-align: center;
   color: white;
-  background-color: #EEBCA1;
+  background-color: #e80baa;
   background-size: cover;
   height: 500px;
 }
@@ -13,6 +13,6 @@
 
 .header img {
   margin-top: 10px;
-  width: 40vw;
-  height: 60vh;
+  width: 70vw;
+  height: 70vh;
 }
