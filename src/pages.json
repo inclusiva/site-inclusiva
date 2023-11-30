@@ -1618,6 +1618,21 @@
             ]
         },
         {
+            "name": "Eric Borges",
+            "path": "Eric",
+            "description": "Conheça as páginas de construídas por nossas estudantes",
+            "picture": "assets/t11/individual/eric.jpeg",
+            "pages": [{
+                "name": "Quem eu sou - (HTML5, CSS)",
+                "path": "quem-sou-eu"
+            },
+            {
+                "name": "Calculadora (JS)",
+                "path": "calculadora"
+            }
+            ]
+        },
+        {
             "name": "Aromas do Mundo",
             "path": "Aromas",
             "description": "Trabalho feito pelas alunas Davi e Eric",
