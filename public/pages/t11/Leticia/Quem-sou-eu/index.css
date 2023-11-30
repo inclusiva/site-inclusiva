@@ -1,0 +1,88 @@
+body {
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color: black;
+
+}
+
+.título {
+    color: rgb(232, 221, 221);
+    text-align: center;
+}
+
+.foto {
+    height: 250px;
+    width: 200px;
+
+    border-radius: 50%;
+}
+
+.info {
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: rgb(123, 124, 125);
+}
+
+img {
+    width: 250px;
+
+}
+
+.serie {
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(94, 92, 92);
+    border-color: rgb(234, 223, 223)
+}
+
+.lista {
+    background-color: grey;
+    border-style: solid;
+    border-color: rgb(240, 248, 255);
+}
+
+.tabela {
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: rgb(106, 106, 104);
+}
+
+th,
+td {
+    border-style: solid;
+}
+
+hr {
+    opacity: 0%;
+}
+
+.comidas {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+
+}
+
+.formulário {
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: rgb(130, 129, 129);
+}
+
+.conteudo {
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+h1,
+h2,
+h4,
+p,
+td,
+tr,
+li {
+    color: aliceblue;
+}
