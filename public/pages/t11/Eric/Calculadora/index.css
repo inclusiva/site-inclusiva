@@ -1,0 +1,59 @@
+h3 {
+    color: rgb(255, 255, 255);
+    left: 20%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    left: 20%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* cores dos botoes */
+:root {
+
+
+    font-size: large;
+    background-image: url(https://i.pinimg.com/originals/a2/c7/37/a2c73780c598afd57931eea32ea5780f.png);
+    color: rgb(51, 255, 0);
+}
+
+/* body da calculadora */
+.fundo {
+    background-image: linear-gradient(45deg, var(--cor-primaria), var(--cor-secundaria));
+    height: 100vh;
+    color: var(--cor-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* fundo da calculadora*/
+.calculadora {
+    position: absolute;
+    background-color: rgba(65, 0, 73, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* jeito do botao*/
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: var(--cor-texto);
+}
+
+.botao:hover {
+    background-color: var(--cor-hover-botao);
+}

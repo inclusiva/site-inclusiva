@@ -1,0 +1,77 @@
+.skate {
+
+  text-align: center;
+}
+
+.pao {
+  height: 45%;
+  width: 45%;
+  text-align: left 50%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  background-image: url(https://img.freepik.com/fotos-premium/fundo-de-denim-de-tecido-textura-detalhada-jeans-azul_247934-343.jpg);
+
+  background-position: center;
+
+
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.oi {
+  width: 45%;
+  border-radius: 100px;
+  border: 50%;
+  border-style: solid;
+}
+
+.musicas {
+  text-align: center;
+
+}
+
+img {
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 250px;
+  margin-top: 60px;
+}
+
+.nomes {
+  border-style: solid;
+  background-color: rgb(255, 221, 69);
+  color: black;
+}
+
+.curiosidades {
+  border-style: solid;
+  background-color: rgb(255, 221, 69);
+  ;
+}
+.minion{
+  margin-left: 50%;
+  position: absolute;
+left: 40px;
+}
+.bart{margin-right: 50px;
+}
+.homer{
+  margin-top: 20px;
+}
+p{
+ font-family: 'Frijole', cursive;
+}
+  
