@@ -1499,15 +1499,7 @@
             "name": "Ana Clara Lemos Lopes",
             "path": "Ana",
             "description": "Conheça as páginas de construídas por nossas estudantes",
-            "picture": "assets/t11/individual/Ana.png",
-            "pages": [{
-                //"name": "Quem eu sou - (HTML5, CSS)",
-                //"path": "quem-sou-eu"
-            },
-            {
-                //"name": "Calculadora (JS)",
-                //"path": "calculadora"
-            }]
+            "picture": "assets/t11/individual/Ana.png"
         },
         {
             "name": "Davi Seabra da Costa",
