@@ -1,0 +1,40 @@
+.ali{
+    position: absolute;
+    z-index: -1;
+    border-radius: 0%;
+    width: 100%;
+}
+
+.tudo{
+position: absolute;
+}
+
+.IndoAli{
+    text-align: center;
+    font-size: 250px;
+    font-style: garamond;
+    color: black;
+}
+
+.indoalicalcular{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkblue;
+    font-style: garamond;
+    font-size: 120px;
+   
+}
+
+.tudão{
+    margin-left: 50%;
+}
+
+.calculando{
+    margin-left: 44%;
+    width: 20%;
+    height: 20%;
+}
+.h4{
+    margin-left: 2%;
+    color: aliceblue;
+}
