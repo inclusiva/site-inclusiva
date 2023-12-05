@@ -1,0 +1,64 @@
+.fro{
+    position:absolute;
+z-index: -1;
+    width: 100%;
+
+     }
+    
+ .projeto{
+    font-size: 55px;
+    
+
+    font-family: 'Press Start 2P', cursive;
+    
+
+    color: white;
+    text-align: center;
+    
+ }
+ .numeroUm{
+    margin-top: 150px;
+    height: 30px;
+    margin-left: 41%;
+ }
+ .numeroDois{
+    height: 30px;
+ }
+ .soma{
+    margin-top: 5px;
+    height: 30px;
+    width: 120px;
+    margin-left: 44%;
+ }
+ .subtracao{
+    height: 30px;
+    width: 120px;
+    margin-left: 2px;
+ }
+ .multiplicacao{
+    margin-top: 5px;
+    height: 30px;
+    width: 120px;
+    margin-left: 44%;
+ }
+ .divisao{
+    height: 30px;
+    width: 120px;
+    margin-left: 2px;
+ }
+ .historicozinho{
+    margin-left: 48.5%;
+    margin-top: 5px;
+border-color: blueviolet;
+ }
+.nome{
+   text-align: center;
+   color: whitesmoke;
+   margin-top: 20%;
+}
+.co{
+   z-index: -1;
+}
+.tudo{
+   
+}
