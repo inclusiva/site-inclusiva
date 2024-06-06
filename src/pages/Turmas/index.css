@@ -1,0 +1,98 @@
+.Main img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.MuiExpansionPanelDetails-root.GroupPanelDetails {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MuiPaper-root.MuiCard-root.ProjectCard.MuiPaper-elevation1.MuiPaper-rounded {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 10px;
+  width: 25%;
+  transition: all 0.3s ease-out;
+  background-color: #fff;
+  border-left: 10px solid #E60C5C;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiExpansionPanelSummary-root {
+  display: none;
+  padding: 20px 16px;
+}
+
+.MuiExpansionPanelSummary-content.Mui-expanded {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MuiTypography-root.Title.MuiTypography-h5 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .Main {
+    margin-top: 50px;
+    column-count: 1;
+  }
+
+  .Main h2 {
+    font-size: 32px;
+  }
+
+  .Main img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .MuiPaper-root.MuiCard-root.ProjectCard.MuiPaper-elevation1.MuiPaper-rounded {
+    margin: 10px;
+    width: 80%;
+    padding: 5px;
+  }
+
+  .MuiTypography-root.Title.MuiTypography-h5 {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .Main {
+    margin-top: 20px;
+    column-count: 1;
+  }
+
+  .Main h2 {
+    font-size: 24px;
+  }
+
+  .Main img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .MuiPaper-root.MuiCard-root.ProjectCard.MuiPaper-elevation1.MuiPaper-rounded {
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .MuiTypography-root.Title.MuiTypography-h5 {
+    font-size: 16px;
+    padding: 5px;
+  }
+}

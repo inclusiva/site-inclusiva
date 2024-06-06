@@ -1,0 +1,142 @@
+.conteudo-geral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.cards-livros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.titulo-livro {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #333;
+}
+
+.img-livro {
+  width: 50%;
+  border: transparent thin solid;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.bloco-livro {
+  width: 80%;
+  padding: 5%;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.paragrafo-documentacao {
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+.container-videos {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards-videos {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.videos-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-responsive {
+  flex: 1;
+  padding: 10px;
+  max-width: 300px;
+  height: 250px;
+  margin: 10px;
+}
+
+.video-responsive iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .conteudo-geral {
+    max-width: 90%;
+  }
+
+  .titulo-livro {
+    font-size: 2rem;
+  }
+
+  .img-livro {
+    width: 80%;
+  }
+
+  .bloco-livro {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .paragrafo-documentacao {
+    font-size: 1.5em;
+  }
+
+  .container-videos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-responsive {
+    width: 80%;
+    height: 200px;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .conteudo-geral {
+    max-width: 100%;
+  }
+
+  .titulo-livro {
+    font-size: 1.5rem;
+  }
+
+  .img-livro {
+    width: 90%;
+  }
+
+  .bloco-livro {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .paragrafo-documentacao {
+    font-size: 1.2em;
+  }
+
+  .container-videos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-responsive {
+    width: 90%;
+    height: 150px;
+    margin: 5px 0;
+  }
+}

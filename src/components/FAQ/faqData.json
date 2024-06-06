@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Programa",
+        "questions": [
+            {
+                "q": "Por que TI?",
+                "a": "A área de Tecnologia da Informação é uma das mais promissoras do mercado de trabalho. Dentre as muitas razões para para se desenvolver neste campo, destacamos: Amplo mercado de trabalho - pilar no desenvolvimento das empresas, tornando os processos mais rápidos e inovadores; Oportunidade de carreira - a faixa salarial de um profissional em TI está acima da média nacional; Alto índice de empregabilidade - a demanda das empresas por profissionais da área de TI só aumenta, oferecendo muitas vagas e oportunidades de trabalho; Valorização do profissional - profissionais especializados nesta área se tornaram membros imprescindíveis nas equipes de trabalho das empresas."
+            },
+            {
+                "q": "Por que o curso é destinado exclusivamente para pessoas com deficiência?",
+                "a": "A inclusão de Pessoas com Deficiência por parte das empresas é um dever moral e legal,  e visa integrar as pessoas com deficiência na sociedade, como um todo, possibilitando que esse grupo tenha acesso aos direitos que lhes são garantidos pela Constituição. Para além das leis que regem as políticas de cotas para a inclusão de pessoas com deficiências, a maior importância da integração social é o respeito aos direitos de pessoas com deficiências, desenvolvendo-se o sentimento de dignidade, de humanidade e de pertencimento de todos dentro de uma comunidade. O ato de incluir socialmente tem o objetivo de possibilitar que as pessoas marginalizadas e excluídas, como as pessoas com deficiência, tenham acesso à vida social, econômica, política e desfrutem dos seus direitos . Além disso, essa é uma ótima forma para que as equipes aprendam a lidar com a diversidade."
+            },
+            {
+                "q": "O que vou aprender?",
+                "a": "Você irá aprender, desenvolver e aprimorar noções básicas de desenvolvimento para a Web, incluindo linguagens de programação, ferramentas e acessibilidade na Web."
+            },
+            {
+                "q": "As aulas serão presenciais ou virtuais? ",
+                "a": "O formato do Curso será totalmente remoto, através de videoaulas, palestras, debates, exercícios voltados à TI e temas transversais de interesse das alunas."
+            },
+            {
+                "q": "Terei ajuda de custo?",
+                "a": "Sim, no valor de R$750,00 (setecentos e cinquenta reais) mensais, durante os 6 meses de formação."
+            },
+            {
+                "q": " Haverá algum contrato para receber a bolsa?",
+                "a": "Sim. O contrato será assinado pela aluna, após ser aprovada em todas as etapas da seleção."
+            },
+            {
+                "q": "Se faltar às aulas a bolsa é cancelada?",
+                "a": "A aluna, para continuar recebendo a ajuda de custo, necessitará, obrigatoriamente, ter uma frequência mínima de 75% das aulas."
+            },
+            {
+                "q": "Ao final do curso vou receber certificado?",
+                "a": "Sim, no encerramento das atividades será entregue um certificado de conclusão. Porém, para a aluna receber seu certificado, necessitará obrigatoriamente ter uma frequência mínima de 75% das aulas. "
+            },
+            {
+                "q": "Posso morar fora do RS e fazer o curso?",
+                "a": "Sim, o curso terá abrangência nacional, não sendo impeditivo que a aluna resida em outro estado da Federação."
+            },
+            {
+                "q": "Terei aula todos os dias da semana?",
+                "a": "Não, as aulas ocorrerão às segundas, terças e quintas, no período da tarde"
+            },
+            {
+                "q": "Não tenho ensino médio completo. Posso fazer o curso?",
+                "a": "Depende. Se estiver concluindo o Ensino Médio ainda em 2024, a candidata poderá realizar a inscrição. Também poderão se candidatar pessoas com Ensino Técnico ou Ensino Superior em curso. "
+            },
+            {
+                "q": "Não tenho computador, mas tenho celular conectado à internet. Posso fazer o curso?",
+                "a": "Não. Para a realização do curso é necessário não só conexão com internet, mas também softwares e apps instalados que somente são compatíveis em computadores ou laptops."
+            },
+            {
+                "q": "Não tenho nenhuma experiência em TI. Poderei fazer o curso?",
+                "a": "Sim. Um dos objetivos do programa Aceleradora Inclusiva é oportunizar as primeiras aproximações com a área da Tecnologia da Informação e Comunicação. (TIC). Portanto, nas aulas iniciais, será feito um nivelamento para que todas as alunas estejam em condições de dar início ao aprendizado."
+            }
+        ]
+    }
+]

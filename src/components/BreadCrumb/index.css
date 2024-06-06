@@ -1,0 +1,49 @@
+.breadcrumb {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.breadcrumb a {
+    color: #F3911F;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    color: #F3911F;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb a,
+    .separator {
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .breadcrumb a {
+        flex-basis: 30%;
+        text-align: center;
+        text-decoration: underline;
+    }
+}
