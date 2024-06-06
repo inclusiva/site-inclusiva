@@ -2,16 +2,18 @@ import React from 'react';
 import './index.css';
 
 const events = [
-    { date: '5 a 14 de junho', description: 'Inscrição' },
-    { date: '17 a 21 de junho', description: 'Seleção e divulgação dos selecionados' },
-    { date: '24 a 28 de junho', description: 'Matrícula/Contrato' },
-    { date: '1 de julho', description: 'Início das aulas' },
+    { date: '7 a 14 de junho', description: 'Inscrição' },
+    { date: '21 de junho', description: 'Convocação para entrevistas' },
+    { date: '24 a 27 de junho', description: 'Entrevistas' },
+    { date: '28 de junho', description: 'Seleção e divulgação dos selecionados' },
+    { date: '1 a 5 de julho', description: 'Matrícula/Contrato' },
+    { date: '1ª quinzena de julho', description: 'Início das aulas' },
 ];
 
 const Timeline = () => {
     return (
         <div id="timeline-container">
-            <h2 className='title-timeline'>Cronograma</h2>
+            <h2 className='title-timeline'>Cronograma 2024</h2>
             <div>
                 <div className="timeline-box">
                     {events.map((event, index) => (

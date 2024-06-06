@@ -3,7 +3,7 @@ import './index.css';
 
 const requisitos = [
     "Ter 18 anos ou mais",
-    "Pessoas com deficiência motora ou mobilidade reduzida (com laudo médico que ateste a deficiência);",
+    "Pessoas com deficiência motora ou mobilidade reduzida*(com laudo médico que ateste a deficiência);",
     "Estar cursando o último ano do Ensino Médio, ou cursando Ensino Técnico, ou cursando Ensino Superior",
     "Disponibilidade de horário",
     "Possuir acesso à internet",
