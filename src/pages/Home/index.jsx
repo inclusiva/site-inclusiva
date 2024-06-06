@@ -34,11 +34,11 @@ const Home = () => {
         <Button text={"Inscreva-se aqui"} className="button-highlight" />
       </div>
       <div id="info">
-        <p>Para mais informações acesse o <a href=" https://docs.google.com/document/d/1PxP5a5FdXkAFmaEa0su9YQjVk6CVqtEXtjO1h33VKh8/edit?usp=sharing" rel="noreferrer" target='_blank'>edital.</a></p>
+        <p>Para mais informações acesse o <a href=" https://docs.google.com/document/d/1PxP5a5FdXkAFmaEa0su9YQjVk6CVqtEXtjO1h33VKh8/edit?usp=sharing" rel="noreferrer" target='_blank'>edital</a></p>
       </div>
       <FAQ />
       <div id="contact">
-        <p>Caso tenha mais dúvidas, entre em contato: <a href="mailto:inclusiva.aceleradora@gmail.com" rel="noreferrer" target='_blank'>inclusiva.aceleradora@gmail.com</a>.</p>
+        <p>Caso tenha mais dúvidas, entre em contato: <a href="mailto:inclusiva.aceleradora@gmail.com" rel="noreferrer" target='_blank'>inclusiva.aceleradora@gmail.com</a></p>
       </div>
     </>
   );
