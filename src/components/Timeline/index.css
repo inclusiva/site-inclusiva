@@ -40,7 +40,7 @@
     content: '→';
     position: absolute;
     left: 100%;
-    transform: translateX(10px);
+    transform: translateX(20px);
     color: #E60C5C;
     font-weight: bold;
 }
