@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const events = [
-    { date: '7 a 14 de junho', description: 'Inscrição' },
+    { date: '6 a 14 de junho', description: 'Inscrição' },
     { date: '21 de junho', description: 'Convocação para entrevistas' },
     { date: '24 a 27 de junho', description: 'Entrevistas' },
     { date: '28 de junho', description: 'Seleção e divulgação dos selecionados' },
