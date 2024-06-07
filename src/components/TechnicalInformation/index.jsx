@@ -3,12 +3,12 @@ import './index.css';
 
 const TechnicalInformation = () => {
     const techSkill = [
-        "Javascript",
-        "HTML e CSS",
-        "React.js",
-        "Git/Github",
-        "Node + Express",
-        "Aulas especiais",
+        "Javascript;",
+        "HTML e CSS;",
+        "React.js;",
+        "Git/Github;",
+        "Node + Express;",
+        "Aulas especiais.",
     ];
 
     return (

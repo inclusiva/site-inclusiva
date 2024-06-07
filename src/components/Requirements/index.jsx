@@ -3,8 +3,8 @@ import './index.css';
 
 const requisitos = [
     "Ter 18 anos ou mais",
-    "Pessoas com deficiência motora ou mobilidade reduzida*(com laudo médico que ateste a deficiência);",
-    "Estar cursando o último ano do Ensino Médio",
+    "Pessoas com deficiência motora ou mobilidade reduzida*(com laudo médico que ateste a deficiência)",
+    "Minímo ter Ensino Médio concluído até o final de 2024",
     "Disponibilidade de horário",
     "Possuir acesso à internet",
     "Ter computador para acessar as aulas",
@@ -20,7 +20,7 @@ const Requirements = () => {
             <ul>
                 {requisitos.map((requisito, index) => (
                     <li key={index} className="requisito-box">
-                        {requisito}
+                        {requisito};
                     </li>
                 ))}
                 <p className="obs">*Necessário apresentação de laudo e enquadramento na lei de cotas 8213/91.</p>
