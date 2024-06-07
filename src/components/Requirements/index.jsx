@@ -4,13 +4,13 @@ import './index.css';
 const requisitos = [
     "Ter 18 anos ou mais",
     "Pessoas com deficiência motora ou mobilidade reduzida*(com laudo médico que ateste a deficiência);",
-    "Estar cursando o último ano do Ensino Médio, ou cursando Ensino Técnico, ou cursando Ensino Superior",
+    "Estar cursando o último ano do Ensino Médio",
     "Disponibilidade de horário",
     "Possuir acesso à internet",
     "Ter computador para acessar as aulas",
     "Vontade de aprender",
     "Ter interesse por tecnologia da informação",
-    "Ser residente em qualquer parte do Brasil"
+    "Ser residente em qualquer parte do Brasil",
 ];
 
 const Requirements = () => {

@@ -17,7 +17,7 @@ const ProcessInformation = () => {
             </div>
             <div class="information-item">
                 <img src={AjudaCusto} alt="Ícone de ajuda de custo" />
-                <span class="text-break">Ajuda de custo mensal no valor de R$750,00</span>
+                <span class="text-break">Ajuda de custo mensal no valor de R$750,00*</span>
             </div>
             <div class="information-item">
                 <img src={Certificado} alt="Ícone de certificado" />
@@ -26,7 +26,7 @@ const ProcessInformation = () => {
 
             <div class="information-item">
                 <img src={NumeroVagas} alt="Ícone de número de vagas" />
-                <span>15 vagas disponíveis</span>
+                <span>25 vagas disponíveis</span>
             </div>
             <div class="information-item">
                 <img src={PossibilidadeContratacao} alt="Ícone de possibilidade de contratação" />
