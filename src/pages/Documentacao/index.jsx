@@ -50,9 +50,17 @@ const Body = () => {
             <div className="cards-livros">
                 <h2 className="titulo-livro">Livro</h2>
                 <img src={ImageLivro} className="img-livro" alt="imagem do livro" />
-                <div className="bloco-livro">
-                    <p className="paragrafo-documentacao">Aceleradora Ágil e Inclusiva, unindo conhecimento, projetos e pessoas para construir um futuro tecnológico justo. <Link href="https://www.amazon.com.br/Aceleradora-%C3%A1gil-inclusiva-conhecimento-tecnol%C3%B3gico-ebook/dp/B08G386YC7" target="_blank">Download</Link></p>
+                <div className="bloco-conteudo">
+                    <p className="paragrafo-documentacao">
+                        Aceleradora Ágil e Inclusiva, unindo conhecimento, projetos e pessoas para construir um futuro tecnológico justo.
+                        Você pode fazer o download através do <a href="https://www.amazon.com.br/Aceleradora-%C3%A1gil-inclusiva-conhecimento-tecnol%C3%B3gico-ebook/dp/B08G386YC7" rel="noreferrer" target="_blank">link.</a></p>
                 </div>
+            </div>
+            <h2 className="titulo-livro">Dissertação</h2>
+            <div className='bloco-conteudo'>
+                <p className='paragrafo-dissertacao'>Temos o prazer de destacar a dissertação intitulada "Gestão Social: Conformação e Impactos de um Programa de Inclusão Social na Área da Tecnologia", escrita por Ana Paula Ribeiro de Souza, nossa parceira no programa.
+                    Você pode acessar a dissertação completa através do  <a href="https://tede2.pucrs.br/tede2/handle/tede/10809" rel="noreferrer" target='_blank'>link</a>.
+                </p>
             </div>
             <h2 className='cards-videos'>Vídeos</h2>
             <div className="container-videos">

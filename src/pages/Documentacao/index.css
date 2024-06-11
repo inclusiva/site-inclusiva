@@ -17,7 +17,6 @@
 .titulo-livro {
   margin-bottom: 20px;
   font-size: 3rem;
-  color: #333;
 }
 
 .img-livro {
@@ -28,16 +27,27 @@
   margin-top: 20px;
 }
 
-.bloco-livro {
+.bloco-conteudo {
   width: 80%;
   padding: 5%;
   text-align: justify;
-  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.6;
 }
 
 .paragrafo-documentacao {
   margin-bottom: 30px;
-  font-size: 1.8em;
+}
+
+.paragrafo-documentacao a,
+.paragrafo-dissertacao a {
+  color: #E60C5C;
+  text-decoration: none;
+}
+
+.paragrafo-dissertacao a:hover,
+.paragrafo-documentacao a:hover {
+  text-decoration: underline;
 }
 
 .container-videos {
@@ -50,7 +60,6 @@
 
 .cards-videos {
   font-size: 3rem;
-  color: #333;
   margin-bottom: 30px;
 }
 
@@ -86,13 +95,13 @@
     width: 80%;
   }
 
-  .bloco-livro {
+  .bloco-conteudo {
     width: 90%;
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
-  .paragrafo-documentacao {
-    font-size: 1.5em;
+  .paragrafo-dissertacao {
+    font-size: 1.2rem;
   }
 
   .container-videos {
@@ -120,13 +129,14 @@
     width: 90%;
   }
 
-  .bloco-livro {
+  .bloco-conteudo {
     width: 100%;
-    font-size: 10px;
+    font-size: 1.2rem;
+    text-align: justify;
   }
 
-  .paragrafo-documentacao {
-    font-size: 1.2em;
+  .paragrafo-dissertacao {
+    font-size: 1.2rem;
   }
 
   .container-videos {
