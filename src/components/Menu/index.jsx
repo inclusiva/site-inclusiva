@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './index.css'
-import GloboLogo from '../../assets2/globo.com-logo.png';
+import GloboLogo from '../../assets2/globo.png';
 import ThoughtWorksLogo from '../../assets2/thoughtworks-logo.png';
 import TecnopucLogo from '../../assets2/tecnopuc-logo.webp';
 import PUCRSLogo from '../../assets2/PUCRS-logo.webp';
