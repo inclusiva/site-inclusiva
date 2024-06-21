@@ -1,13 +1,12 @@
 import Menu from '../../components/Menu/index';
 import './index.css';
-import Button from '../../components/Button/index';
 import Breadcrumb from '../../components/BreadCrumb/index';
 import FAQ from '../../components/FAQ';
 import Timeline from '../../components/Timeline';
 import Requirements from '../../components/Requirements';
-import Banner from '../../assets2/banner2024.png';
 import ProcessInformation from '../../components/ProcessInformation';
 import TechnicalInformation from '../../components/TechnicalInformation';
+import Banner from "../../assets2/banner-encerramento.png";
 
 
 const Home = () => {
@@ -18,7 +17,6 @@ const Home = () => {
       <div className="content">
         <Breadcrumb />
         <img id='img-banner' src={Banner} alt="Banner da Aceleradora Inclusiva" />
-        <Button text={"Inscreva-se aqui"} className="button-highlight" />
         <div id="about">
           <h2 className='title-about'>Sobre o programa</h2>
           <p>
@@ -31,7 +29,6 @@ const Home = () => {
         <TechnicalInformation />
         <Requirements />
         <Timeline />
-        <Button text={"Inscreva-se aqui"} className="button-highlight" />
       </div>
       <div id="info">
         <p>Para mais informações acesse o <a href=" https://docs.google.com/document/d/1PxP5a5FdXkAFmaEa0su9YQjVk6CVqtEXtjO1h33VKh8/edit?usp=sharing" rel="noreferrer" target='_blank'>edital</a></p>
