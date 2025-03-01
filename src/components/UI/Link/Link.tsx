@@ -57,8 +57,8 @@ BreadcrumbLink.displayName = "BreadcrumbLink";
 const NavigationLink = React.forwardRef<
   React.ComponentRef<typeof TanStackLink>,
   CustomTanstackLinkProps
->(({ label, to }) => (
-  <TanStackLink to={to}>
+>(({ label, to }, ref) => (
+  <TanStackLink to={to} ref={ref}>
     <Typography>{label}</Typography>
   </TanStackLink>
 ));

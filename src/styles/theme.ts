@@ -59,7 +59,7 @@ const theme = createTheme({
       fontWeight: 700,
     },
     body1: {
-      fontSize: "1rem",
+      fontSize: "1.25rem",
       fontWeight: 400,
     },
     body2: {
@@ -79,6 +79,9 @@ const theme = createTheme({
       fontSize: "1rem",
       fontWeight: 600,
     },
+    fontWeightBold: 700,
+    fontWeightMedium: 600,
+    fontWeightRegular: 400,
   },
   spacing: (factor: number) => `${0.25 * factor}rem`,
 });
