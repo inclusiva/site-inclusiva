@@ -10,7 +10,7 @@ const Hero = () => {
         alignItems: "center",
         justifyContent: "center",
         width: "100%",
-        background: { xs: "transparent", xl: "#edf1f3" },
+        background: { xs: "transparent", xl: "#fde5cb" },
       }}
     >
       <img

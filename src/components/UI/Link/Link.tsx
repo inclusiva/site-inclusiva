@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import {
+  Link,
   Link as MuiLink,
   LinkProps as MuiLinkProps,
   styled,
@@ -11,6 +12,7 @@ import {
   LinkOptions as TanStackLinkProps,
 } from "@tanstack/react-router";
 import { Typography } from "@mui/material";
+import theme from "@/styles/theme";
 
 interface CustomTanstackLinkProps extends TanStackLinkProps {
   label: string;
@@ -54,15 +56,41 @@ const BreadcrumbLink = React.forwardRef<
 
 BreadcrumbLink.displayName = "BreadcrumbLink";
 
+const navigationLinkStyles: React.CSSProperties = {
+  color: theme.palette.primary.main,
+  fontWeight: theme.typography.fontWeightMedium,
+  fontSize: theme.typography.body1.fontSize,
+  textDecoration: "none",
+};
+
 const NavigationLink = React.forwardRef<
   React.ComponentRef<typeof TanStackLink>,
   CustomTanstackLinkProps
 >(({ label, to }, ref) => (
-  <TanStackLink to={to} ref={ref}>
+  <TanStackLink to={to} ref={ref} style={navigationLinkStyles}>
     <Typography>{label}</Typography>
   </TanStackLink>
 ));
 
 NavigationLink.displayName = "NavigationLink";
 
-export { BreadcrumbLink, NavigationLink };
+const RedirectToCourseNotice = () => {
+  return (
+    <Typography sx={{ fontSize: "1.25rem", textAlign: "center" }}>
+      Para mais informações acesse o{" "}
+      <Link
+        href="https://docs.google.com/document/d/1K5VupmxmRpYT0Im6LJ_yFJcDgzBOYPxyD3aF8Dmbfpo/edit?usp=drive_link"
+        target="_blank"
+        sx={{
+          color: theme.palette.secondary.main,
+          fontWeight: theme.typography.fontWeightBold,
+          textDecoration: "none",
+        }}
+      >
+        edital
+      </Link>
+    </Typography>
+  );
+};
+
+export { BreadcrumbLink, NavigationLink, RedirectToCourseNotice };

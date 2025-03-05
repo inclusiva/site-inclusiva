@@ -8,7 +8,6 @@ import {
   List,
   ListItem,
   ListItemButton,
-  ListItemText,
   Toolbar,
   Typography,
   Divider,
@@ -23,6 +22,7 @@ import {
 } from "@/utils/constants";
 import MenuIcon from "@mui/icons-material/Menu";
 import * as React from "react";
+import { NavigationLink } from "@/components/UI/Link/Link";
 
 const StyledMuiAppBar = styled(MuiAppBar)(({ theme }) => ({
   "&.MuiPaper-root": {
@@ -50,9 +50,14 @@ export const Header = React.forwardRef<
       <Divider />
       <List>
         {HEADER_NAVIGATION_ITEMS.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} sx={{ color: "#e60c5c" }} />
+          <ListItem key={item.label} disablePadding>
+            <ListItemButton
+              sx={{
+                textAlign: "center",
+                "& > a": { width: "100%", textAlign: "left" },
+              }}
+            >
+              <NavigationLink to={item.path} label={item.label} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -124,8 +129,8 @@ export const Header = React.forwardRef<
           </Box>
           <Box sx={{ display: { xs: "none", xl: "flex" } }}>
             {HEADER_NAVIGATION_ITEMS.map((item) => (
-              <Button key={item} sx={{ color: "#e60c5c" }}>
-                {item}
+              <Button key={item.label}>
+                <NavigationLink to={item.path} label={item.label} />
               </Button>
             ))}
           </Box>
@@ -146,6 +151,7 @@ export const Header = React.forwardRef<
       <nav>
         <Drawer
           variant="temporary"
+          anchor="right"
           open={drawerOpen}
           onClose={handleDrawerToggle}
           ModalProps={{

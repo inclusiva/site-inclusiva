@@ -1,4 +1,3 @@
-import * as React from "react";
 import {
   Timeline as MuiTimeline,
   TimelineItem,
@@ -26,11 +25,14 @@ const Timeline = () => {
                 variant="h6"
                 sx={{
                   fontWeight: theme.typography.fontWeightBold,
+                  fontSize: { xs: ".85rem", md: "1.25rem" },
                 }}
               >
                 {step.description}
               </Typography>
-              <Typography>{step.date}</Typography>
+              <Typography sx={{ fontSize: { xs: "1rem", md: "1.25rem" } }}>
+                {step.date}
+              </Typography>
             </TimelineContent>
           </TimelineItem>
         );

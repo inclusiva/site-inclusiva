@@ -3,15 +3,18 @@ import thoughtworksLogo from "@/assets/thoughtworks-logo.png";
 import inclusivaLogo from "@/assets/inclusiva-logo.png";
 import tecnopucLogo from "@/assets/tecnopuc-logo.webp";
 import globoLogo from "@/assets/globo-logo.png";
-import heroBannerImg from "@/assets/hero-banner-2025.png";
+import heroBannerImg from "@/assets/hero-banner-2025.jpg";
 
 export const INCLUSIVA_LOGO = inclusivaLogo;
 export const HERO_BANNER = heroBannerImg;
 
-// enum ROUTE_PATHS {
-//   HOME = "/",
-//   ABOUT = "/about",
-// }
+enum ROUTE_PATHS {
+  HOME = "/",
+  TURMAS = "/turmas",
+  GALERIA = "/galeria",
+  EQUIPE = "/equipe",
+  MIDIAS = "/midias",
+}
 
 export const BREADCRUMBS_NAVIGATION = [
   {
@@ -41,11 +44,22 @@ export const BREADCRUMBS_NAVIGATION = [
 ];
 
 export const HEADER_NAVIGATION_ITEMS = [
-  "Home",
-  "Turmas",
-  "Galeria",
-  "Equipe",
-  "Documentação",
+  {
+    label: "Home",
+    path: ROUTE_PATHS.HOME,
+  },
+  {
+    label: "Galeria",
+    path: ROUTE_PATHS.GALERIA,
+  },
+  {
+    label: "Equipe",
+    path: ROUTE_PATHS.EQUIPE,
+  },
+  {
+    label: "Mídias",
+    path: ROUTE_PATHS.MIDIAS,
+  },
 ];
 
 export const MENU_DRAWER_WIDTH = 240;
@@ -83,33 +97,38 @@ export const PARTNERS_ASSETS = [
 
 export const COURSE_STEPS = [
   {
-    date: "6 a 14 de junho",
-    description: "Inscrição",
+    date: "10 de março a 1 de abril",
+    description: "Inscrições e Desafio Técnico",
     color: "#e60c5c",
   },
   {
-    date: "21 de junho",
-    description: "Convocação para entrevistas",
+    date: "11 de março a 4 de abril",
+    description: "Análise das Documentações",
     color: "#f3911f",
   },
   {
-    date: "24 a 27 de junho",
+    date: "4 de abril",
+    description: "Chamada para Entrevistas",
+    color: "#e60c5c",
+  },
+  {
+    date: "7 a 11 de abril",
     description: "Entrevistas",
-    color: "#e60c5c",
-  },
-  {
-    date: "28 de junho",
-    description: "Divulgação dos selecionados",
     color: "#f3911f",
   },
   {
-    date: "1 a 5 de julho",
-    description: "Matrícula/Contrato",
+    date: "14 de abril",
+    description: "Divulgação das Selecionadas",
     color: "#e60c5c",
   },
   {
-    date: "1ª quinzena de julho",
-    description: "Início das aulas",
+    date: "15 a 17 de abril",
+    description: "Matrícula",
+    color: "#f3911f",
+  },
+  {
+    date: "22 de abril",
+    description: "Início das Aulas",
     color: "#f3911f",
   },
 ];
@@ -117,9 +136,9 @@ export const COURSE_STEPS = [
 export const FAQ_ACCORDIONS = [
   {
     id: "panel-1",
-    question: "Por que TI?",
+    question: "Por que Desenvolvimento Web?",
     answer:
-      "A área de Tecnologia da Informação é uma das mais promissoras do mercado de trabalho. Dentre as muitas razões para para se desenvolver neste campo, destacamos: Amplo mercado de trabalho - pilar no desenvolvimento das empresas, tornando os processos mais rápidos e inovadores; Oportunidade de carreira - a faixa salarial de um profissional em TI está acima da média nacional; Alto índice de empregabilidade - a demanda das empresas por profissionais da área de TI só aumenta, oferecendo muitas vagas e oportunidades de trabalho; Valorização do profissional - profissionais especializados nesta área se tornaram membros imprescindíveis nas equipes de trabalho das empresas.",
+      "A área de Desenvolvimento Web é uma das mais promissoras do mercado de trabalho. Dentre as muitas razões para para se desenvolver neste campo, destacamos: Amplo mercado de trabalho - pilar no desenvolvimento das empresas, tornando os processos mais rápidos e inovadores; Oportunidade de carreira - a faixa salarial de um profissional em TI está acima da média nacional; Alto índice de empregabilidade - a demanda das empresas por profissionais da área de TI só aumenta, oferecendo muitas vagas e oportunidades de trabalho; Valorização do profissional - profissionais especializados nesta área se tornaram membros imprescindíveis nas equipes de trabalho das empresas.",
   },
   {
     id: "panel-2",
@@ -138,13 +157,13 @@ export const FAQ_ACCORDIONS = [
     id: "panel-4",
     question: "As aulas serão presenciais ou virtuais? ",
     answer:
-      "O formato do Curso será totalmente remoto, através de videoaulas, palestras, debates, exercícios voltados à TI e temas transversais de interesse das alunas.",
+      "O formato do Curso será totalmente remoto, através de videoaulas, palestras, debates, exercícios voltados à Desenvolvimento Web e temas transversais de interesse das alunas.",
   },
   {
     id: "panel-5",
     question: "Terei ajuda de custo?",
     answer:
-      "Durante o período de realização do Curso, haverá uma ajuda de custo para cada uma das alunas, no valor de R$750,00 (setecentos e cinquenta reais) paga mensalmente. Para ter o direito à ajuda de custo, a candidata deverá ter vínculo com uma instituição de ensino: estar cursando o Ensino Técnico ou cursando o Ensino Superior. Para que receba a ajuda de custo é necessário que a aluna tenha, no mínimo, 75% de presença nas aulas.",
+      "Durante o período de realização da Formação, haverá uma ajuda de custo no valor de R$750,00 (setecentos e cinquenta reais), paga mensalmente.\n\n**Observação: O recebimento da bolsa de auxílio não representa, em nenhum momento, vínculo empregatício** com a Aceleradora Inclusiva, nem com suas mantenedoras.",
   },
   {
     id: "panel-6",
@@ -180,7 +199,7 @@ export const FAQ_ACCORDIONS = [
     id: "panel-11",
     question: "Não tenho ensino médio completo. Posso fazer o curso?",
     answer:
-      "Depende. Se estiver concluindo o Ensino Médio ainda em 2024, a candidata poderá realizar a inscrição. Também poderão se candidatar pessoas com Ensino Técnico ou Ensino Superior em curso. ",
+      "Depende. Se estiver concluindo o Ensino Médio ainda em 2025, a candidata poderá realizar a inscrição. Também poderão se candidatar pessoas com Ensino Técnico ou Ensino Superior em curso. ",
   },
   {
     id: "panel-12",
@@ -191,25 +210,27 @@ export const FAQ_ACCORDIONS = [
   },
   {
     id: "panel-13",
-    question: "Não tenho nenhuma experiência em TI. Poderei fazer o curso?",
+    question:
+      "Não tenho nenhuma experiência em Desenvolvimento Web. Poderei fazer o curso?",
     answer:
-      "Sim. Um dos objetivos do programa Aceleradora Inclusiva é oportunizar as primeiras aproximações com a área da Tecnologia da Informação e Comunicação. (TIC). Portanto, nas aulas iniciais, será feito um nivelamento para que todas as alunas estejam em condições de dar início ao aprendizado.",
+      "Sim. Um dos objetivos do programa Aceleradora Inclusiva é oportunizar as primeiras aproximações com a área de Desenvolvimento Web. Portanto, nas aulas iniciais, será feito um nivelamento para que todas as alunas estejam em condições de dar início ao aprendizado.",
   },
 ];
 
 export const COURSE_CONTENT = [
-  "Javascript;",
-  "HTML e CSS;",
-  "React.js;",
-  "Git/Github;",
-  "Node + Express;",
-  "Aulas especiais.",
+  "Javascript",
+  "HTML e CSS",
+  "React.js",
+  "Git/Github",
+  "Node + Express",
+  "Aulas especiais",
+  "Inglês",
 ];
 
 export const COURSE_PRE_REQUISITES = [
   "Ter 18 anos ou mais",
-  "Pessoas com deficiência motora ou mobilidade reduzida*(com laudo médico que ateste a deficiência)",
-  "Minímo ter Ensino Médio concluído até o final de 2024",
+  "Pessoas com deficiência motora ou mobilidade reduzida* (com laudo médico que ateste a deficiência)",
+  "Minímo ter Ensino Médio concluído até o final de 2025",
   "Disponibilidade de horário",
   "Possuir acesso à internet",
   "Ter computador para acessar as aulas",

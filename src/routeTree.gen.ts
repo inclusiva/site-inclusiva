@@ -11,20 +11,48 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as AboutImport } from './routes/about'
+import { Route as MidiasImport } from './routes/midias'
+import { Route as GaleriaImport } from './routes/galeria'
+import { Route as EquipeImport } from './routes/equipe'
 import { Route as IndexImport } from './routes/index'
+import { Route as TurmasIndexImport } from './routes/turmas/index'
+import { Route as TurmasTurmaIdImport } from './routes/turmas/$turmaId'
 
 // Create/Update Routes
 
-const AboutRoute = AboutImport.update({
-  id: '/about',
-  path: '/about',
+const MidiasRoute = MidiasImport.update({
+  id: '/midias',
+  path: '/midias',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GaleriaRoute = GaleriaImport.update({
+  id: '/galeria',
+  path: '/galeria',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const EquipeRoute = EquipeImport.update({
+  id: '/equipe',
+  path: '/equipe',
   getParentRoute: () => rootRoute,
 } as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const TurmasIndexRoute = TurmasIndexImport.update({
+  id: '/turmas/',
+  path: '/turmas/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const TurmasTurmaIdRoute = TurmasTurmaIdImport.update({
+  id: '/turmas/$turmaId',
+  path: '/turmas/$turmaId',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -39,11 +67,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutImport
+    '/equipe': {
+      id: '/equipe'
+      path: '/equipe'
+      fullPath: '/equipe'
+      preLoaderRoute: typeof EquipeImport
+      parentRoute: typeof rootRoute
+    }
+    '/galeria': {
+      id: '/galeria'
+      path: '/galeria'
+      fullPath: '/galeria'
+      preLoaderRoute: typeof GaleriaImport
+      parentRoute: typeof rootRoute
+    }
+    '/midias': {
+      id: '/midias'
+      path: '/midias'
+      fullPath: '/midias'
+      preLoaderRoute: typeof MidiasImport
+      parentRoute: typeof rootRoute
+    }
+    '/turmas/$turmaId': {
+      id: '/turmas/$turmaId'
+      path: '/turmas/$turmaId'
+      fullPath: '/turmas/$turmaId'
+      preLoaderRoute: typeof TurmasTurmaIdImport
+      parentRoute: typeof rootRoute
+    }
+    '/turmas/': {
+      id: '/turmas/'
+      path: '/turmas'
+      fullPath: '/turmas'
+      preLoaderRoute: typeof TurmasIndexImport
       parentRoute: typeof rootRoute
     }
   }
@@ -53,37 +109,70 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/equipe': typeof EquipeRoute
+  '/galeria': typeof GaleriaRoute
+  '/midias': typeof MidiasRoute
+  '/turmas/$turmaId': typeof TurmasTurmaIdRoute
+  '/turmas': typeof TurmasIndexRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/equipe': typeof EquipeRoute
+  '/galeria': typeof GaleriaRoute
+  '/midias': typeof MidiasRoute
+  '/turmas/$turmaId': typeof TurmasTurmaIdRoute
+  '/turmas': typeof TurmasIndexRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/equipe': typeof EquipeRoute
+  '/galeria': typeof GaleriaRoute
+  '/midias': typeof MidiasRoute
+  '/turmas/$turmaId': typeof TurmasTurmaIdRoute
+  '/turmas/': typeof TurmasIndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about'
+  fullPaths:
+    | '/'
+    | '/equipe'
+    | '/galeria'
+    | '/midias'
+    | '/turmas/$turmaId'
+    | '/turmas'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about'
-  id: '__root__' | '/' | '/about'
+  to: '/' | '/equipe' | '/galeria' | '/midias' | '/turmas/$turmaId' | '/turmas'
+  id:
+    | '__root__'
+    | '/'
+    | '/equipe'
+    | '/galeria'
+    | '/midias'
+    | '/turmas/$turmaId'
+    | '/turmas/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
+  EquipeRoute: typeof EquipeRoute
+  GaleriaRoute: typeof GaleriaRoute
+  MidiasRoute: typeof MidiasRoute
+  TurmasTurmaIdRoute: typeof TurmasTurmaIdRoute
+  TurmasIndexRoute: typeof TurmasIndexRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
+  EquipeRoute: EquipeRoute,
+  GaleriaRoute: GaleriaRoute,
+  MidiasRoute: MidiasRoute,
+  TurmasTurmaIdRoute: TurmasTurmaIdRoute,
+  TurmasIndexRoute: TurmasIndexRoute,
 }
 
 export const routeTree = rootRoute
@@ -97,14 +186,30 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/about"
+        "/equipe",
+        "/galeria",
+        "/midias",
+        "/turmas/$turmaId",
+        "/turmas/"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/about": {
-      "filePath": "about.tsx"
+    "/equipe": {
+      "filePath": "equipe.tsx"
+    },
+    "/galeria": {
+      "filePath": "galeria.tsx"
+    },
+    "/midias": {
+      "filePath": "midias.tsx"
+    },
+    "/turmas/$turmaId": {
+      "filePath": "turmas/$turmaId.tsx"
+    },
+    "/turmas/": {
+      "filePath": "turmas/index.tsx"
     }
   }
 }

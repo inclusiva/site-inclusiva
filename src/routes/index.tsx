@@ -1,6 +1,8 @@
 import { Home } from "@/pages/Home/Home";
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, LazyRoute, AnyRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/")({
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore-next-line
+export const Route: LazyRoute<AnyRoute> = createFileRoute("/")({
   component: Home,
 });
