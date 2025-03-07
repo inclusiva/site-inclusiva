@@ -76,8 +76,14 @@ NavigationLink.displayName = "NavigationLink";
 
 const RedirectToCourseNotice = () => {
   return (
-    <Typography sx={{ fontSize: "1.25rem", textAlign: "center" }}>
-      Para mais informações acesse o{" "}
+    <Typography
+      sx={{
+        fontSize: "1.25rem",
+        textAlign: "center",
+        fontWeight: theme.typography.fontWeightMedium,
+      }}
+    >
+      Leia atentamente o{" "}
       <Link
         href="https://docs.google.com/document/d/1K5VupmxmRpYT0Im6LJ_yFJcDgzBOYPxyD3aF8Dmbfpo/edit?usp=drive_link"
         target="_blank"
@@ -87,10 +93,23 @@ const RedirectToCourseNotice = () => {
           textDecoration: "none",
         }}
       >
-        edital
+        edital{" "}
+      </Link>
+      antes de efetuar sua{" "}
+      <Link
+        href="#"
+        sx={{
+          color: theme.palette.secondary.main,
+          fontWeight: theme.typography.fontWeightBold,
+          textDecoration: "none",
+        }}
+      >
+        inscrição
       </Link>
     </Typography>
   );
 };
+
+RedirectToCourseNotice.displayName = "RedirectToCourseNotice";
 
 export { BreadcrumbLink, NavigationLink, RedirectToCourseNotice };

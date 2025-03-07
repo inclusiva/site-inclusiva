@@ -119,12 +119,12 @@ export const PARTNERS_ASSETS = [
 
 export const COURSE_STEPS = [
   {
-    date: "10 de março a 1 de abril",
+    date: "14 de março a 1 de abril",
     description: "Inscrições e Desafio Técnico",
     color: "#e60c5c",
   },
   {
-    date: "11 de março a 4 de abril",
+    date: "14 de março a 4 de abril",
     description: "Análise das Documentações",
     color: "#f3911f",
   },
@@ -149,7 +149,7 @@ export const COURSE_STEPS = [
     color: "#f3911f",
   },
   {
-    date: "22 de abril",
+    date: "28 de abril",
     description: "Início das Aulas",
     color: "#f3911f",
   },
