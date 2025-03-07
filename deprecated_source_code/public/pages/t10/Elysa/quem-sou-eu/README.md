@@ -1,5 +1,0 @@
-"# site-aceleradora" 
-"# site-aceleradora" 
-"# site-aceleradora" 
-"# site-aceleradora" 
-"# site-aceleradora" 
