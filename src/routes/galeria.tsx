@@ -1,10 +1,6 @@
-import { Carousel } from "@/components/UI/Carousel/Carousel";
+import { Gallery } from "@/pages/Galeria";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/galeria")({
-  component: RouteComponent,
+  component: Gallery,
 });
-
-function RouteComponent() {
-  return <Carousel />;
-}

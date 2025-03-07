@@ -4,9 +4,31 @@ import inclusivaLogo from "@/assets/inclusiva-logo.png";
 import tecnopucLogo from "@/assets/tecnopuc-logo.webp";
 import globoLogo from "@/assets/globo-logo.png";
 import heroBannerImg from "@/assets/hero-banner-2025.jpg";
+import inclusivaBookImg from "@/assets/inclusiva-book.jpeg";
+import anaProfilePicture from "@/assets/team/ana.jpeg";
+import peuProfilePicture from "@/assets/team/peu.png";
+import fernandoProfilePicture from "@/assets/team/fernando.jpeg";
+import guiProfilePicture from "@/assets/team/gui.jpeg";
+import mairaProfilePicture from "@/assets/team/maira.jpg";
+import rafaProfilePicture from "@/assets/team/rafa.jpeg";
+import rafaelProfilePicture from "@/assets/team/rafael.jpg";
+import guiSoaresProfilePicture from "@/assets/team/gui-soares.jpg";
+import TURMA_01_PICTURE from "@/assets/gallery/turma-01/t1.jpg";
+import TURMA_02_PICTURE from "@/assets/gallery/turma-02/t2.png";
+import TURMA_03_PICTURE from "@/assets/gallery/turma-03/t3.png";
+import TURMA_04_PICTURE from "@/assets/gallery/turma-04/t4.jpg";
+import TURMA_05_PICTURE from "@/assets/gallery/turma-05/t5.jpeg";
+import TURMA_06_PICTURE from "@/assets/gallery/turma-06/t6.png";
+import TURMA_07_PICTURE from "@/assets/gallery/turma-07/t7.jpeg";
+import TURMA_08_PICTURE from "@/assets/gallery/turma-08/t8.jpeg";
+import TURMA_09_PICTURE from "@/assets/gallery/turma-09/t9.jpeg";
+import TURMA_10_PICTURE from "@/assets/gallery/turma-10/t10.jpeg";
+import TURMA_11_PICTURE from "@/assets/gallery/turma-11/t11.jpg";
+import TURMA_12_PICTURE from "@/assets/gallery/turma-12/t12.jpg";
 
 export const INCLUSIVA_LOGO = inclusivaLogo;
 export const HERO_BANNER = heroBannerImg;
+export const INCLUSIVA_BOOK_IMG = inclusivaBookImg;
 
 enum ROUTE_PATHS {
   HOME = "/",
@@ -237,4 +259,110 @@ export const COURSE_PRE_REQUISITES = [
   "Vontade de aprender",
   "Ter interesse por tecnologia da informação",
   "Ser residente em qualquer parte do Brasil",
+];
+
+export const TEAM_MEMBERS = [
+  {
+    id: "member-item-1",
+    name: "Ana Paula",
+    avatar: anaProfilePicture,
+  },
+  {
+    id: "member-item-2",
+    name: "Fernando Fernandes",
+    avatar: fernandoProfilePicture,
+  },
+  {
+    id: "member-item-3",
+    name: "Rafael Gustavo",
+    avatar: rafaProfilePicture,
+  },
+  {
+    id: "member-item-4",
+    name: "Guilherme Anjos",
+    avatar: guiProfilePicture,
+  },
+  {
+    id: "member-item-5",
+    name: "Rafael Prikladnicki",
+    avatar: rafaelProfilePicture,
+  },
+  {
+    id: "member-item-6",
+    name: "Maira Petrini",
+    avatar: mairaProfilePicture,
+  },
+  {
+    id: "member-item-7",
+    name: "Pedro Silva",
+    avatar: peuProfilePicture,
+  },
+  {
+    id: "member-item-8",
+    name: "Guilherme Soares",
+    avatar: guiSoaresProfilePicture,
+  },
+];
+
+export const GALLERY = [
+  {
+    src: TURMA_01_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_02_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_03_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_04_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_05_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_06_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_07_PICTURE,
+    width: 7,
+    height: 3,
+  },
+  {
+    src: TURMA_08_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_09_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_10_PICTURE,
+    width: 4,
+    height: 3,
+  },
+  {
+    src: TURMA_11_PICTURE,
+    width: 4,
+    height: 5,
+  },
+  {
+    src: TURMA_12_PICTURE,
+    width: 4,
+    height: 5,
+  },
 ];

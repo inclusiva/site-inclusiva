@@ -3,8 +3,6 @@ import {
   CourseFinancialAidIcon,
   CourseCertificateIcon,
   CourseOpenRolesIcon,
-  CourseWorkOfferIcon,
-  CourseRequirementsIcon,
 } from "@/components/UI/Icons";
 import { PageBlockProps } from "@/utils/types";
 import { Paper, styled, Typography, Grid2 as Grid, Box } from "@mui/material";

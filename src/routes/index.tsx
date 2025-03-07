@@ -1,4 +1,4 @@
-import { Home } from "@/pages/Home/Home";
+import { Home } from "@/pages/Home";
 import { createFileRoute, LazyRoute, AnyRoute } from "@tanstack/react-router";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
