@@ -91,17 +91,24 @@ const RedirectToCourseNotice = () => {
           color: theme.palette.secondary.main,
           fontWeight: theme.typography.fontWeightBold,
           textDecoration: "none",
+          "&:hover": {
+            textDecoration: "underline",
+          },
         }}
       >
         edital{" "}
       </Link>
       antes de efetuar sua{" "}
       <Link
-        href="#"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSf1sqlvHtLA9JBg4y53t0K_cc6_luijQubL8Z1XaTLNtFGV5g/viewform"
+        target="_blank"
         sx={{
           color: theme.palette.secondary.main,
           fontWeight: theme.typography.fontWeightBold,
           textDecoration: "none",
+          "&:hover": {
+            textDecoration: "underline",
+          },
         }}
       >
         inscrição
