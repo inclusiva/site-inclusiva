@@ -120,7 +120,7 @@ export const PARTNERS_ASSETS = [
 export const COURSE_STEPS = [
   {
     date: "14 de março a 1 de abril",
-    description: "Inscrições e Desafio Técnico",
+    description: "Inscrições",
     color: "#e60c5c",
   },
   {
@@ -135,7 +135,7 @@ export const COURSE_STEPS = [
   },
   {
     date: "7 a 11 de abril",
-    description: "Entrevistas",
+    description: "Entrevistas e Desafio Técnico",
     color: "#f3911f",
   },
   {
@@ -251,7 +251,7 @@ export const COURSE_CONTENT = [
 
 export const COURSE_PRE_REQUISITES = [
   "Ter 18 anos ou mais",
-  "Pessoas com deficiência motora ou mobilidade reduzida* (com laudo médico que ateste a deficiência)",
+  "Pessoas com deficiência motora ou mobilidade reduzida (com laudo médico que ateste a deficiência)",
   "Minímo ter Ensino Médio concluído até o final de 2025",
   "Disponibilidade de horário",
   "Possuir acesso à internet",
