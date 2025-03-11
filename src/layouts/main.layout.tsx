@@ -49,7 +49,9 @@ export const MainLayout = () => {
         direction="column"
       >
         <Outlet />
-        <TanStackRouterDevtools />
+        {import.meta.env.VITE_NODE_ENV !== "production" && (
+          <TanStackRouterDevtools />
+        )}
       </Grid>
     </>
   );
