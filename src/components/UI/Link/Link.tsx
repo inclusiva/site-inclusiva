@@ -100,7 +100,7 @@ const RedirectToCourseNotice = () => {
       </Link>
       antes de efetuar sua{" "}
       <Link
-        href="hhttps://docs.google.com/forms/d/1fhVhxQxSo9fO_znTy3Iodf8R2xgswH6fRx4XDux6EpM/edit?ts=67d1d237"
+        href="https://forms.gle/kG4hJcYk9wU46gL27"
         target="_blank"
         sx={{
           color: theme.palette.secondary.main,
@@ -111,7 +111,7 @@ const RedirectToCourseNotice = () => {
           },
         }}
       >
-        inscrição
+        inscrição.
       </Link>
     </Typography>
   );
