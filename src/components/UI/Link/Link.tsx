@@ -100,7 +100,7 @@ const RedirectToCourseNotice = () => {
       </Link>
       antes de efetuar sua{" "}
       <Link
-        href="https://docs.google.com/forms/d/e/1FAIpQLSf1sqlvHtLA9JBg4y53t0K_cc6_luijQubL8Z1XaTLNtFGV5g/viewform"
+        href="hhttps://docs.google.com/forms/d/1fhVhxQxSo9fO_znTy3Iodf8R2xgswH6fRx4XDux6EpM/edit?ts=67d1d237"
         target="_blank"
         sx={{
           color: theme.palette.secondary.main,
