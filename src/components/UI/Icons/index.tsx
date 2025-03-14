@@ -4,6 +4,7 @@ import { CourseCertificateIcon } from "./CourseCertificateIcon";
 import { CourseFinancialAidIcon } from "./CourseFinancialAidIcon";
 import { CourseOpenRolesIcon } from "./CourseOpenRolesIcon";
 import { CourseWorkOfferIcon } from "./CourseWorkOfferIcon";
+import { InstagramIcon } from "@/components/UI/Icons/InstagramIcon";
 
 export {
   CourseDurationIcon,
@@ -12,4 +13,5 @@ export {
   CourseFinancialAidIcon,
   CourseOpenRolesIcon,
   CourseWorkOfferIcon,
+  InstagramIcon,
 };
