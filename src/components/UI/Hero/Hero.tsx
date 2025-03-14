@@ -1,5 +1,5 @@
 import { HERO_BANNER } from "@/utils/constants";
-import { Box } from "@mui/material";
+import { Box, Link } from "@mui/material";
 
 const Hero = () => {
   return (
@@ -13,11 +13,13 @@ const Hero = () => {
         background: { xs: "transparent", xl: "#fde5cb" },
       }}
     >
-      <img
-        style={{ width: "100%", maxWidth: "1800px" }}
-        src={HERO_BANNER}
-        alt="banner inclusiva 2025"
-      />
+      <Link href="https://forms.gle/kG4hJcYk9wU46gL27" target="_blank">
+        <img
+          style={{ width: "100%", maxWidth: "1800px" }}
+          src={HERO_BANNER}
+          alt="banner inclusiva 2025"
+        />
+      </Link>
     </Box>
   );
 };
