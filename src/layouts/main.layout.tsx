@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/UI/Breadcrumbs/Breadcrumbs";
 import { Hero } from "@/components/UI/Hero/Hero";
 import { BreadcrumbLink } from "@/components/UI/Link/Link";
 import { BREADCRUMBS_NAVIGATION } from "@/utils/constants";
+import { Footer } from "@/components/Footer/Footer";
 // import { isHomepage } from "@/lib/utils";
 
 export const MainLayout = () => {
@@ -45,7 +46,10 @@ export const MainLayout = () => {
       {isHomePage && <Hero />}
       <Grid
         container
-        sx={{ alignItems: "center", padding: { xs: "16px", md: "32px" } }}
+        sx={{
+          alignItems: "center",
+          padding: { xs: "16px", md: "32px" },
+        }}
         direction="column"
       >
         <Outlet />
@@ -53,6 +57,7 @@ export const MainLayout = () => {
           <TanStackRouterDevtools />
         )}
       </Grid>
+      <Footer />
     </>
   );
 };

@@ -16,7 +16,7 @@ export const Home = () => {
       <CourseCronogram id="cronogram" />
       <RedirectToCourseNotice />
       <Faq id="faq" />
-      <Contact />
+      <Contact id="contact" />
     </Box>
   );
 };
