@@ -27,7 +27,7 @@ const About = ({ id }: PageBlockProps) => {
         Sobre o programa
       </Typography>
       <Typography variant="body1" sx={{ textAlign: "justify" }}>
-        Sobre o programa A iniciativa é viabilizada por uma parceria entre a{" "}
+        A iniciativa é viabilizada por uma parceria entre a{" "}
         <strong>Thoughtworks</strong>, a <strong>Globo</strong>, a{" "}
         <strong>PUCRS</strong> e o <strong>Tecnopuc</strong>, e tem como
         objetivo principal ensinar, de forma <strong>inclusiva</strong>, os
