@@ -96,22 +96,7 @@ const RedirectToCourseNotice = () => {
           },
         }}
       >
-        edital{" "}
-      </Link>
-      antes de efetuar sua{" "}
-      <Link
-        href="https://forms.gle/kG4hJcYk9wU46gL27"
-        target="_blank"
-        sx={{
-          color: theme.palette.secondary.main,
-          fontWeight: theme.typography.fontWeightBold,
-          textDecoration: "none",
-          "&:hover": {
-            textDecoration: "underline",
-          },
-        }}
-      >
-        inscrição.
+        edital.
       </Link>
     </Typography>
   );
