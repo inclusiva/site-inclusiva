@@ -1,5 +1,11 @@
-  [[redirects]]
-    from = "https://aceleradora-inclusiva.netlify.app/*"
-    to = "https://aceleradorainclusiva.com.br/:splat"
-    status = 301
-    force = true
+[[redirects]]
+  from = "https://aceleradora-inclusiva.netlify.app/*"
+  to = "https://aceleradorainclusiva.com.br/:splat"
+  status = 301
+  force = true
+  conditions = {Host = "aceleradora-inclusiva.netlify.app"}
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
