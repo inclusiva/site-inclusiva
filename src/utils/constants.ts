@@ -134,17 +134,17 @@ export const COURSE_STEPS = [
     color: "#e60c5c",
   },
   {
-    date: "7 a 11 de abril",
+    date: "7 a 16 de abril",
     description: "Entrevistas e Desafio Técnico",
     color: "#f3911f",
   },
   {
-    date: "14 de abril",
+    date: "17 de abril",
     description: "Divulgação das Selecionadas",
     color: "#e60c5c",
   },
   {
-    date: "15 a 17 de abril",
+    date: "17 a 24 de abril",
     description: "Matrícula",
     color: "#f3911f",
   },
