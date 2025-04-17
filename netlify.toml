@@ -1,9 +1,15 @@
 [[redirects]]
-  from = "https://aceleradora-inclusiva.netlify.app/*"
+  from = "/*"
   to = "https://aceleradorainclusiva.com.br/:splat"
   status = 301
   force = true
   conditions = {Host = "aceleradora-inclusiva.netlify.app"}
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
+  conditions = {Host = ["deploy-preview-*--aceleradora-inclusiva.netlify.app", "branch--aceleradora-inclusiva.netlify.app"]}
 
 [[redirects]]
   from = "/*"
