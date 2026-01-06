@@ -10,14 +10,28 @@ const Hero = () => {
         alignItems: "center",
         justifyContent: "center",
         width: "100%",
-        background: { xs: "transparent", xl: "#fde5cb" },
+        background: "linear-gradient(to right, #f21486, #fcd88a)",
+        position: "relative",
       }}
     >
-      <img
-        style={{ width: "100%", maxWidth: "1800px" }}
-        src={HERO_BANNER}
-        alt="banner inclusiva 2025"
-      />
+      <Box
+        sx={{
+          width: "100%",
+          maxWidth: "1800px",
+        }}
+      >
+        <Box
+          component="img"
+          src={HERO_BANNER}
+          alt="banner inclusiva 2026"
+          sx={{
+            width: "100%",
+            display: "block",
+            maskImage: "linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)",
+            WebkitMaskImage: "linear-gradient(to right, transparent 0%, black 8%, black 92%, transparent 100%)",
+          }}
+        />
+      </Box>
     </Box>
   );
 };

@@ -1,18 +1,17 @@
 import pucrsLogo from "@/assets/PUCRS-logo.webp";
 import thoughtworksLogo from "@/assets/thoughtworks-logo.png";
 import inclusivaLogo from "@/assets/inclusiva-logo.png";
-import tecnopucLogo from "@/assets/tecnopuc-logo.webp";
+import tecnopucLogo from "@/assets/farol-p.png";
 import globoLogo from "@/assets/globo-logo.png";
-import heroBannerImg from "@/assets/ID-Acelerdora-Inclusiva-2025-inscricoes-encerradas.jpg";
+import heroBannerImg from "@/assets/hero-banner-preinscricoes-2026.jpg";
 import inclusivaBookImg from "@/assets/inclusiva-book.jpeg";
 import anaProfilePicture from "@/assets/team/ana.jpeg";
-import peuProfilePicture from "@/assets/team/peu.png";
-import fernandoProfilePicture from "@/assets/team/fernando.jpeg";
 import guiProfilePicture from "@/assets/team/gui.jpeg";
 import mairaProfilePicture from "@/assets/team/maira.jpg";
 import rafaProfilePicture from "@/assets/team/rafa.jpeg";
 import rafaelProfilePicture from "@/assets/team/rafael.jpg";
-import guiSoaresProfilePicture from "@/assets/team/gui-soares.jpg";
+import amandaProfilePicture from "@/assets/team/amanda.jpeg";
+import floraProfilePicture from "@/assets/team/flora.jpeg";
 import TURMA_01_PICTURE from "@/assets/gallery/turma-01/t1.jpg";
 import TURMA_02_PICTURE from "@/assets/gallery/turma-02/t2.png";
 import TURMA_03_PICTURE from "@/assets/gallery/turma-03/t3.png";
@@ -25,6 +24,7 @@ import TURMA_09_PICTURE from "@/assets/gallery/turma-09/t9.jpeg";
 import TURMA_10_PICTURE from "@/assets/gallery/turma-10/t10.jpeg";
 import TURMA_11_PICTURE from "@/assets/gallery/turma-11/t11.jpg";
 import TURMA_12_PICTURE from "@/assets/gallery/turma-12/t12.jpg";
+import TURMA_13_PICTURE from "@/assets/gallery/turma-13/t13.png";
 
 export const INCLUSIVA_LOGO = inclusivaLogo;
 export const HERO_BANNER = heroBannerImg;
@@ -102,7 +102,7 @@ export const PARTNERS_ASSETS = [
     assets: {},
   },
   {
-    name: "Tecnopuc",
+    name: "Tecnopuc Farol Hub",
     asset: {
       path: tecnopucLogo,
     },
@@ -119,39 +119,39 @@ export const PARTNERS_ASSETS = [
 
 export const COURSE_STEPS = [
   {
-    date: "14 de março a 1 de abril",
+    date: "15 a 31 de janeiro",
     description: "Inscrições",
     color: "#e60c5c",
   },
   {
-    date: "14 de março a 4 de abril",
-    description: "Análise das Documentações",
+    date: "01 a 14 de fevereiro",
+    description: "Análise das Documentações e Chamada para Entrevistas",
     color: "#f3911f",
   },
   {
-    date: "4 de abril",
-    description: "Chamada para Entrevistas",
+    date: "14 a 18 de fevereiro",
+    description: "Recesso de Carnaval",
     color: "#e60c5c",
   },
   {
-    date: "7 a 16 de abril",
+    date: "19 a 28 de fevereiro",
     description: "Entrevistas e Desafio Técnico",
     color: "#f3911f",
   },
   {
-    date: "17 de abril",
+    date: "03 a 07 de março",
     description: "Divulgação das Selecionadas",
     color: "#e60c5c",
   },
   {
-    date: "17 a 24 de abril",
+    date: "10 a 14 de março",
     description: "Matrícula",
     color: "#f3911f",
   },
   {
-    date: "28 de abril",
+    date: "17 de março",
     description: "Início das Aulas",
-    color: "#f3911f",
+    color: "#e60c5c",
   },
 ];
 
@@ -221,7 +221,7 @@ export const FAQ_ACCORDIONS = [
     id: "panel-11",
     question: "Não tenho ensino médio completo. Posso fazer o curso?",
     answer:
-      "Depende. Se estiver concluindo o Ensino Médio ainda em 2025, a candidata poderá realizar a inscrição. Também poderão se candidatar pessoas com Ensino Técnico ou Ensino Superior em curso. ",
+      `Depende. Se estiver concluindo o Ensino Médio ainda em ${new Date().getFullYear()}, a candidata poderá realizar a inscrição. Também poderão se candidatar pessoas com Ensino Técnico ou Ensino Superior em curso. `,
   },
   {
     id: "panel-12",
@@ -252,7 +252,7 @@ export const COURSE_CONTENT = [
 export const COURSE_PRE_REQUISITES = [
   "Ter 18 anos ou mais",
   "Pessoas com deficiência motora ou mobilidade reduzida (com laudo médico que ateste a deficiência)",
-  "Minímo ter Ensino Médio concluído até o final de 2025",
+  `Minímo ter Ensino Médio concluído até o final de ${new Date().getFullYear()}`,
   "Disponibilidade de horário",
   "Possuir acesso à internet",
   "Ter computador para acessar as aulas",
@@ -269,38 +269,33 @@ export const TEAM_MEMBERS = [
   },
   {
     id: "member-item-2",
-    name: "Fernando Fernandes",
-    avatar: fernandoProfilePicture,
-  },
-  {
-    id: "member-item-3",
     name: "Rafael Gustavo",
     avatar: rafaProfilePicture,
   },
   {
-    id: "member-item-4",
+    id: "member-item-3",
     name: "Guilherme Anjos",
     avatar: guiProfilePicture,
   },
   {
-    id: "member-item-5",
+    id: "member-item-4",
     name: "Rafael Prikladnicki",
     avatar: rafaelProfilePicture,
   },
   {
-    id: "member-item-6",
+    id: "member-item-5",
     name: "Maira Petrini",
     avatar: mairaProfilePicture,
   },
   {
-    id: "member-item-7",
-    name: "Pedro Silva",
-    avatar: peuProfilePicture,
+    id: "member-item-6",
+    name: "Amanda de Oliveira",
+    avatar: amandaProfilePicture,
   },
   {
-    id: "member-item-8",
-    name: "Guilherme Soares",
-    avatar: guiSoaresProfilePicture,
+    id: "member-item-7",
+    name: "Flora Ngunga",
+    avatar: floraProfilePicture,
   },
 ];
 
@@ -362,6 +357,11 @@ export const GALLERY = [
   },
   {
     src: TURMA_12_PICTURE,
+    width: 4,
+    height: 5,
+  },
+  {
+    src: TURMA_13_PICTURE,
     width: 4,
     height: 5,
   },
