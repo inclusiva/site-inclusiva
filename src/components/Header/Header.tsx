@@ -23,6 +23,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import * as React from "react";
 import { NavigationLink } from "@/components/UI/Link/Link";
+import { Link as TanStackLink } from "@tanstack/react-router";
 
 const StyledMuiAppBar = styled(MuiAppBar)(({ theme }) => ({
   "&.MuiPaper-root": {
@@ -42,11 +43,13 @@ export const Header = React.forwardRef<
 
   const drawer: React.ReactElement = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <img
-        src={INCLUSIVA_LOGO}
-        alt="Inclusiva Logo"
-        style={{ margin: "16px 0", width: "120px" }}
-      />
+      <TanStackLink to="/" style={{ textDecoration: "none" }}>
+        <img
+          src={INCLUSIVA_LOGO}
+          alt="Inclusiva Logo"
+          style={{ margin: "16px 0", width: "120px" }}
+        />
+      </TanStackLink>
       <Divider />
       <List>
         {HEADER_NAVIGATION_ITEMS.map((item) => (
@@ -102,11 +105,13 @@ export const Header = React.forwardRef<
           <Box>
             <List sx={{ display: "flex" }}>
               <ListItem sx={{ padding: { xs: "8px", xl: "8px 48px" } }}>
-                <img
-                  src={INCLUSIVA_LOGO}
-                  alt="Inclusiva Logo"
-                  style={{ width: "120px" }}
-                />
+                <TanStackLink to="/" style={{ textDecoration: "none" }}>
+                  <img
+                    src={INCLUSIVA_LOGO}
+                    alt="Inclusiva Logo"
+                    style={{ width: "120px" }}
+                  />
+                </TanStackLink>
               </ListItem>
               {PARTNERS_ASSETS.map((partner) => {
                 return (

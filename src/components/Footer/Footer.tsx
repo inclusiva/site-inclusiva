@@ -32,7 +32,7 @@ const Footer = () => {
       </Box>
       <Box>
         <Typography variant="caption" sx={{ color: theme.palette.grey[100] }}>
-          Aceleradora Inclusiva ® 2025 - Todos os direitos reservados.
+          Aceleradora Inclusiva ® {new Date().getFullYear()} - Todos os direitos reservados.
         </Typography>
       </Box>
     </Box>

@@ -29,7 +29,7 @@ const About = ({ id }: PageBlockProps) => {
       <Typography variant="body1" sx={{ textAlign: "justify" }}>
         A iniciativa é viabilizada por uma parceria entre a{" "}
         <strong>Thoughtworks</strong>, a <strong>Globo</strong>, a{" "}
-        <strong>PUCRS</strong> e o <strong>Tecnopuc</strong>, e tem como
+        <strong>PUCRS</strong> e o <strong>Tecnopuc Farol Hub</strong>, e tem como
         objetivo principal ensinar, de forma <strong>inclusiva</strong>, os
         fundamentos de lógica de programação e tecnologias web. Também busca
         trazer para o dia-a-dia <strong>conceitos</strong> e{" "}
@@ -70,7 +70,7 @@ const About = ({ id }: PageBlockProps) => {
         <Grid size={{ xs: 12, sm: 3 }}>
           <Item>
             <CourseOpenRolesIcon sx={{ fontSize: "3.5rem" }} />
-            <Typography variant="body1">13 vagas disponíveis</Typography>
+            <Typography variant="body1">12 vagas disponíveis</Typography>
           </Item>
         </Grid>
       </Grid>
