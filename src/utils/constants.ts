@@ -245,8 +245,8 @@ export const COURSE_CONTENT = [
   "React.js",
   "Git/Github",
   "Node + Express",
-  "Aulas especiais",
-  "Inglês",
+  "Aulas de desenvolvimento humano e social",
+  "Inglês", 
 ];
 
 export const COURSE_PRE_REQUISITES = [
