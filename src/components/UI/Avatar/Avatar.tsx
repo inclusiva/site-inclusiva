@@ -1,11 +1,9 @@
-import { Box, Avatar as MuiAvatar, Typography } from "@mui/material";
+import { Box, Avatar as MuiAvatar, Typography, SxProps, Theme } from "@mui/material";
 
 interface AvatarProps {
   src: string;
   avatarLabel: string;
-  sx?: {
-    [key: string]: string;
-  };
+  sx?: SxProps<Theme>;
 }
 
 const Avatar = ({ src, avatarLabel, sx }: AvatarProps) => {
@@ -16,10 +14,9 @@ const Avatar = ({ src, avatarLabel, sx }: AvatarProps) => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        margin: "1rem 0",
       }}
     >
-      <Typography variant="h6" sx={{ marginBottom: "1rem" }}>
+      <Typography variant="h6" sx={{ marginBottom: { xs: "0.75rem", sm: "1rem" } }}>
         {avatarLabel}
       </Typography>
       <MuiAvatar src={src} alt={avatarLabel} sx={{ ...sx }} />
