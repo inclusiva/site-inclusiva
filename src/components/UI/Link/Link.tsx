@@ -85,7 +85,7 @@ const RedirectToCourseNotice = () => {
     >
       Leia atentamente o{" "}
       <Link
-        href="https://docs.google.com/document/d/1K5VupmxmRpYT0Im6LJ_yFJcDgzBOYPxyD3aF8Dmbfpo/edit?usp=drive_link"
+        href="https://docs.google.com/document/d/1zdwhp6LalWDQp40EsE-FnLYYkeguyRekAGG22ufY6fM/edit?usp=drive_link"
         target="_blank"
         sx={{
           color: theme.palette.secondary.main,
