@@ -215,7 +215,7 @@ export const FAQ_ACCORDIONS = [
     id: "panel-10",
     question: "Terei aula todos os dias da semana?",
     answer:
-      "Não, as aulas ocorrerão às segundas, terças e quintas, no período da tarde",
+      "Não, as aulas ocorrerão às segundas, terças, quartas e quintas, no período da tarde",
   },
   {
     id: "panel-11",
