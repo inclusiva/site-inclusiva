@@ -119,41 +119,37 @@ export const PARTNERS_ASSETS = [
 
 export const COURSE_STEPS = [
   {
-    date: "15 a 31 de janeiro",
+    date: "09 a 25 de fevereiro",
     description: "Inscrições",
     color: "#e60c5c",
   },
   {
-    date: "01 a 14 de fevereiro",
-    description: "Análise das Documentações e Chamada para Entrevistas",
+    date: "26 de fevereiro a 13 de março",
+    description: "Validação das inscrições",
     color: "#f3911f",
   },
   {
-    date: "14 a 18 de fevereiro",
-    description: "Recesso de Carnaval",
+    date: "16 a 27 de março",
+    description: "Entrevistas e dinâmicas on-line",
     color: "#e60c5c",
   },
   {
-    date: "19 a 28 de fevereiro",
-    description: "Entrevistas e Desafio Técnico",
+    date: "30 de março a 03 de abril",
+    description: "Divulgação e confirmação das pessoas selecionadas",
     color: "#f3911f",
   },
   {
-    date: "03 a 07 de março",
-    description: "Divulgação das Selecionadas",
+    date: "06 a 10 de abril",
+    description: "Acolhimento e realização das matrículas",
     color: "#e60c5c",
   },
   {
-    date: "10 a 14 de março",
-    description: "Matrícula",
-    color: "#f3911f",
-  },
-  {
-    date: "17 de março",
+    date: "13 de abril",
     description: "Início das Aulas",
-    color: "#e60c5c",
+    color: "#f3911f",
   },
 ];
+
 
 export const FAQ_ACCORDIONS = [
   {
