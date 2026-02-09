@@ -30,6 +30,8 @@ export const INCLUSIVA_LOGO = inclusivaLogo;
 export const HERO_BANNER = heroBannerImg;
 export const INCLUSIVA_BOOK_IMG = inclusivaBookImg;
 
+export const SUBSCRIPTION_FORM_URL = "https://forms.gle/HsSJ7VhQB63DfhYv5";
+
 enum ROUTE_PATHS {
   HOME = "/",
   TURMAS = "/turmas",
@@ -247,7 +249,7 @@ export const COURSE_CONTENT = [
 
 export const COURSE_PRE_REQUISITES = [
   "Ter 18 anos ou mais",
-  "Pessoas com deficiência motora ou mobilidade reduzida (com laudo médico que ateste a deficiência)",
+  "Pessoas com deficiência física ou mobilidade reduzida (com laudo médico que ateste a deficiência)",
   `Minímo ter Ensino Médio concluído até o final de ${new Date().getFullYear()}`,
   "Disponibilidade de horário",
   "Possuir acesso à internet",
