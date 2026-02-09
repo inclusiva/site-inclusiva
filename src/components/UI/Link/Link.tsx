@@ -13,6 +13,7 @@ import {
 } from "@tanstack/react-router";
 import { Typography } from "@mui/material";
 import theme from "@/styles/theme";
+import { SUBSCRIPTION_FORM_URL } from "@/utils/constants";
 
 interface CustomTanstackLinkProps extends TanStackLinkProps {
   label: string;
@@ -76,29 +77,55 @@ NavigationLink.displayName = "NavigationLink";
 
 const RedirectToCourseNotice = () => {
   return (
-    <Typography
-      sx={{
-        fontSize: "1.25rem",
-        textAlign: "center",
-        fontWeight: theme.typography.fontWeightMedium,
-      }}
-    >
-      Leia atentamente o{" "}
-      <Link
-        href="https://docs.google.com/document/d/1zdwhp6LalWDQp40EsE-FnLYYkeguyRekAGG22ufY6fM/edit?usp=drive_link"
-        target="_blank"
+    <>
+      <Typography
         sx={{
-          color: theme.palette.secondary.main,
-          fontWeight: theme.typography.fontWeightBold,
-          textDecoration: "none",
-          "&:hover": {
-            textDecoration: "underline",
-          },
+          fontSize: "1.25rem",
+          textAlign: "center",
+          fontWeight: theme.typography.fontWeightMedium,
         }}
       >
-        edital.
-      </Link>
-    </Typography>
+        Leia atentamente o{" "}
+        <Link
+          href="https://docs.google.com/document/d/1zdwhp6LalWDQp40EsE-FnLYYkeguyRekAGG22ufY6fM/edit?usp=drive_link"
+          target="_blank"
+          sx={{
+            color: theme.palette.secondary.main,
+            fontWeight: theme.typography.fontWeightBold,
+            textDecoration: "none",
+            "&:hover": {
+              textDecoration: "underline",
+            },
+          }}
+        >
+          edital.
+        </Link>
+      </Typography>
+
+      <Typography
+        sx={{
+          fontSize: "1.25rem",
+          textAlign: "center",
+          fontWeight: theme.typography.fontWeightMedium,
+        }}
+      >
+        Se inscreva pelo {" "}
+        <Link
+          href={SUBSCRIPTION_FORM_URL}
+          target="_blank"
+          sx={{
+            color: theme.palette.secondary.main,
+            fontWeight: theme.typography.fontWeightBold,
+            textDecoration: "none",
+            "&:hover": {
+              textDecoration: "underline",
+            },
+          }}
+        >
+          formulário de inscrição.
+        </Link>
+      </Typography>
+    </>
   );
 };
 

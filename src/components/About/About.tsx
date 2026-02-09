@@ -70,7 +70,7 @@ const About = ({ id }: PageBlockProps) => {
         <Grid size={{ xs: 12, sm: 3 }}>
           <Item>
             <CourseOpenRolesIcon sx={{ fontSize: "3.5rem" }} />
-            <Typography variant="body1">12 vagas disponíveis</Typography>
+            <Typography variant="body1">13 vagas disponíveis</Typography>
           </Item>
         </Grid>
       </Grid>
