@@ -3,7 +3,7 @@ import thoughtworksLogo from "@/assets/thoughtworks-logo.png";
 import inclusivaLogo from "@/assets/inclusiva-logo.png";
 import tecnopucLogo from "@/assets/farol-p.png";
 import globoLogo from "@/assets/globo-logo.png";
-import heroBannerImg from "@/assets/hero-banner-preinscricoes-2026.jpg";
+import heroBannerImg from "@/assets/hero-banner-inscricoes-encerradas-2026.jpg";
 import inclusivaBookImg from "@/assets/inclusiva-book.jpeg";
 import anaProfilePicture from "@/assets/team/ana.jpeg";
 import guiProfilePicture from "@/assets/team/gui.jpeg";
