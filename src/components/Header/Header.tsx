@@ -107,7 +107,7 @@ export const Header = React.forwardRef<
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box>
             <List sx={{ display: "flex" }}>
-              <ListItem sx={{ padding: { xs: "8px", xl: "8px 32px" } }}>
+              <ListItem sx={{ padding: { xs: "8px", xl: "8px 24px" } }}>
                 <TanStackLink to="/" style={{ textDecoration: "none" }}>
                   <img
                     src={INCLUSIVA_LOGO}
@@ -121,7 +121,7 @@ export const Header = React.forwardRef<
                   <ListItem
                     key={partner.name}
                     sx={{
-                      padding: "8px 32px",
+                      padding: "8px 24px",
                       display: { xs: "none", xl: "flex" },
                     }}
                   >
