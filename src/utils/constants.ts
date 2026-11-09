@@ -1,4 +1,5 @@
 import pucrsLogo from "@/assets/PUCRS-logo.webp";
+import pucrsCarreirasLogo from "@/assets/LOGO - Fijo - PUCRS Carreiras - color 3 (1) 2.png";
 import thoughtworksLogo from "@/assets/thoughtworks-logo.png";
 import inclusivaLogo from "@/assets/inclusiva-logo.png";
 import tecnopucLogo from "@/assets/farol-p.png";
@@ -93,6 +94,15 @@ export const PARTNERS_ASSETS = [
     name: "PUCRS",
     asset: {
       path: pucrsLogo,
+    },
+    assets: {},
+  },
+  {
+    name: "PUCRS Carreiras",
+    asset: {
+      path: pucrsCarreirasLogo,
+      mobileWidth: 144,
+      desktopWidth: 168,
     },
     assets: {},
   },

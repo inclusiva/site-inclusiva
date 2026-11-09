@@ -82,7 +82,10 @@ export const Header = React.forwardRef<
               <img
                 src={partner.asset.path}
                 alt={`${partner.name} logo`}
-                style={{ width: "96px", margin: "0 auto" }}
+                style={{
+                  width: partner.asset.mobileWidth ?? 96,
+                  margin: "0 auto",
+                }}
               />
             </ListItem>
           );
@@ -104,7 +107,7 @@ export const Header = React.forwardRef<
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Box>
             <List sx={{ display: "flex" }}>
-              <ListItem sx={{ padding: { xs: "8px", xl: "8px 48px" } }}>
+              <ListItem sx={{ padding: { xs: "8px", xl: "8px 32px" } }}>
                 <TanStackLink to="/" style={{ textDecoration: "none" }}>
                   <img
                     src={INCLUSIVA_LOGO}
@@ -118,14 +121,14 @@ export const Header = React.forwardRef<
                   <ListItem
                     key={partner.name}
                     sx={{
-                      padding: "8px 48px",
+                      padding: "8px 32px",
                       display: { xs: "none", xl: "flex" },
                     }}
                   >
                     <img
                       src={partner.asset.path}
                       alt={`${partner.name} logo`}
-                      style={{ width: "120px" }}
+                      style={{ width: partner.asset.desktopWidth ?? 120 }}
                     />
                   </ListItem>
                 );
