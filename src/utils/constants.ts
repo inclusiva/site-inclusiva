@@ -101,8 +101,8 @@ export const PARTNERS_ASSETS = [
     name: "PUCRS Carreiras",
     asset: {
       path: pucrsCarreirasLogo,
-      mobileWidth: 144,
-      desktopWidth: 168,
+      mobileWidth: 208,
+      desktopWidth: 248,
     },
     assets: {},
   },
